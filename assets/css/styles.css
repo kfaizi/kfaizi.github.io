@@ -1,6 +1,69 @@
+/*overall theme, inspired by clio and pmfw*/
 body {
-    margin: 0 auto;
-    max-width: 600px;
-    background-color: #EEEEEE;
+    max-width: 650px;
+    margin: 75px auto;
+    padding: 0 10px;
+    font: 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color: #333;
+    line-height: 1.5em;
+    background: #fafafa;
+}
+
+h1, h2, h3 {
+    line-height:1.2;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+/*link hover animation, inspired by geoff graham at https://css-tricks.com/having-fun-with-link-hover-effects/*/
+a {
+    background-image: linear-gradient(to bottom, #ffbf00 0%,#ffbf00 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: #333;
+    text-decoration: none;
+    transition: background-size .5s;
+}
+
+a:hover {
+    background-size: 4px 50px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+footer > hr {
+    border: 1px solid lightgray;
+}
+
+
+/*scale down hover and text for "back to posts" link*/
+#backtrack {
+    font-size: 16px;
+}
+
+#backtrack > a {
+    background-image: linear-gradient(to bottom, #ffbf00 0%,#ffbf00 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    color: #333;
+    text-decoration: none;
+    transition: background-size .5s;
+}
+
+#backtrack > a:hover {
+    background-size: 4px 50px;
 }

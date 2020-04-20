@@ -1,5 +1,8 @@
 ---
-title: About | Kian Faizi
+title: About | KF
+layout: default
 ---
 
-Hello again! This is my about page.
+## About me
+
+Placeholder text
