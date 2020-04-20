@@ -1,0 +1,8 @@
+<!-- sample navigation bar generated based on _data/navigation.yml -->
+<nav>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>

@@ -1,0 +1,12 @@
+# don't have to add "layout" to front matter every time
+# collections also go here
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
