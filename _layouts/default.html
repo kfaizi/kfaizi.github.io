@@ -3,11 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link rel="stylesheet" type="text/css" href="/assets/styles.css">
   </head>
   <body>
-    <!-- smart quotation mark -->
-    <h1><a href="/index.html">Hi there! I&#x2019m Kian.</a></h1>
+    {% include header.html %}
     {{ content }}
     {% include footer.html %}
   </body>

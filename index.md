@@ -2,20 +2,21 @@
 title: KF
 layout: home
 ---
+{:fancylink: class="front"}
+{:tbd: class="under-construction"}
 
-# [Hi there! I'm Kian.]
+# Hi there! I'm Kian. :wave:
 
-I’m a third year undergraduate at UC San Diego studying molecular biology, with a minor in math (emphasis on statistics).
+I’m a third year undergraduate at UC San Diego studying molecular biology, with a minor in math (emphasis on statistics). I intend to apply to PhD programs during the 2020-21 cycle. More [about me]{: fancylink}.
 
-I'm interested in studying complex biological systems using quantitative and computational approaches. My vision is to leverage this knowledge to engineer synthetic organisms to advance the health of people and the planet (sometimes I [blog] about these ideas). In pursuit of this goal, I plan to apply to PhD programs this fall.
+**Research interests:** quantitative systems biology, bioinformatics, synthetic biology, gene editing. Sometimes I [blog]{: tbd} about these ideas.
 
-I currently work in a plant biology lab, where we're interested in how roots sense and respond to environmental stimuli. For more on my work so far, visit my [projects] page. You can also learn more [about] my background.
+I currently work in a plant biology lab, where we're interested in how roots sense and respond to environmental stimuli. For more on my work so far, see [my projects]{: tbd}.
 
-While you’re here, feel free to [view my CV], or [get in touch] — I'm always happy to chat about cool science.
+While you’re here, feel free to [view my CV]{: tbd}. You can also [get in touch]{: tbd} — I'm always interested in chatting about cool science!
 
-[Hi there! I'm Kian.]: # "home"
+[about me]: /about.html "about"
 [blog]: /blog.html "blog"
-[projects]: / "projects"
-[about]: /about.html "about"
-[view my CV]: / "CV pdf"
-[get in touch]: / "contact"
+[my projects]: /projects.html "projects"
+[view my CV]: /cv.html "CV"
+[get in touch]: /contact.html "contact"
