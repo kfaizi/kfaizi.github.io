@@ -1,22 +1,26 @@
 ---
-title: KF
+title: Kian Faizi
 layout: home
 ---
 {:fancylink: class="front"}
 {:tbd: class="under-construction"}
 
-# Hi there! I'm Kian. :wave:
+# Hi there! I'm Kian.
 
 I’m a third year undergraduate at UC San Diego studying molecular biology, with a minor in math (emphasis on statistics). I intend to apply to PhD programs during the 2020-21 cycle. More [about me]{: fancylink}.
 
-**Research interests:** quantitative systems biology, bioinformatics, synthetic biology, gene editing. Sometimes I [blog]{: tbd} about these ideas.
+**Research interests:** quantitative systems biology, bioinformatics, synthetic biology, genome editing. I currently work in a plant genetics lab, where we're interested in how roots sense and respond to environmental stimuli. For more on my work so far, see [my projects]{: tbd}.
 
-I currently work in a plant biology lab, where we're interested in how roots sense and respond to environmental stimuli. For more on my work so far, see [my projects]{: tbd}.
+Part of this site is a blog — mostly on science, programming, and academia. Check out my most recent posts below, or view the archive of [all my writing]{: fancylink}:
 
-While you’re here, feel free to [view my CV]{: tbd}. You can also [get in touch]{: tbd} — I'm always interested in chatting about cool science!
+<ul>
+  {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{ post.url }}" title="{{ post.title | handleize }}">{{ post.title }} ({{ post.date | date: "%B %-d" }})</a>
+    </li>
+  {% endfor %}
+</ul>
 
 [about me]: /about.html "about"
-[blog]: /blog.html "blog"
+[all my writing]: /blog.html "blog"
 [my projects]: /projects.html "projects"
-[view my CV]: /cv.html "CV"
-[get in touch]: /contact.html "contact"

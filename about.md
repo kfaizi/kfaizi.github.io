@@ -1,24 +1,31 @@
 ---
-title: About | KF
+title: About | Kian Faizi
 layout: default
 ---
 
-# About me :seedling:
+{:tbd: class="under-construction"}
 
-I'm interested in studying complex biological systems using quantitative and computational approaches. My vision is to leverage this knowledge to engineer synthetic organisms to advance the health of people and the planet. In pursuit of this goal, I plan to apply to PhD programs this fall.
+# About me
+![headshot](/assets/headshot_web.jpg){: title="aoraki" id="headshot"}
 
-I'm a UCSD undergraduate and a lab technician in Professor [Wolfgang Busch’s group at the Salk Institute]. We study the genetics underlying root growth and root-environment interactions in plants, with a focus on the model organism _Arabidopsis thaliana_. A major goal of this research is facilitating crop engineering efforts to [fight climate change].
+My name is Kian Faizi, and this is my personal website. It's part blog, [part CV], and part brain dump. Thanks for stopping by.
 
-My work investigates the root system's response to mild deficiencies of essential nutrients. To aid root phenotyping tasks, I developed an [image analysis tool]. I'm also working on the network-based [identification of  functional homologs] of genes driving root depth, based on coexpression analysis of single-cell RNA-seq data.
+I'm a student interested in studying complex biological systems using quantitative and computational approaches. I want to leverage this knowledge to engineer synthetic organisms to advance the health of people and the planet. In pursuit of this goal, I plan to apply to PhD programs this fall.
 
-Previously, I volunteered in the lab of Dr. Patrick Hsu, where I helped develop tools for RNA editing using CRISPR-Cas13d. I wrote a [pipeline for discovering new orthologs] of Cas13d, and helped conduct a [pooled transcriptome-wide screen] to investigate guide RNA efficiency.
+Currently, I'm a lab technician in [Professor Wolfgang Busch’s group] at the Salk Institute. We study the genetics underlying root growth and root-environment interactions in plants, with a focus on the model organism _Arabidopsis thaliana_. A major goal of this research is facilitating crop engineering efforts to [fight climate change]. Previously, I volunteered in the [lab of Dr. Patrick Hsu], where I helped develop tools for RNA editing using CRISPR-Cas13d.
 
 Outside the lab, I enjoy hiking and writing bad poetry. I also have a keen interest in issues of environmental conservation, technology/data ethics, and science communication.
 
-<!-- tailor links to individual projects, once added -->
-[Wolfgang Busch’s group at the Salk Institute]: https://busch.salk.edu/ "Busch Lab homepage"
+## Contact
+
+Feel free to [view my CV]. You can reach me at <b>kfaizi@ucsd.edu</b>
+
+I also maintain profiles on [Twitter], [GitHub], and [LinkedIn].
+
+[part CV]: /cv.html "CV"
+[Professor Wolfgang Busch’s group]: https://busch.salk.edu/ "Busch Lab homepage"
 [fight climate change]: https://www.salk.edu/science/power-of-plants/ "Harnessing Plants Initiative"
-[image analysis tool]: /projects.html "projects"
-[identification of  functional homologs]: /projects.html "projects"
-[pipeline for discovering new orthologs]: /projects.html "projects"
-[pooled transcriptome-wide screen]: /projects.html "projects"
+[lab of Dr. Patrick Hsu]: http://patrickhsulab.org/ "Hsu Lab homepage"
+[Twitter]: https://www.twitter.com/kianfaizi/ "@kianfaizi"
+[GitHub]: https://www.github.com/kfaizi/ "@kfaizi"
+[LinkedIn]: https://www.linkedin.com/in/kian-faizi/ "Kian Faizi"
