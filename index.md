@@ -21,6 +21,6 @@ Part of this site is a blog — mostly on science, programming, and academia. Ch
   {% endfor %}
 </ul>
 
-[about me]: about.html "about"
-[all my writing]: blog.html "blog"
-[my projects]: projects.html "projects"
+[about me]: /about.html "about"
+[all my writing]: /blog.html "blog"
+[my projects]: /projects.html "projects"
