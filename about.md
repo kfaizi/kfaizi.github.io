@@ -6,7 +6,7 @@ layout: default
 {:tbd: class="under-construction"}
 
 # About me
-![headshot](/assets/headshot_web.jpg){: title="aoraki" id="headshot"}
+![headshot](assets/headshot_web.jpg){: title="aoraki" id="headshot"}
 
 My name is Kian Faizi, and this is my personal website. It's part blog, [part CV], and part brain dump. Thanks for stopping by.
 
@@ -22,7 +22,7 @@ Feel free to [view my CV]. You can reach me at <b>kfaizi@ucsd.edu</b>
 
 I also maintain profiles on [Twitter], [GitHub], and [LinkedIn].
 
-[part CV]: /cv.html "CV"
+[part CV]: cv.html "CV"
 [Professor Wolfgang Busch’s group]: https://busch.salk.edu/ "Busch Lab homepage"
 [fight climate change]: https://www.salk.edu/science/power-of-plants/ "Harnessing Plants Initiative"
 [lab of Dr. Patrick Hsu]: http://patrickhsulab.org/ "Hsu Lab homepage"
