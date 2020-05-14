@@ -18,7 +18,7 @@ Outside the lab, I enjoy hiking and writing bad poetry. I also have a keen inter
 
 ## Contact
 
-Feel free to [view my CV]. You can reach me at <b>kfaizi@ucsd.edu</b>
+You can reach me at <b>kfaizi@ucsd.edu</b>
 
 I also maintain profiles on [Twitter], [GitHub], and [LinkedIn].
 
