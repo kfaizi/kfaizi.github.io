@@ -16,7 +16,7 @@ Part of this site is a blog — mostly on science, programming, and academia. Ch
 <ul>
   {% for post in site.posts limit:5 %}
     <li>
-      <a href="{{ post.url }}" title="{{ post.title | handleize }}">{{ post.title }} ({{ post.date | date: "%B %-d" }})</a>
+      <a href="{{ post.url }}" title="{{ post.title | handleize }}">{{ post.title }}</a> <span id="post-date">({{ post.date | date: "%-m/%-d/%y" }})</span>
     </li>
   {% endfor %}
 </ul>
