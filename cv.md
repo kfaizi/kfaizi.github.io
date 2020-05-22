@@ -2,12 +2,23 @@
 title: CV | Kian Faizi
 layout: default
 ---
+<header>
+    <nav>
+        <ul>
+            <li><a href="/" title="home">Kian Faizi</a></li>
+            <li><a href="/contact.html" title="contact">Contact</a></li>
+            <li><a href="/blog.html" title="blog">Blog</a></li>
+            <li><a href="/cv.html" title="cv" class="active">CV</a></li>
+            <li><a href="/projects.html" title="projects">Projects</a></li>
+        </ul>
+    </nav>
+</header>
 
 # Curriculum Vitae
-Last updated: April 24, 2020
+Last updated: May 22, 2020
 
 ### Education
-- **B.S. Molecular Biology**, GPA: 3.72, [University of California, San Diego] (anticipated: 06/21)
+- **B.S. Molecular Biology**, Minor: Mathematics, GPA: 3.72, [University of California, San Diego] (anticipated: 06/21)
 - **I.B. Diploma**, [International School of Kuala Lumpur], Malaysia (graduated: 06/17)
 
 ### Experience

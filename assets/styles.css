@@ -1,24 +1,36 @@
 /*color palette*/
 /*light blue highlight: #8ec5ff*/
 /*blue (links): #1498e0 */
-/*text (blackish): #333*/
+/*text (dark gray): #333*/
 /*background (off white): #fafafa*/
 /*under construction (light gray): #cccccc*/
 /*muted (gray): #999999 */
 
 /*overall theme, inspired by clio and pmfw*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    max-width: 35em;
-    margin: 6.25em auto;
-    padding: 0 10px;
-    font: 1.2em -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    color: #333;
+    /*font: 1.3em -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;*/
+    font: 1.3em "EB Garamond", serif;
+    color: #242124;
     line-height: 1.5;
-    background: #fafafa;
+    background: #fdfcfa;
+    border-top: 6px solid #8ec5ff;
+}
+
+#wrap {
+    max-width: 35em;
+    margin: 3em auto;
+    padding: 0 2em;
 }
 
 h1 {
-    font-size: 1.6em;
+    font: 1.6em "Futura", sans-serif;
 }
 
 h2 {
@@ -33,7 +45,7 @@ a {
     color: #1498e0;
 }
 
-footer > hr {
+header hr, footer hr {
     border: 1px solid lightgray;
 }
 
@@ -65,8 +77,46 @@ b {
     color: #cccccc;
 }
 
-nav > a {
-    color: #999999;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    color: #333;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: .5em .8em;
+    padding: 0;
+    padding-bottom: 0.2em;
+    border-bottom: 2px solid black;
+
+    -webkit-transition: border-bottom 0.3s;
+    -moz-transition: border-bottom 0.3s;
+    -o-transition: border-bottom 0.3s;
+    -ms-transition: border-bottom 0.3s;
+    transition: border-bottom 0.3s;
+}
+
+nav ul li a:hover:not(.active) {
+    border-bottom-color: #8ec5ff;
+}
+
+nav ul li a.active {
+    border-bottom-color: #8ec5ff;
+}
+
+/*resize for more beautiful mobile viewing*/
+@media screen and (max-width: 600px) {
+    nav ul li {float: none;}
+    #wrap {margin: 1em auto;}
 }
 
 /*frontpage link hover animation, inspired by geoff graham at https://css-tricks.com/having-fun-with-link-hover-effects/*/
@@ -96,6 +146,7 @@ nav > a {
 }
 
 footer {
-    font-size: 14px;
+    font-size: 0.8em;
     color: #999999;
+    padding-bottom: 4em;
 }
