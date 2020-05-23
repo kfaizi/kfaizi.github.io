@@ -18,13 +18,13 @@ layout: default
 
 # Hi there! I'm Kian.
 
-![headshot](/assets/headshot_web.jpg){: title="aoraki" id="headshot"}
+![headshot](/assets/headshot_web.jpg){: id="headshot"}
 
 I’m a third year undergraduate at UC San Diego studying molecular biology, with a minor in math (emphasis on statistics). I intend to apply to PhD programs this fall, during the 2020-21 cycle.
 
 <em>**Research interests:** quantitative systems biology, bioinformatics, synthetic biology, genome editing, plant-environment interactions.</em> See my [projects page]{: fancylink} for more information.
 
-I also have a keen interest in issues of environmental conservation, technology/data ethics, and science communication.
+I also have a keen interest in environmental conservation, technology/data ethics, and science communication.
 
 [Sometimes I write]{: fancylink} about science, programming, and academia. Check out my most recent posts below:
 
@@ -36,6 +36,5 @@ I also have a keen interest in issues of environmental conservation, technology/
   {% endfor %}
 </ul>
 
-[about me]: /about.html "about"
-[Sometimes I write]: /blog.html "blog"
 [projects page]: /projects.html "projects"
+[Sometimes I write]: /blog.html "blog"

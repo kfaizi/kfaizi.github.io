@@ -1,11 +1,12 @@
 timezone: America/Los_Angeles
 encoding: utf-8
 url: "https://kfaizi.github.io"
-description: "Kian Faizi's personal website"
-twitter: kianfaizi
+description: "Personal website of Kian Faizi."
 plugins:
   - jemoji
-
+collections:
+  posts:
+    permalink: /blog/:slug:output_ext
 # github defaults
 lsi: false
 safe: true
