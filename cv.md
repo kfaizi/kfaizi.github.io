@@ -5,17 +5,17 @@ layout: default
 <header>
     <nav>
         <ul>
-            <li><a href="/" title="home">Kian Faizi</a></li>
-            <li><a href="/contact.html" title="contact">Contact</a></li>
-            <li><a href="/blog.html" title="blog">Blog</a></li>
-            <li><a href="/cv.html" title="cv" class="active">CV</a></li>
-            <li><a href="/projects.html" title="projects">Projects</a></li>
+            <li><a href="/">Kian Faizi</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/cv.html" class="active">CV</a></li>
+            <li><a href="/projects.html">Projects</a></li>
         </ul>
     </nav>
 </header>
 
 # Curriculum Vitae
-Last updated: May 22, 2020
+Last updated: May 23, 2020
 
 ### Education
 - **B.S. Molecular Biology**, Minor: Mathematics, GPA: 3.72, [University of California, San Diego] (anticipated: 06/21)
@@ -27,11 +27,11 @@ Last updated: May 22, 2020
 
 ### Skills
 - **Laboratory:** cell/tissue culture (mammalian, plant, bacterial); molecular cloning; CRISPR; flow cytometry; PCR; transformation; transfection; lentiviral transduction; DNA extraction
-- **Computational:** languages (Python, bash, R, HTML/CSS); organizational (Git, LaTeX); libraries (BioPython, pandas, BLAST, PIL, Tkinter); tools (SnapGene, Geneious)
+- **Computational:** languages (Python, bash, R, HTML/CSS/JS); organizational (Git, LaTeX); libraries (BioPython, pandas, BLAST, PIL, Tkinter); tools (SnapGene, Geneious)
 
 ### Posters & Presentations
-- **_Mining Genomes for RNA-Targeting CRISPR Effectors_.** Talk. UCSD Summer Research Conference (08/19)
-- **_Metagenomic Discovery of Type VI-D CRISPR Effectors for Transcriptome Engineering_.** Poster. UCSD Biology Student Research Showcase (06/19)
+- _Mining Genomes for RNA-Targeting CRISPR Effectors_. Talk. UCSD Summer Research Conference (08/19)
+- _Metagenomic Discovery of Type VI-D CRISPR Effectors for Transcriptome Engineering_. Poster. UCSD Biology Student Research Showcase (06/19)
 
 ### Honors & Awards
 - **[Halıcıoğlu Data Science Institute Scholarship]**, UCSD ($2,000 - 12/19)
@@ -56,9 +56,22 @@ Last updated: May 22, 2020
 - _Physics of the Cell_, taught by Dr. Elena Koslover (Spring 2019)
 
 [University of California, San Diego]: https://www.ucsd.edu/ "UCSD homepage"
+{:target="_blank" rel="noreferrer noopener"}
+
 [International School of Kuala Lumpur]: https://www.iskl.edu.my/ "ISKL homepage"
+{:target="_blank" rel="noreferrer noopener"}
+
 [Dr. Wolfgang Busch]: https://busch.salk.edu/ "Busch Lab homepage"
+{:target="_blank" rel="noreferrer noopener"}
+
 [Dr. Patrick Hsu]: http://patrickhsulab.org/ "Hsu Lab homepage"
+{:target="_blank" rel="noreferrer noopener"}
+
 [Halıcıoğlu Data Science Institute Scholarship]: https://hdsi.ucsd.edu/hdsi-awards-27-scholarships-to-undergraduate-researchers/ "HDSI 2019 awardees"
+{:target="_blank" rel="noreferrer noopener"}
+
 [Eureka! Research Scholarship for Biological Sciences]: https://biology.ucsd.edu/giving/eureka/index.html/ "Eureka 2019 awardees"
+{:target="_blank" rel="noreferrer noopener"}
+
 [First Place Solo]: https://www.youtube.com/watch?v=s_ZLPm9Qhoc "Waking Up to the Newspaper"
+{:target="_blank" rel="noreferrer noopener"}

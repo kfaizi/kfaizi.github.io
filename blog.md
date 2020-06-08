@@ -5,11 +5,11 @@ layout: default
 <header>
     <nav>
         <ul>
-            <li><a href="/" title="home">Kian Faizi</a></li>
-            <li><a href="/contact.html" title="contact">Contact</a></li>
-            <li><a href="/blog.html" title="blog" class="active">Blog</a></li>
-            <li><a href="/cv.html" title="cv">CV</a></li>
-            <li><a href="/projects.html" title="projects">Projects</a></li>
+            <li><a href="/">Kian Faizi</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/blog.html" class="active">Blog</a></li>
+            <li><a href="/cv.html">CV</a></li>
+            <li><a href="/projects.html">Projects</a></li>
         </ul>
     </nav>
 </header>
@@ -19,7 +19,7 @@ layout: default
 <ul class="posts">
     {% for post in site.posts %}
         <li>
-            <a href="{{ post.url }}" title="{{ post.title | handleize }}">{{ post.title }}</a> <span id="post-date">({{ post.date | date: "%-m/%-d/%y" }})</span>
+            <a href="{{ post.url }}">{{ post.title }}</a> <span id="post-date">({{ post.date | date: "%-m/%-d/%y" }})</span>
         </li>
     {% endfor %}
 </ul>
