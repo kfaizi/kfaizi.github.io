@@ -131,6 +131,7 @@ nav ul li a.active {
 /*resize for more beautiful mobile viewing*/
 @media screen and (max-width: 600px) {
     nav ul li {float: none;}
+    nav ul li a {border-bottom-color: black;}
     #wrap {margin: 1em auto;}
 }
 
