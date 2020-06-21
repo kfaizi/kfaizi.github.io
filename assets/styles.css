@@ -57,7 +57,7 @@ header hr, footer hr {
 }
 
 b {
-    color: #333;
+    color: #242124;
 }
 
 #post-metadata, #post-date, #cv-metadata {
@@ -112,7 +112,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #333;
+    color: #242124;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -134,7 +134,7 @@ nav ul li a:hover:not(.active) {
 
 nav ul li a.active {
     border-bottom-color: #8ec5ff;
-    font-weight: bold;
+    color: #ef2857;
 }
 
 /*frontpage link hover animation*/
@@ -144,7 +144,7 @@ nav ul li a.active {
     background-position: 0 100%;
     background-repeat: repeat-x;
     background-size: 4px 4px;
-    color: #333;
+    color: #242124;
     text-decoration: none;
 
     -webkit-transition: background-size 0.5s;
