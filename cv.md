@@ -15,10 +15,10 @@ layout: default
 </header>
 
 # Curriculum Vitae
-Last updated: May 23, 2020
+<p id="cv-metadata">Last updated: June 20, 2020</p>
 
 ### Education
-- **B.S. Molecular Biology**, Minor: Mathematics, GPA: 3.72, [University of California, San Diego] (anticipated: 06/21)
+- **B.S. Molecular Biology**, Minor: Mathematics, GPA: 3.75, [University of California, San Diego] (anticipated: 06/21)
 - **I.B. Diploma**, [International School of Kuala Lumpur], Malaysia (graduated: 06/17)
 
 ### Experience
@@ -46,7 +46,7 @@ Last updated: May 23, 2020
 - **Member**, Sierra Club, San Diego Chapter (09/17-present)
 
 ### Selected Coursework
-- _Mathematical Statistics_, taught by Dr. David Quarfoot (in progress)
+- _Mathematical Statistics_, taught by Dr. David Quarfoot (Spring 2020)
 - _Genome, Epigenome, and Transcriptome Editing_, taught by Dr. Alexis Komor (Winter 2020)
 - _Regulation of Eukaryotic Gene Expression_, taught by Dr. James Kadonaga (Winter 2020)
 - _Advanced Seminar in Quantitative Biology_, taught by Dr. Jeff Hasty (Winter 2020)

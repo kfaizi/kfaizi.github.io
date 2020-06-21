@@ -20,7 +20,7 @@ layout: default
 
 ![aoraki-headshot](/assets/headshot_web.jpg){: id="headshot"}
 
-I’m a third year undergraduate at UC San Diego studying molecular biology, with a minor in math (emphasis on statistics). I intend to apply to PhD programs this fall, during the 2020-21 cycle.
+I’m a fourth year undergraduate at UC San Diego studying molecular biology, with a minor in applied math. I intend to apply to PhD programs this fall, during the 2020-21 cycle.
 
 _**Research interests:** quantitative systems biology, bioinformatics, synthetic biology, genome editing, data science._ See my [projects page]{: fancylink} for more information.
 

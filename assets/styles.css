@@ -2,40 +2,50 @@
 /*blue (accent): #8ec5ff*/
 /*blue (links): #1498e0 */
 /*text (dark): #242124*/
-/*background (off white): #fafafa*/
+/*background (off white): #fdfcfa*/
 /*muted: #999999 */
 /*inline code (bootstrap style pink): #ef2857*/
 
 html, body {
-    height: 100%;
     margin: 0;
     padding: 0;
 }
 
 body {
-    font: 1.3em "EB Garamond", Arial, serif;
+    font: 1.3em "EB Garamond", serif;
     color: #242124;
+    background-color: #242124;
     line-height: 1.5;
-    background: #fdfcfa;
     border-top: 6px solid #8ec5ff;
 }
 
-#wrap {
-    max-width: 35em;
-    margin: 3em auto;
+.content-container {
     padding: 0 2em;
 }
 
+.content {
+    border: 1.5px solid black;
+    background-color: #fdfcfa;
+    max-width: 35em;
+    margin: 3em auto;
+    padding: 0 2em;
+    padding-top: 1em;
+}
+
+h1, h2, h3 {
+    font-family: Inconsolata, monospace;
+}
+
 h1 {
-    font: 1.6em Futura, Arial, sans-serif;
+    font-size: 1.6em;
 }
 
 h2 {
-    font: 1.3em Futura, Arial, sans-serif;
+    font-size: 1.3em;
 }
 
 h3 {
-    font: 1.1em Futura, Arial, sans-serif;
+    font-size: 1.1em;
 }
 
 a {
@@ -50,12 +60,9 @@ b {
     color: #333;
 }
 
-#post-metadata {
+#post-metadata, #post-date, #cv-metadata {
     color: #999999;
-}
-
-#post-date {
-    color: #999999;
+    font-family: Inconsolata, monospace;
 }
 
 #headshot {
@@ -93,6 +100,7 @@ b {
 }
 
 nav ul {
+    font-family: Inconsolata, monospace;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -126,13 +134,7 @@ nav ul li a:hover:not(.active) {
 
 nav ul li a.active {
     border-bottom-color: #8ec5ff;
-}
-
-/*resize for more beautiful mobile viewing*/
-@media screen and (max-width: 600px) {
-    nav ul li {float: none;}
-    nav ul li a {border-bottom-color: black;}
-    #wrap {margin: 1em auto;}
+    font-weight: bold;
 }
 
 /*frontpage link hover animation*/
@@ -156,23 +158,24 @@ nav ul li a.active {
     background-size: 4px 50px;
 }
 
-/*footer flexbox*/
 .footer-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#left-side {
     text-align: left;
 }
 
 footer {
     font-size: 0.8em;
     color: #999999;
-    padding-bottom: 4em;
+    padding-bottom: 3em;
 }
 
+/*resize for more beautiful mobile viewing*/
+@media screen and (max-width: 600px) {
+    nav ul li {float: none;}
+    nav ul li a {border-bottom-color: black;}
+    .content {margin: 1em auto; border: 0;}
+    .content-container {padding: 0;}
+    .footer-container {text-align: center;}
+}
 
 /*inline code formatting*/
 .inline-code {

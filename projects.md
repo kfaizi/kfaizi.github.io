@@ -33,7 +33,7 @@ Previously, I volunteered in the [lab of Dr. Patrick Hsu], where I helped develo
 {:target="_blank" rel="noreferrer noopener"}
 
 ## Software
-Please note: all project names are horrible temporary placeholders.
+Please note: all project names are temporary placeholders.
 
 <div class="project-wrapper">
 <div class="project-info" markdown="1">

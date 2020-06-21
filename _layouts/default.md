@@ -36,9 +36,11 @@
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <div id="wrap">
-      {{ content }}
-      {% include footer.html %}
+    <div class="content-container">
+        <div class="content">
+            {{ content }}
+            {% include footer.html %}
+        </div>
     </div>
   </body>
 </html>
