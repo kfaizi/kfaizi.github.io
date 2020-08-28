@@ -33,8 +33,6 @@ Previously, I volunteered in the [lab of Dr. Patrick Hsu], where I helped develo
 {:target="_blank" rel="noreferrer noopener"}
 
 ## Software
-Please note: all project names are temporary placeholders.
-
 <div class="project-wrapper">
 <div class="project-info" markdown="1">
 **rootmarker** is a Python GUI for manually segmenting 2D scans of plant roots. Users point and click to place nodes, creating a skeletonized graph that describes the root system architecture. Includes support for annotating time-series GIFs. [Repo]

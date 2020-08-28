@@ -22,11 +22,18 @@ layout: default
 
 I’m a fourth year undergraduate at UC San Diego studying molecular biology, with a minor in applied math. I intend to apply to PhD programs this fall, during the 2020-21 cycle.
 
-_**Research interests:** quantitative systems biology, bioinformatics, synthetic biology, genome editing, data science._ See my [projects page]{: fancylink} for more information.
+### Research interests:
+
+Systems, synthetic, and quantitative biology /
+bioinformatics /
+genome editing / 
+data science.
+
+See my [projects page]{: fancylink} for more information.
 
 I also have a keen interest in environmental conservation, technology/data ethics, and science communication.
 
-Sometimes I write about science, programming, and academia (plus frequent diversions). Check out my most recent posts below, or [view the archive]{: fancylink}:
+Sometimes I write about science, programming, and my thoughts on the world. Check out my most recent posts below, or [view the archive]{: fancylink}:
 
 <ul>
   {% for post in site.posts limit:5 %}

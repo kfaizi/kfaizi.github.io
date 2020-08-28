@@ -1,20 +1,12 @@
-/*color palette*/
-/*blue (accent): #8ec5ff*/
-/*blue (links): #1498e0 */
-/*text (dark): #242124*/
-/*background (off white): #fdfcfa*/
-/*muted: #999999 */
-/*inline code (bootstrap style pink): #ef2857*/
-
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #efefef;
 }
 
 body {
-    font: 1.3em "EB Garamond", serif;
-    color: #242124;
-    background-color: #242124;
+    font: 1.2em "Source Sans Pro", sans-serif;
+    color: #333;
     line-height: 1.5;
     border-top: 6px solid #8ec5ff;
 }
@@ -24,8 +16,7 @@ body {
 }
 
 .content {
-    border: 1.5px solid black;
-    background-color: #fdfcfa;
+    /* border: 1.5px solid black; */
     max-width: 35em;
     margin: 3em auto;
     padding: 0 2em;
@@ -33,7 +24,14 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: Inconsolata, monospace;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 0.3em;
+    padding: 0;
+}
+
+p {
+    margin-top: 0;
+    padding: 0;
 }
 
 h1 {
@@ -57,12 +55,15 @@ header hr, footer hr {
 }
 
 b {
-    color: #242124;
+    color: #333;
 }
 
 #post-metadata, #post-date, #cv-metadata {
     color: #999999;
-    font-family: Inconsolata, monospace;
+}
+
+#cv-metadata {
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 #headshot {
@@ -100,7 +101,7 @@ b {
 }
 
 nav ul {
-    font-family: Inconsolata, monospace;
+    font-family: "Source Sans Pro", sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -112,7 +113,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #242124;
+    color: #333;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -121,37 +122,36 @@ nav ul li a {
     padding-bottom: 0.2em;
     border-bottom: 2px solid transparent;
 
-    -webkit-transition: border-bottom 0.35s;
-    -moz-transition: border-bottom 0.35s;
-    -o-transition: border-bottom 0.35s;
-    -ms-transition: border-bottom 0.35s;
-    transition: border-bottom 0.35s;
+    -webkit-transition: border-bottom 0.2s;
+    -moz-transition: border-bottom 0.2s;
+    -o-transition: border-bottom 0.2s;
+    -ms-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
 }
 
-nav ul li a:hover:not(.active) {
+nav ul li a:hover {
     border-bottom-color: #8ec5ff;
 }
 
 nav ul li a.active {
-    border-bottom-color: #8ec5ff;
     color: #ef2857;
 }
 
 /*frontpage link hover animation*/
-/*inspired by geoff graham at https://css-tricks.com/having-fun-with-link-hover-effects/*/
+/*https://css-tricks.com/having-fun-with-link-hover-effects/*/
 .front {
     background-image: linear-gradient(to bottom, #8ec5ff 0%,#8ec5ff 100%);
     background-position: 0 100%;
     background-repeat: repeat-x;
     background-size: 4px 4px;
-    color: #242124;
+    color: #333;
     text-decoration: none;
 
-    -webkit-transition: background-size 0.5s;
-    -moz-transition: background-size 0.5s;
-    -o-transition: background-size 0.5s;
-    -ms-transition: background-size 0.5s;
-    transition: background-size 0.5s;
+    -webkit-transition: background-size 0.4s;
+    -moz-transition: background-size 0.4s;
+    -o-transition: background-size 0.4s;
+    -ms-transition: background-size 0.4s;
+    transition: background-size 0.4s;
 }
 
 .front:hover {
@@ -163,7 +163,8 @@ nav ul li a.active {
 }
 
 footer {
-    font-size: 0.8em;
+    font-size: 0.7em;
+    font-family: "Source Sans Pro", sans-serif;
     color: #999999;
     padding-bottom: 3em;
 }
@@ -188,7 +189,7 @@ footer {
 }
 
 /*code block formatting*/
-/*based on github style (https://github.com/aahan/pygments-github-style/blob/master/jekyll-github.css)*/
+/*based on https://github.com/aahan/pygments-github-style/blob/master/jekyll-github.css */
 pre, code {font: 0.9em Inconsolata, monospace;}
 .highlight pre, pre, .highlight .hll { background-color: #f8f8f8; border: 1px solid #ccc; padding: 6px 10px; border-radius: 3px; }
 /*comment*/
@@ -307,7 +308,7 @@ pre, code {font: 0.9em Inconsolata, monospace;}
 .highlight .bp { color: #999999; }
 /*name variable class*/
 .highlight .vc { color: teal; }
-/*name variabel global*/
+/*name variable global*/
 .highlight .vg { color: teal; }
 /*name variable instance*/
 .highlight .vi { color: teal; }
@@ -315,3 +316,37 @@ pre, code {font: 0.9em Inconsolata, monospace;}
 .highlight .il { color: #009999; }
 /*?*/
 .highlight .gc { color: #999; background-color: #EAF2F5; }
+
+/* todo: code, colors */
+
+/* @media (prefers-color-scheme: dark) {
+    
+    img {
+        opacity: .85;
+        transition: opacity .15s ease-in-out;
+    }
+    img:hover {
+        opacity: 1;
+    }
+    body {
+        background-color: #333;
+        color: lightgray;
+    }
+    .content {
+        background-color: #333;
+    }
+    .front {
+        color: lightgray;
+        background-image: linear-gradient(to bottom, gray 0%, gray 100%);
+    }
+    nav ul li a {
+        color: lightgray;
+    }
+
+    .highlight pre, pre, .highlight .hll {
+        background-color: black;
+        border: 1px solid #ccc;
+        padding: 6px 10px;
+        border-radius: 3px;
+    }
+} */
