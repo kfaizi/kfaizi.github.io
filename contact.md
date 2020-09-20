@@ -16,10 +16,9 @@ layout: default
 
 # Get in touch
 
-Want to talk science? Feel free to reach me via email, at the address you get after combining <span class="inline-code">kfaizi</span> with the domain <span class="inline-code">ucsd.edu</span>.
+Feel free to reach me via email at <span class="inline-code">xsnvmv@hpfq.rqh</span> (ROT13)! This is the best medium for contacting me, especially if we haven't met. I'm always happy to chat — whether you have feedback on a post, are looking to collaborate on a cool project, or just want to talk about science.
 
 I also maintain profiles on [Twitter], [GitHub], and [LinkedIn].
-
 
 [Twitter]: https://www.twitter.com/kianfaizi/ "@kianfaizi"
 {:target="_blank" rel="noreferrer noopener"}

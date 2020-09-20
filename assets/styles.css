@@ -16,7 +16,6 @@ body {
 }
 
 .content {
-    /* border: 1.5px solid black; */
     max-width: 35em;
     margin: 3em auto;
     padding: 0 2em;
@@ -46,11 +45,14 @@ h3 {
     font-size: 1.1em;
 }
 
-a {
+.footnote, .footnotes a {
+    background-image: none;
+    border: none;
     color: #1498e0;
+    text-decoration: underline;
 }
 
-header hr, footer hr {
+hr {
     border: 1px solid lightgray;
 }
 
@@ -121,6 +123,7 @@ nav ul li a {
     padding: 0;
     padding-bottom: 0.2em;
     border-bottom: 2px solid transparent;
+    background-image: none;
 
     -webkit-transition: border-bottom 0.2s;
     -moz-transition: border-bottom 0.2s;
@@ -137,10 +140,11 @@ nav ul li a.active {
     color: #ef2857;
 }
 
-/*frontpage link hover animation*/
+/*link hover animation*/
 /*https://css-tricks.com/having-fun-with-link-hover-effects/*/
-.front {
-    background-image: linear-gradient(to bottom, #8ec5ff 0%,#8ec5ff 100%);
+a {
+    /*background-image: linear-gradient(to bottom, #8ec5ff 0%,#8ec5ff 100%);*/
+    background-image: linear-gradient(to bottom, orange 0%, orange 100%);
     background-position: 0 100%;
     background-repeat: repeat-x;
     background-size: 4px 4px;
@@ -154,7 +158,7 @@ nav ul li a.active {
     transition: background-size 0.4s;
 }
 
-.front:hover {
+a:hover {
     background-size: 4px 50px;
 }
 
@@ -186,6 +190,15 @@ footer {
     border: 1px solid #ccc;
     padding: 1px 3px;
     border-radius: 3px;
+}
+
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
 }
 
 /*code block formatting*/
@@ -320,7 +333,7 @@ pre, code {font: 0.9em Inconsolata, monospace;}
 /* todo: code, colors */
 
 /* @media (prefers-color-scheme: dark) {
-    
+
     img {
         opacity: .85;
         transition: opacity .15s ease-in-out;
@@ -335,7 +348,7 @@ pre, code {font: 0.9em Inconsolata, monospace;}
     .content {
         background-color: #333;
     }
-    .front {
+    a {
         color: lightgray;
         background-image: linear-gradient(to bottom, gray 0%, gray 100%);
     }

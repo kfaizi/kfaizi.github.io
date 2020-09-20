@@ -15,7 +15,7 @@ layout: default
 </header>
 
 # Curriculum Vitae
-<p id="cv-metadata">Last updated: June 20, 2020</p>
+<p id="cv-metadata">Last updated: September 19, 2020</p>
 
 ### Education
 - **B.S. Molecular Biology**, Minor: Mathematics, GPA: 3.75, [University of California, San Diego] (anticipated: 06/21)
@@ -25,9 +25,12 @@ layout: default
 - **Laboratory Technician** under [Dr. Wolfgang Busch], Salk Institute for Biological Studies (11/19-present)
 - **Volunteer Research Assistant** under [Dr. Patrick Hsu], Salk Institute for Biological Studies (11/18-10/19)
 
+### Teaching
+- Instructional Assistant, BICD 102: _Genetic Inquiry_, UCSD (in progress)
+
 ### Skills
-- **Laboratory:** cell/tissue culture (mammalian, plant, bacterial); molecular cloning; CRISPR; flow cytometry; PCR; transformation; transfection; lentiviral transduction; DNA extraction
-- **Computational:** languages (Python, bash, R, HTML/CSS/JS); organizational (Git, LaTeX); libraries (BioPython, pandas, BLAST, PIL, Tkinter); tools (SnapGene, Geneious)
+- **Laboratory:** cell/tissue culture (mammalian, plant, bacterial), cloning, CRISPR, flow cytometry, PCR, DNA gels, lentiviral transduction, DNA extraction
+- **Computational:** Python, bash, R, Git, LaTeX, HTML/CSS/JavaScript, Unix systems
 
 ### Posters & Presentations
 - _Mining Genomes for RNA-Targeting CRISPR Effectors_. Talk. UCSD Summer Research Conference (08/19)
@@ -38,14 +41,16 @@ layout: default
     + Project: _Single-cell transcriptomics and web mining for rapid reverse genetics in plants_, proposed under Dr. Busch
 - **[Eureka! Research Scholarship for Biological Sciences]**, UCSD ($5,000 - 06/19)
     + Project: _Discovery and Development of Type VI-D CRISPR Effectors for Transcriptome Engineering Applications_, proposed under Dr. Hsu
-- **Provost Honors**, UCSD (Fall '17, '18; Winter '18, '19, '20; Spring '18)
+- **Provost Honors**, UCSD (Fall '17, '18; Winter '18, '19, '20; Spring '18, '20)
 - **[First Place Solo]**, Sunway National Poetry Slam, Malaysia (04/16)
 
 ### Clubs & Organizations
 - **Member**, Undergraduate Bioinformatics Club, UCSD (09/17-present)
-- **Member**, Sierra Club, San Diego Chapter (09/17-present)
+- **Member**, Sierra Club, San Diego Chapter (09/17-09/20)
 
 ### Selected Coursework
+- _Mathematical Modeling_, taught by Dr. Alexander Cloninger (in progress)
+- _Numerical Analysis: Linear Algebra_, taught by Dr. Caroline Moosm<span>&uuml;</span>ller (in progress)
 - _Mathematical Statistics_, taught by Dr. David Quarfoot (Spring 2020)
 - _Genome, Epigenome, and Transcriptome Editing_, taught by Dr. Alexis Komor (Winter 2020)
 - _Regulation of Eukaryotic Gene Expression_, taught by Dr. James Kadonaga (Winter 2020)

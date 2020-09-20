@@ -7,9 +7,8 @@
         <!-- custom css -->
         <link rel="stylesheet" type="text/css" href="/assets/styles.css">
         <!-- fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400&display=swap" rel="stylesheet"> 
         <meta name="author" content="Kian Faizi">
         <!-- open graph -->
         <meta name="title" property="og:title" content="{{ page.title }}">
