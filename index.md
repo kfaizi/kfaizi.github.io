@@ -5,35 +5,271 @@ layout: default
 <header>
     <nav>
         <ul>
-            <li><a href="/" class="active">Kian Faizi</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/" class="active">Home</a></li>
             <li><a href="/blog.html">Blog</a></li>
             <li><a href="/cv.html">CV</a></li>
-            <li><a href="/projects.html">Projects</a></li>
         </ul>
     </nav>
 </header>
 
-# Hi there! I'm Kian.
+<!-- new stuff -->
+<!-- Master table -->
+<table>
+  <tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
 
-![aoraki-headshot](/assets/headshot_web.jpg){: id="headshot"}
+        <!-- Introduction -->
+        <table>
+          <tbody>
+            <tr style="padding:0px">
+              <td style="width:63%;vertical-align:middle;">
+                <p style="text-align:center">
+                  <name>Kian Faizi</name>
+                </p>
+              </td>
+              <td>
+              </td>
+            </tr>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:top">
+                <p>
+                  Hi there! I'm a final year undergraduate at <a href="https://www.ucsd.edu" title="UCSD" target="_blank" rel="noreferrer noopener">UC San Diego</a> studying molecular biology and math. <b>I want to understand how cells make decisions, and reprogram them to do useful things for people and the planet</b>. I also like thinking about (genomic) data privacy, and how to make science more open and accessible to all.
+                </p>
+                <p>
+                  I applied to PhD programs this cycle!
+                </p>
+                <p>
+                  Want to connect? Feel free to reach me by
+                  <input type="checkbox" id="trigger-e">
+                  <label for="trigger-e"><a id="fakelink">email</a></label> (ROT13).
+                  <span id="box"><span class="inline-code">xsnvmv@hpfq.rqh</span></span>
+                  I'm also on <a href="https://www.twitter.com/kianfaizi/" title="@kianfaizi" target="_blank" rel="noreferrer noopener">Twitter</a>, <a href="https://www.github.com/kfaizi/" title="@kfaizi" target="_blank" rel="noreferrer noopener">GitHub</a>, and <a href="https://www.linkedin.com/in/kian-faizi/" title="Kian Faizi" target="_blank" rel="noreferrer noopener">LinkedIn</a>.
+                </p>
+              </td>
+              <td style="max-width:50%;vertical-align:text-top;">
+                <a href="/assets/images/headshot_web.jpg"><img alt="headshot" src="/assets/images/headshot_web.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
 
-I’m a final year undergraduate at UC San Diego studying molecular biology and math. **I'm currently applying to PhD programs!**
+        <!-- Blog -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:top">
+                <heading>Blog</heading>
+                <p>
+                  Sometimes I write about science, programming, and whatever else I'm currently curious about. Check out my most recent posts below, or <a href="/blog.html">view the archive</a>:
+                </p>
+                <ul>
+                  {% for post in site.posts limit:5 %}
+                    <li>
+                      <a href="{{ post.url }}">{{ post.title }}</a> <span id="post-date">({{ post.date | date: "%-m/%-d/%y" }})</span>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
 
-### Research interests:
-<pre>
-synthetic biology / the non-coding genome / cellular models /
-network interactions and dynamical systems / climate change.
-</pre>
-Sometimes I write about science, programming, and my thoughts on the world.  Check out my most recent posts below, or [view the archive]:
+        <!-- Research interests -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+            <tr>
+              <td style="padding:5px 20px;width:100%;vertical-align:top">
+                <heading>Research</heading>
+                <p>
+                  I'm interested in <strong>synthetic biology</strong>, <strong>cellular information processing</strong>, and <strong>biomolecular computation</strong>, especially as applied to solving human and environmental problems. I'm currently a tech in <a href="https://www.busch.salk.edu/" title="Busch Lab homepage" target="_blank" rel="noreferrer noopener">Dr. Wolfgang Busch’s</a> plant genetics group at the <a href="https://www.salk.edu/" title="Salk Institute" target="_blank" rel="noreferrer noopener">Salk Institute</a>, where I study root-environment interactions in <i>Arabidopsis thaliana</i> using quantitative and computational methods; a major goal of this research is to aid crop engineering efforts to <a href="https://www.salk.edu/science/power-of-plants/" title="Harnessing Plants Initiative" target="_blank" rel="noreferrer noopener">fight climate change</a>. Before that, I worked in <a href="http://www.patrickhsulab.org/" title="Hsu Lab homepage" target="_blank" rel="noreferrer noopener">Dr. Patrick Hsu's</a> lab, where I helped develop CRISPR-Cas13d for RNA editing applications.
 
-<ul>
-  {% for post in site.posts limit:5 %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> <span id="post-date">({{ post.date | date: "%-m/%-d/%y" }})</span>
-    </li>
-  {% endfor %}
-</ul>
+                  <!-- Representative projects are <span class="highlight">highlighted</span>. -->
 
-[projects page]: /projects.html
-[view the archive]: /blog.html
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Publications and projects -->
+        <table>
+          <tbody>
+
+            <!-- pub -->
+            <tr>
+              <td class="project-media">
+                <img src="/assets/images/wiring.png" alt="wiring" width="160px" height="160px">
+              </td>
+              <td class="project-info">
+                <span class="project-title">A Boolean Network Model of the Bacterial <i>lac</i> Operon</span>
+                <br>
+                <strong>Kian Faizi</strong>
+                <br>
+                <a href="https://github.com/kfaizi/boolean-lac" title="boolean-lac on GitHub" target="_blank" rel="noreferrer noopener">code</a>
+                <p></p>
+                <p>
+                  I programmed a toy model of the <i>lac</i> operon as an asynchronous Boolean network, and simulated gene knockout and overexpression experiments. Class project for MATH 111A.
+                </p>
+              </td>
+            </tr>
+
+            <!-- pub -->
+            <tr>
+              <td class="project-media">
+                <img src="/assets/images/p3d.png" alt="p3d" width="160px" height="160px">
+              </td>
+              <td class="project-info">
+                <span class="project-title">Curve Skeleton Extraction from 3D Point Clouds for High-Throughput Plant Phenotyping</span>
+                <br>
+                Illia Ziamtsov, <strong>Kian Faizi</strong>, Saket Navlakha
+                <br>
+                <i>manuscript in preparation</i>
+                <br>
+                <input type="checkbox" id="trigger5">
+                <label for="trigger5"><a id="fakelink">abstract</a></label>
+                <span id="box">
+                  Abstract.
+                </span>
+                <p></p>
+                <p>
+                  I assisted in the development of a software package for plant phenotyping from noisy 3D point clouds produced from LiDAR scans.
+                </p>
+              </td>
+            </tr>
+
+            <!-- pub -->
+            <tr>
+              <td class="project-media">
+                <img src="images/clean_promo.jpg" alt="test" width="160px" height="160px">
+              </td>
+              <td class="project-info">
+                <span class="project-title">Finding Functional Homologs Using Coexpression Network Analysis in Single Cells</span>
+                <br>
+                <strong>Kian Faizi</strong>, Wolfgang Busch
+                <br>
+                <input type="checkbox" id="trigger4">
+                <label for="trigger4"><a id="fakelink">abstract</a></label>
+                <span id="box">
+                  Abstract.
+                </span> /
+                code
+                <p></p>
+                <p>
+                  I built a workflow for predicting functional homologs of genes driving plant root growth, via coexpression analysis of single-cell RNA-seq data.
+                </p>
+              </td>
+            </tr>
+
+            <!-- pub -->
+            <tr>
+              <td class="project-media">
+                <img src="/assets/images/rootmarker.png" alt="rootmarker" width="160px" height="160px">
+              </td>
+              <td class="project-info">
+                <span class="project-title">Network Design Principles in the <i>Arabidopsis</i> Root System</span>
+                <br>
+                <strong>Kian Faizi</strong>, Matthieu Platre, Arjun Chandrasekhar, Saket Navlakha, Wolfgang Busch
+                <br>
+                <i>manuscript in preparation</i>
+                <br>
+                <input type="checkbox" id="trigger3">
+                <label for="trigger3"><a id="fakelink">abstract</a></label>
+                <span id="box">
+                  <b>rootmarker</b> is a Python GUI for manually segmenting 2D scans of plant roots. Users point and click to place nodes, creating a skeletonized graph that describes the root system architecture. Includes support for annotating time-series GIFs.
+                </span> /
+                code
+                <p></p>
+                <p>
+                  I developed an image segmentation tool for root phenotyping, and used it to measure cost-performance trade-offs in root growth.
+                </p>
+              </td>
+            </tr>
+
+            <!-- pub -->
+            <tr>
+              <td class="project-media">
+                <img src="images/clean_promo.jpg" alt="test" width="160px" height="160px">
+              </td>
+              <td class="project-info">
+                <span class="project-title">A Pooled CRISPR-Cas13d Screen Reveals Guide RNA Design Principles</span>
+                <br>
+                Silvana Konermann, <strong>Kian Faizi</strong>, Peter Lotfy, Patrick Hsu
+                <br>
+                <i>manuscript in preparation</i>
+                <br>
+                <input type="checkbox" id="trigger2">
+                <label for="trigger2"><a id="fakelink">abstract</a></label>
+                <span id="box">
+                  Abstract.
+                </span> /
+                code
+                <p></p>
+                <p>
+                  I helped conduct a CRISPR-Cas13d screen to identify guide RNA efficiency rules and optimize transcriptome editing efficiency.
+                </p>
+              </td>
+            </tr>
+
+            <!-- pub -->
+            <tr>
+              <td class="project-media">
+                <img src="/assets/images/crisprminer.png" alt="crisprminer" width="160px" height="160px">
+              </td>
+              <td class="project-info">
+                <span class="project-title">CRISPRminer: An Automated Pipeline for Metagenomic Discovery of Type VI-D CRISPR Effectors</span>
+                <br>
+                <strong>Kian Faizi</strong>, Silvana Konermann, Patrick Hsu
+                <br>
+                <input type="checkbox" id="trigger1">
+                <label for="trigger1"><a id="fakelink">abstract</a></label>
+                <span id="box">
+                  <b>CRISPRminer</b> is a Python pipeline for discovering novel Cas protein variants, which may have desirable characteristics, from metagenome data. Putative orthologs are identified with <span class="inline-code">TBLASTN</span>, screened for arrays with <span class="inline-code">CRISPRFinder</span>, and filtered by size, distance, and sequence identity.
+                </span> /
+                poster /
+                code
+                <p></p>
+                <p>
+                  I wrote a pipeline to mine new orthologs of CRISPR-Cas13d from publicly available metagenomic sequence data at terabyte scale.
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Fun -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+            <tr>
+              <td style="padding:5px 20px;width:100%;vertical-align:top">
+                <heading>Fun</heading>
+                <p>
+                  I like hiking and backpacking; self-hosting and PC building; and writing and performing poetry.
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Acknowledgements -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+            <tr>
+              <td style="padding:5px 20px;width:100%;vertical-align:top">
+                <heading>Acknowledgements</heading>
+                <p>
+                  My homepage layout is inspired by <a href="https://jonbarron.info" title="Jon Barron" target="_blank" rel="noreferrer noopener">this website</a>. Good artists copy!
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+

@@ -4,11 +4,9 @@ layout: default
 <header>
     <nav>
         <ul>
-            <li><a href="/">Kian Faizi</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="/blog.html" class="active">Blog</a></li>
             <li><a href="/cv.html">CV</a></li>
-            <li><a href="/projects.html">Projects</a></li>
         </ul>
     </nav>
 </header>

@@ -1,22 +1,115 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #efefef;
 }
 
 body {
-    font: 1.2em "Source Sans Pro", sans-serif;
+    font: 1.05em "Source Sans Pro", sans-serif;
     color: #333;
-    line-height: 1.5;
-    border-top: 6px solid #8ec5ff;
+    line-height: 1.3;
+}
+
+table {
+    width: 100%;
+    border: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+td.project-media {
+    width: 25%;
+    padding: 20px;
+    vertical-align: text-top;
+}
+
+td.project-info {
+    width: 75%;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.project-title {
+/*    background-image: linear-gradient(to bottom, orange 0%, orange 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    background-size: 4px 50px;*/
+    color: green;
+    font-weight: bold;
+}
+
+/*link hover animation*/
+/*https://css-tricks.com/having-fun-with-link-hover-effects/*/
+/*a {
+    background-image: linear-gradient(to bottom, orange 0%, orange 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: #333;
+    text-decoration: none;
+
+    -webkit-transition: background-size 0.4s;
+    -moz-transition: background-size 0.4s;
+    -o-transition: background-size 0.4s;
+    -ms-transition: background-size 0.4s;
+    transition: background-size 0.4s;
+}
+
+a:hover {
+    background-size: 4px 50px;
+}*/
+
+
+
+img {
+    max-width: 100%;
+}
+
+
+/* barron */
+span.highlight {
+    background-color: #ffffd0;
+}
+
+name {
+    font-size: 32px;
+}
+
+heading {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+papertitle {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+a {
+    color: DodgerBlue;
+}
+
+/*https://stackoverflow.com/questions/17731457/hide-show-content-list-with-only-css-no-javascript-used*/
+#box, #trigger-e, #trigger1, #trigger2, #trigger3, #trigger4, #trigger5 {
+    display: none;
+    background: #ccc;
+}
+#trigger-e:checked~#box, #trigger1:checked~#box, #trigger2:checked~#box, #trigger3:checked~#box, #trigger4:checked~#box, #trigger5:checked~#box {
+    display: block;
+    text-align: center;
+}
+
+#fakelink {
+    text-decoration: underline;
+    cursor: pointer;
+    color: DodgerBlue;
 }
 
 .content-container {
-    padding: 0 2em;
-}
-
-.content {
-    max-width: 35em;
+    max-width: 800px;
     margin: 3em auto;
     padding: 0 2em;
     padding-top: 1em;
@@ -68,16 +161,7 @@ b {
     font-family: "Source Sans Pro", sans-serif;
 }
 
-#headshot {
-    max-height: 100%;
-    width: 45%;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    float: right;
-}
-
 .posts {
-    font-size: 1.3rem;
 }
 
 .project-wrapper {
@@ -86,21 +170,6 @@ b {
     align-items: center;
 }
 
-.project-info {
-    max-width: 60%;
-    flex: 60%;
-    padding: 0 0.5em;
-}
-
-.project-media {
-    max-width: 40%;
-    flex: 40%;
-    padding: 0 0.5em;
-}
-
-.project-img {
-    max-width: 100%;
-}
 
 nav ul {
     font-family: "Source Sans Pro", sans-serif;
@@ -140,32 +209,6 @@ nav ul li a.active {
     color: #ef2857;
 }
 
-/*link hover animation*/
-/*https://css-tricks.com/having-fun-with-link-hover-effects/*/
-a {
-    /*background-image: linear-gradient(to bottom, #8ec5ff 0%,#8ec5ff 100%);*/
-    background-image: linear-gradient(to bottom, orange 0%, orange 100%);
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 4px 4px;
-    color: #333;
-    text-decoration: none;
-
-    -webkit-transition: background-size 0.4s;
-    -moz-transition: background-size 0.4s;
-    -o-transition: background-size 0.4s;
-    -ms-transition: background-size 0.4s;
-    transition: background-size 0.4s;
-}
-
-a:hover {
-    background-size: 4px 50px;
-}
-
-.footer-container {
-    text-align: left;
-}
-
 footer {
     font-size: 0.7em;
     font-family: "Source Sans Pro", sans-serif;
@@ -181,6 +224,10 @@ footer {
     .content-container {padding: 0;}
     .footer-container {text-align: center;}
 }
+
+
+
+
 
 /*inline code formatting*/
 .inline-code {

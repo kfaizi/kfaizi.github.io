@@ -37,10 +37,8 @@
     </head>
     <body>
         <div class="content-container">
-            <div class="content">
-                {{ content }}
-                {% include footer.html %}
-            </div>
+            {{ content }}
+            {% include footer.html %}
         </div>
     </body>
 </html>
