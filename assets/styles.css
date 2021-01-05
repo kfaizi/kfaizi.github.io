@@ -75,11 +75,11 @@ span.highlight {
 }
 
 name {
-    font: 32px "Inconsolata", monospace;
+    font: 1.8em "Inconsolata", monospace;
 }
 
 heading {
-    font: 22px "Inconsolata", monospace;
+    font: 1.3em "Inconsolata", monospace;
 }
 
 a {

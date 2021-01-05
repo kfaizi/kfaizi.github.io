@@ -6,7 +6,7 @@ layout: default
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/blog.html" class="active">Blog</a></li>
-            <li><a href="/cv.html">CV</a></li>
+            <li><a href="/assets/kian-faizi-cv.pdf">CV</a></li>
         </ul>
     </nav>
 </header>

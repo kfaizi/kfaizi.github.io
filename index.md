@@ -60,7 +60,7 @@ layout: default
               <td style="padding:20px;width:100%;vertical-align:top">
                 <heading>Blog</heading>
                 <p>
-                  <a href="/blog.html">Sometimes I write</a> about science, programming, and whatever else I'm currently curious about. Check out my most recent posts below:
+                  <a href="/blog.html">Sometimes I write</a> about science, programming, and anything else I'm currently curious about. Check out my most recent posts below:
                 </p>
                 <ul>
                   {% for post in site.posts limit:5 %}
@@ -121,15 +121,15 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Curve Skeleton Extraction from 3D Point Clouds for High-Throughput Plant Phenotyping</span>
                 <br>
-                Illia Ziamtsov, <strong>Kian Faizi</strong>, Saket Navlakha
+                <a href="https://www.linkedin.com/in/illiaziamtsov/" target="_blank" rel="noreferrer noopener">Illia Ziamtsov</a>, <strong>Kian Faizi</strong>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">Saket Navlakha</a>
                 <br>
                 <i>manuscript in preparation</i>
                 <br>
-                <input type="checkbox" id="trigger5">
+             <!--    <input type="checkbox" id="trigger5">
                 <label for="trigger5"><a id="fakelink">abstract</a></label>
                 <span id="box">
                   Abstract.
-                </span>
+                </span> -->
                 <p></p>
                 <p>
                   I assisted in the development of a software package for plant phenotyping from noisy 3D point clouds produced from LiDAR scans.
@@ -145,13 +145,13 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Predicting Functional Homologs from Single-Cell Coexpression Networks</span>
                 <br>
-                <strong>Kian Faizi</strong>, Wolfgang Busch
+                <strong>Kian Faizi</strong>, <a href="https://www.salk.edu/scientist/wolfgang-busch/" target="_blank" rel="noreferrer noopener">Wolfgang Busch</a>
                 <br>
-                <input type="checkbox" id="trigger4">
+    <!--             <input type="checkbox" id="trigger4">
                 <label for="trigger4"><a id="fakelink">abstract</a></label>
                 <span id="box">
                   Abstract.
-                </span> /
+                </span> / -->
                 <a href="https://github.com/kfaizi/coexpression-analysis" title="coexpression-analysis on GitHub" target="_blank" rel="noreferrer noopener">code</a>
                 <p></p>
                 <p>
@@ -168,15 +168,15 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Network Design Principles in the <i>Arabidopsis</i> Root System</span>
                 <br>
-                <strong>Kian Faizi</strong>, Matthieu Platre, Arjun Chandrasekhar, Saket Navlakha, Wolfgang Busch
+                <strong>Kian Faizi</strong>, <a href="https://scholar.google.com/citations?user=heUMphcAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">Matthieu Platre</a>, <a href="https://www.arjun-chandrasekhar-teaching.com" target="_blank" rel="noreferrer noopener">Arjun Chandrasekhar</a>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">Saket Navlakha</a>, <a href="https://www.salk.edu/scientist/wolfgang-busch/" target="_blank" rel="noreferrer noopener">Wolfgang Busch</a>
                 <br>
                 <i>manuscript in preparation</i>
                 <br>
-                <input type="checkbox" id="trigger3">
+                <!-- <input type="checkbox" id="trigger3">
                 <label for="trigger3"><a id="fakelink">abstract</a></label>
                 <span id="box">
                   <b>rootmarker</b> is a Python GUI for manually segmenting 2D scans of plant roots. Users point and click to place nodes, creating a skeletonized graph that describes the root system architecture. Includes support for annotating time-series GIFs.
-                </span> /
+                </span> / -->
                 <a href="https://github.com/kfaizi/test-roots" title="test-roots on GitHub" target="_blank" rel="noreferrer noopener">code</a>
                 <p></p>
                 <p>
@@ -193,15 +193,15 @@ layout: default
               <td class="project-info">
                 <span class="project-title">A Pooled CRISPR-Cas13d Screen Reveals Guide RNA Design Principles</span>
                 <br>
-                Silvana Konermann, <strong>Kian Faizi</strong>, Peter Lotfy, Patrick Hsu
+                <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">Silvana Konermann</a>, <strong>Kian Faizi</strong>, <a href="https://www.linkedin.com/in/peter-lotfy-ba045684/" target="_blank" rel="noreferrer noopener">Peter Lotfy</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">Patrick Hsu</a>
                 <br>
                 <i>manuscript in preparation</i>
                 <br>
-                <input type="checkbox" id="trigger2">
+  <!--               <input type="checkbox" id="trigger2">
                 <label for="trigger2"><a id="fakelink">abstract</a></label>
                 <span id="box">
                   Abstract.
-                </span> /
+                </span> / -->
                 <a href="https://www.nature.com/articles/nprot.2017.016" title="Joung 2017" target="_blank" rel="noreferrer noopener">image credit</a>
                 <p></p>
                 <p>
@@ -218,13 +218,13 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Metagenomic Discovery of Novel Type VI-D CRISPR Effectors</span>
                 <br>
-                <strong>Kian Faizi</strong>, Silvana Konermann, Patrick Hsu
+                <strong>Kian Faizi</strong>, <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">Silvana Konermann</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">Patrick Hsu</a>
                 <br>
-                <input type="checkbox" id="trigger1">
+             <!--    <input type="checkbox" id="trigger1">
                 <label for="trigger1"><a id="fakelink">abstract</a></label>
                 <span id="box">
                   <b>CRISPRminer</b> is a Python pipeline for discovering novel Cas protein variants from metagenomic data. Putative orthologs are identified with <span class="inline-code">TBLASTN</span>, screened for arrays with <span class="inline-code">CRISPRFinder</span>, and filtered by size, distance, and sequence identity.
-                </span> /
+                </span> / -->
                 <a href="/assets/kian-faizi-srs-2019.pdf" title="srs-2019" target="_blank" rel="noreferrer noopener"> poster</a> /
                 <a href="https://github.com/kfaizi/CRISPR-search" title="CRISPR-search on GitHub" target="_blank" rel="noreferrer noopener">code</a>
                 <p></p>
@@ -257,7 +257,7 @@ layout: default
               <td style="padding:5px 20px;width:100%;vertical-align:top">
                 <heading>Acknowledgements</heading>
                 <p>
-                  My homepage layout is inspired by <a href="https://jonbarron.info" title="Jon Barron" target="_blank" rel="noreferrer noopener">this website</a>. (imitation && attribution == flattery?)
+                  My homepage layout is inspired by <a href="https://jonbarron.info" title="Jon Barron" target="_blank" rel="noreferrer noopener">this ubiquitous website</a>. (imitation && attribution == flattery?)
                 </p>
               </td>
             </tr>
