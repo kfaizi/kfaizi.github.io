@@ -1,5 +1,4 @@
 ---
-title: Kian Faizi
 layout: default
 ---
 <header>
@@ -7,7 +6,7 @@ layout: default
         <ul>
             <li><a href="/" class="active">Home</a></li>
             <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/cv.html">CV</a></li>
+            <li><a href="/assets/kian-faizi-cv.pdf">CV</a></li>
         </ul>
     </nav>
 </header>
@@ -20,7 +19,7 @@ layout: default
       <td style="padding:0px">
 
         <!-- Introduction -->
-        <table>
+        <table id="intro-table">
           <tbody>
             <tr style="padding:0px">
               <td style="width:63%;vertical-align:middle;">
@@ -34,21 +33,21 @@ layout: default
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:top">
                 <p>
-                  Hi there! I'm a final year undergraduate at <a href="https://www.ucsd.edu" title="UCSD" target="_blank" rel="noreferrer noopener">UC San Diego</a> studying molecular biology and math. <b>I want to understand how cells make decisions, and reprogram them to do useful things for people and the planet</b>. I also like thinking about (genomic) data privacy, and how to make science more open and accessible to all.
-                </p>
-                <p>
-                  I applied to PhD programs this cycle!
+                  Hi there! :wave: I'm a final year undergraduate at <a href="https://www.ucsd.edu" title="UCSD" target="_blank" rel="noreferrer noopener">UC San Diego</a> studying molecular biology and math. I want to understand how cells make decisions, and reprogram them to do useful things for people and the planet.
                 </p>
                 <p>
                   Want to connect? Feel free to reach me by
                   <input type="checkbox" id="trigger-e">
-                  <label for="trigger-e"><a id="fakelink">email</a></label> (ROT13).
-                  <span id="box"><span class="inline-code">xsnvmv@hpfq.rqh</span></span>
-                  I'm also on <a href="https://www.twitter.com/kianfaizi/" title="@kianfaizi" target="_blank" rel="noreferrer noopener">Twitter</a>, <a href="https://www.github.com/kfaizi/" title="@kfaizi" target="_blank" rel="noreferrer noopener">GitHub</a>, and <a href="https://www.linkedin.com/in/kian-faizi/" title="Kian Faizi" target="_blank" rel="noreferrer noopener">LinkedIn</a>.
+                  <label for="trigger-e"><a id="fakelink">email</a></label>.
+                  <span id="box"><span class="inline-code">xsnvmv@hpfq.rqh</span> (ROT13)</span>
+                  I'm also on <a href="https://www.twitter.com/kianfaizi/" title="@kianfaizi" target="_blank" rel="noreferrer noopener">Twitter</a> and <a href="https://www.github.com/kfaizi/" title="@kfaizi" target="_blank" rel="noreferrer noopener">GitHub</a>.
+                </p>
+                <p>
+                  :pushpin: I applied to PhD programs this cycle!
                 </p>
               </td>
               <td style="max-width:50%;vertical-align:text-top;">
-                <a href="/assets/images/headshot_web.jpg"><img alt="headshot" src="/assets/images/headshot_web.jpg" class="hoverZoomLink"></a>
+                <a href="/assets/images/yosemite.jpg"><img alt="headshot" title="Figure 1: A typical Zoom University student falls victim to poor chroma keying." src="/assets/images/yosemite.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody>
@@ -61,7 +60,7 @@ layout: default
               <td style="padding:20px;width:100%;vertical-align:top">
                 <heading>Blog</heading>
                 <p>
-                  Sometimes I write about science, programming, and whatever else I'm currently curious about. Check out my most recent posts below, or <a href="/blog.html">view the archive</a>:
+                  <a href="/blog.html">Sometimes I write</a> about science, programming, and whatever else I'm currently curious about. Check out my most recent posts below:
                 </p>
                 <ul>
                   {% for post in site.posts limit:5 %}
@@ -99,7 +98,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img src="/assets/images/wiring.png" alt="wiring" width="160px" height="160px">
+                <img class="project-img" src="/assets/images/wiring.png" alt="wiring">
               </td>
               <td class="project-info">
                 <span class="project-title">A Boolean Network Model of the Bacterial <i>lac</i> Operon</span>
@@ -117,7 +116,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img src="/assets/images/p3d.png" alt="p3d" width="160px" height="160px">
+                <img class="project-img" src="/assets/images/p3d.png" alt="p3d">
               </td>
               <td class="project-info">
                 <span class="project-title">Curve Skeleton Extraction from 3D Point Clouds for High-Throughput Plant Phenotyping</span>
@@ -141,10 +140,10 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img src="images/clean_promo.jpg" alt="test" width="160px" height="160px">
+                <img class="project-img" src="/assets/images/coexpression.png" alt="coexpression">
               </td>
               <td class="project-info">
-                <span class="project-title">Finding Functional Homologs Using Coexpression Network Analysis in Single Cells</span>
+                <span class="project-title">Predicting Functional Homologs from Single-Cell Coexpression Networks</span>
                 <br>
                 <strong>Kian Faizi</strong>, Wolfgang Busch
                 <br>
@@ -153,10 +152,10 @@ layout: default
                 <span id="box">
                   Abstract.
                 </span> /
-                code
+                <a href="https://github.com/kfaizi/coexpression-analysis" title="coexpression-analysis on GitHub" target="_blank" rel="noreferrer noopener">code</a>
                 <p></p>
                 <p>
-                  I built a workflow for predicting functional homologs of genes driving plant root growth, via coexpression analysis of single-cell RNA-seq data.
+                  I built a basic workflow for predicting functional homologs of genes driving plant root growth, via coexpression analysis of single-cell RNA-seq data.
                 </p>
               </td>
             </tr>
@@ -164,7 +163,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img src="/assets/images/rootmarker.png" alt="rootmarker" width="160px" height="160px">
+                <img class="project-img" src="/assets/images/rootmarker.png" alt="rootmarker">
               </td>
               <td class="project-info">
                 <span class="project-title">Network Design Principles in the <i>Arabidopsis</i> Root System</span>
@@ -178,7 +177,7 @@ layout: default
                 <span id="box">
                   <b>rootmarker</b> is a Python GUI for manually segmenting 2D scans of plant roots. Users point and click to place nodes, creating a skeletonized graph that describes the root system architecture. Includes support for annotating time-series GIFs.
                 </span> /
-                code
+                <a href="https://github.com/kfaizi/test-roots" title="test-roots on GitHub" target="_blank" rel="noreferrer noopener">code</a>
                 <p></p>
                 <p>
                   I developed an image segmentation tool for root phenotyping, and used it to measure cost-performance trade-offs in root growth.
@@ -189,7 +188,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img src="images/clean_promo.jpg" alt="test" width="160px" height="160px">
+                <img class="project-img" src="/assets/images/screen.png" alt="screen">
               </td>
               <td class="project-info">
                 <span class="project-title">A Pooled CRISPR-Cas13d Screen Reveals Guide RNA Design Principles</span>
@@ -203,7 +202,7 @@ layout: default
                 <span id="box">
                   Abstract.
                 </span> /
-                code
+                <a href="https://www.nature.com/articles/nprot.2017.016" title="Joung 2017" target="_blank" rel="noreferrer noopener">image credit</a>
                 <p></p>
                 <p>
                   I helped conduct a CRISPR-Cas13d screen to identify guide RNA efficiency rules and optimize transcriptome editing efficiency.
@@ -214,37 +213,37 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img src="/assets/images/crisprminer.png" alt="crisprminer" width="160px" height="160px">
+                <img class="project-img" src="/assets/images/crisprminer.png" alt="crisprminer">
               </td>
               <td class="project-info">
-                <span class="project-title">CRISPRminer: An Automated Pipeline for Metagenomic Discovery of Type VI-D CRISPR Effectors</span>
+                <span class="project-title">Metagenomic Discovery of Novel Type VI-D CRISPR Effectors</span>
                 <br>
                 <strong>Kian Faizi</strong>, Silvana Konermann, Patrick Hsu
                 <br>
                 <input type="checkbox" id="trigger1">
                 <label for="trigger1"><a id="fakelink">abstract</a></label>
                 <span id="box">
-                  <b>CRISPRminer</b> is a Python pipeline for discovering novel Cas protein variants, which may have desirable characteristics, from metagenome data. Putative orthologs are identified with <span class="inline-code">TBLASTN</span>, screened for arrays with <span class="inline-code">CRISPRFinder</span>, and filtered by size, distance, and sequence identity.
+                  <b>CRISPRminer</b> is a Python pipeline for discovering novel Cas protein variants from metagenomic data. Putative orthologs are identified with <span class="inline-code">TBLASTN</span>, screened for arrays with <span class="inline-code">CRISPRFinder</span>, and filtered by size, distance, and sequence identity.
                 </span> /
-                poster /
-                code
+                <a href="/assets/kian-faizi-srs-2019.pdf" title="srs-2019" target="_blank" rel="noreferrer noopener"> poster</a> /
+                <a href="https://github.com/kfaizi/CRISPR-search" title="CRISPR-search on GitHub" target="_blank" rel="noreferrer noopener">code</a>
                 <p></p>
                 <p>
-                  I wrote a pipeline to mine new orthologs of CRISPR-Cas13d from publicly available metagenomic sequence data at terabyte scale.
+                  I wrote a Python pipeline to mine new orthologs of CRISPR-Cas13d from publicly available metagenomic sequence data at terabyte scale.
                 </p>
               </td>
             </tr>
           </tbody>
         </table>
 
-        <!-- Fun -->
+        <!-- etc -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tbody>
             <tr>
               <td style="padding:5px 20px;width:100%;vertical-align:top">
-                <heading>Fun</heading>
+                <heading>etc</heading>
                 <p>
-                  I like hiking and backpacking; self-hosting and PC building; and writing and performing poetry.
+                  Some of my hobbies and interests, in no particular order: homesteading, solo backpacking, Linux, <a href="https://www.youtube.com/watch?v=s_ZLPm9Qhoc" title="Waking Up to the Newspaper" target="_blank" rel="noreferrer noopener">slam poetry</a>, freestyle rap, data privacy, open source, <a href="https://en.wikipedia.org/wiki/Dérive" target="_blank" rel="noreferrer noopener">d&eacute;rive</a>.
                 </p>
               </td>
             </tr>
@@ -258,7 +257,7 @@ layout: default
               <td style="padding:5px 20px;width:100%;vertical-align:top">
                 <heading>Acknowledgements</heading>
                 <p>
-                  My homepage layout is inspired by <a href="https://jonbarron.info" title="Jon Barron" target="_blank" rel="noreferrer noopener">this website</a>. Good artists copy!
+                  My homepage layout is inspired by <a href="https://jonbarron.info" title="Jon Barron" target="_blank" rel="noreferrer noopener">this website</a>. (imitation && attribution == flattery?)
                 </p>
               </td>
             </tr>

@@ -1,6 +1,6 @@
 ---
-title: Blog | Kian Faizi
 layout: default
+title: Blog
 ---
 <header>
     <nav>

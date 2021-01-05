@@ -1,6 +1,7 @@
 timezone: America/Los_Angeles
 encoding: utf-8
 url: "https://kfaizi.github.io"
+title: "Kian Faizi"
 description: "Personal website of Kian Faizi."
 plugins:
   - jemoji
