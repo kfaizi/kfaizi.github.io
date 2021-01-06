@@ -47,7 +47,7 @@ layout: default
                 </p>
               </td>
               <td style="max-width:50%;vertical-align:text-top;">
-                <a href="/assets/images/yosemite.jpg"><img alt="headshot" title="Figure 1: A typical Zoom University student falls victim to poor chroma keying." src="/assets/images/yosemite.jpg" class="hoverZoomLink"></a>
+                <a href="/assets/images/yosemite.jpg"><img alt="headshot" title="Figure 1: A typical Zoom University student falls victim to poor chroma keying." src="/assets/images/yosemite.jpg"></a>
               </td>
             </tr>
           </tbody>
@@ -98,7 +98,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/wiring.png" alt="wiring">
+                <img class="project-img" src="/assets/images/wiring.png" alt="wiring" title="batteries and faulty assumptions included">
               </td>
               <td class="project-info">
                 <span class="project-title">A Boolean Network Model of the Bacterial <i>lac</i> Operon</span>
@@ -116,7 +116,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/p3d.png" alt="p3d">
+                <img class="project-img" src="/assets/images/p3d.png" alt="p3d" title="meshes are boring (this message brought to you by the point cloud gang)">
               </td>
               <td class="project-info">
                 <span class="project-title">Curve Skeleton Extraction from 3D Point Clouds for High-Throughput Plant Phenotyping</span>
@@ -140,7 +140,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/coexpression.png" alt="coexpression">
+                <img class="project-img" src="/assets/images/coexpression.png" alt="coexpression" title="but is your network scale free though?">
               </td>
               <td class="project-info">
                 <span class="project-title">Predicting Functional Homologs from Single-Cell Coexpression Networks</span>
@@ -163,7 +163,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/rootmarker.png" alt="rootmarker">
+                <img class="project-img" src="/assets/images/rootmarker.png" alt="rootmarker" title="skeletonization go brrrr">
               </td>
               <td class="project-info">
                 <span class="project-title">Network Design Principles in the <i>Arabidopsis</i> Root System</span>
@@ -188,7 +188,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/screen.png" alt="screen">
+                <img class="project-img" src="/assets/images/screen.png" alt="screen" title="many, many more cells than these were involved">
               </td>
               <td class="project-info">
                 <span class="project-title">A Pooled CRISPR-Cas13d Screen Reveals Guide RNA Design Principles</span>
@@ -205,7 +205,7 @@ layout: default
                 <a href="https://www.nature.com/articles/nprot.2017.016" title="Joung 2017" target="_blank" rel="noreferrer noopener">image credit</a>
                 <p></p>
                 <p>
-                  I helped conduct a CRISPR-Cas13d screen to identify guide RNA efficiency rules and optimize transcriptome editing efficiency.
+                  I helped conduct a 150,000-guide CRISPR-Cas13d screen to identify guide RNA efficiency rules and optimize transcriptome editing efficiency.
                 </p>
               </td>
             </tr>
@@ -213,7 +213,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/crisprminer.png" alt="crisprminer">
+                <img class="project-img" src="/assets/images/crisprminer.png" alt="crisprminer" title="phylogenetic classification of the variants I found">
               </td>
               <td class="project-info">
                 <span class="project-title">Metagenomic Discovery of Novel Type VI-D CRISPR Effectors</span>
@@ -236,6 +236,35 @@ layout: default
           </tbody>
         </table>
 
+
+        <!-- teaching header -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+            <tr>
+              <td style="padding:5px 20px;width:100%;vertical-align:top">
+                <heading>Teaching</heading>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- classes -->
+        <table>
+          <tbody>
+            <tr>
+              <td class="project-media">
+                <img class="project-img" src="/assets/images/sisyphus-titian.jpg" title="one must imagine teaching assistants happy" alt="love">
+              </td>
+              <td class="project-info">
+                <span class="project-title"><a href="https://www.ucsd.edu/catalog/courses/BIOL.html#bicd102" target="_blank" rel="noreferrer noopener">BICD 102: Genetic Inquiry</a></span>, UCSD, Fall 2020
+                <br>
+                See evaluations from: <a href="/assets/Faizi_Kian_Student_IA_Evaluation_BICD_102_FA20.pdf" target="_blank" rel="noreferrer noopener">my students</a> / <a href="/assets/Faizi_Kian_Instructor_IA_Evaluation_BICD_102_FA20.pdf" target="_blank" rel="noreferrer noopener">the professor</a>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
         <!-- etc -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tbody>
@@ -243,7 +272,7 @@ layout: default
               <td style="padding:5px 20px;width:100%;vertical-align:top">
                 <heading>etc</heading>
                 <p>
-                  Some of my hobbies and interests, in no particular order: homesteading, solo backpacking, Linux, <a href="https://www.youtube.com/watch?v=s_ZLPm9Qhoc" title="Waking Up to the Newspaper" target="_blank" rel="noreferrer noopener">slam poetry</a>, freestyle rap, data privacy, open source, <a href="https://en.wikipedia.org/wiki/Dérive" target="_blank" rel="noreferrer noopener">d&eacute;rive</a>.
+                  Some of my hobbies and interests, in no particular order: solo backpacking, Linux, homesteading, <a href="https://www.youtube.com/watch?v=s_ZLPm9Qhoc" title="Waking Up to the Newspaper" target="_blank" rel="noreferrer noopener">slam poetry</a>, freestyle rap, teaching, data privacy, open source, <a href="https://en.wikipedia.org/wiki/Dérive" target="_blank" rel="noreferrer noopener">d&eacute;rive</a>.
                 </p>
               </td>
             </tr>
