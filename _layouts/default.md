@@ -34,6 +34,8 @@
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#575757">
         <meta name="msapplication-TileColor" content="#2b5797">
         <meta name="theme-color" content="#ffffff">
+        <!-- privacy-conscious analytics -->
+        <script data-goatcounter="https://kian.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     </head>
     <body>
         <div class="content-container">

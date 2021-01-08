@@ -371,28 +371,25 @@ pre, code {font: 0.9em Inconsolata, monospace;}
 
 /* todo: code, colors */
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 
-    img {
-        opacity: .85;
-        transition: opacity .15s ease-in-out;
-    }
-    img:hover {
-        opacity: 1;
-    }
     body {
         background-color: #333;
-        color: lightgray;
+        font-weight: 300;
+        color: white;
     }
-    .content {
-        background-color: #333;
+
+
+    a, #fakelink {
+        color: turquoise;
     }
-    a {
-        color: lightgray;
-        background-image: linear-gradient(to bottom, gray 0%, gray 100%);
-    }
+
     nav ul li a {
-        color: lightgray;
+        color: white;
+    }
+
+    #box, #trigger-e, #trigger1, #trigger2, #trigger3, #trigger4, #trigger5 {
+        background: #444;
     }
 
     .highlight pre, pre, .highlight .hll {
@@ -401,4 +398,4 @@ pre, code {font: 0.9em Inconsolata, monospace;}
         padding: 6px 10px;
         border-radius: 3px;
     }
-} */
+}
