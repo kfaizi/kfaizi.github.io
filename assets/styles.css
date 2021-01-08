@@ -371,8 +371,7 @@ pre, code {font: 0.9em Inconsolata, monospace;}
 
 /* todo: code, colors */
 
-@media (prefers-color-scheme: dark) {
-
+/*@media (prefers-color-scheme: dark) {
     body {
         background-color: #333;
         font-weight: 300;
@@ -398,4 +397,4 @@ pre, code {font: 0.9em Inconsolata, monospace;}
         padding: 6px 10px;
         border-radius: 3px;
     }
-}
+}*/
