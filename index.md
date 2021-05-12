@@ -33,7 +33,10 @@ layout: default
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:top">
                 <p>
-                  Hi there! :wave: I'm a final year undergraduate at <a href="https://www.ucsd.edu" title="UCSD" target="_blank" rel="noreferrer noopener">UC San Diego</a> studying molecular biology and math. I want to understand how cells make decisions, and reprogram them to do useful things for people and the planet.
+                  Hi there! :wave: I'm a senior at <a href="https://www.ucsd.edu" title="UCSD" target="_blank" rel="noreferrer noopener">UC San Diego</a> studying molecular biology and math. I'll be starting my PhD at <a href="https://www.caltech.edu" title="Caltech" target="_blank" rel="noreferrer noopener">Caltech</a> this fall, as part of the systems biology program.
+                </p>
+                <p>
+                  I want to understand how cells make decisions, and reprogram them to do useful things for people and the planet.
                 </p>
                 <p>
                   Want to connect? Feel free to reach me by
@@ -41,9 +44,6 @@ layout: default
                   <label for="trigger-e"><a id="fakelink">email</a></label>.
                   <span id="box"><span class="inline-code">xsnvmv@hpfq.rqh</span> (ROT13)</span>
                   I'm also on <a href="https://www.twitter.com/kianfaizi/" title="@kianfaizi" target="_blank" rel="noreferrer noopener">Twitter</a> and <a href="https://www.github.com/kfaizi/" title="@kfaizi" target="_blank" rel="noreferrer noopener">GitHub</a>.
-                </p>
-                <p>
-                  :pushpin: I applied to PhD programs this cycle!
                 </p>
               </td>
               <td style="max-width:50%;vertical-align:text-top;">
@@ -286,7 +286,7 @@ layout: default
               <td style="padding:5px 20px;width:100%;vertical-align:top">
                 <heading>Acknowledgements</heading>
                 <p>
-                  My homepage layout is inspired by <a href="https://jonbarron.info" title="Jon Barron" target="_blank" rel="noreferrer noopener">this ubiquitous website</a>. (imitation && attribution == flattery?)
+                  My homepage layout is inspired by <a href="https://jonbarron.info" title="Jon Barron" target="_blank" rel="noreferrer noopener">this ubiquitous website</a>.
                 </p>
               </td>
             </tr>
