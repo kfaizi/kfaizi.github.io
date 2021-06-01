@@ -24,7 +24,7 @@ layout: default
             <tr style="padding:0px">
               <td style="width:63%;vertical-align:middle;">
                 <p style="text-align:center">
-                  <name>Kian Faizi</name>
+                  <h1 style="text-align: center;">Kian Faizi</h1>
                 </p>
               </td>
               <td>
@@ -33,7 +33,7 @@ layout: default
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:top">
                 <p>
-                  Hi there! :wave: I'm a senior at <a href="https://www.ucsd.edu" title="UCSD" target="_blank" rel="noreferrer noopener">UC San Diego</a> studying molecular biology and math. I'll be starting my PhD at <a href="https://www.caltech.edu" title="Caltech" target="_blank" rel="noreferrer noopener">Caltech</a> this fall, as part of the systems biology program.
+                  Hi there! :wave: I'm a senior at <a href="https://www.ucsd.edu" target="_blank" rel="noreferrer noopener">UC San Diego</a> studying molecular biology and math, and an incoming PhD student at <a href="https://www.caltech.edu" target="_blank" rel="noreferrer noopener">Caltech</a> in the systems biology track.
                 </p>
                 <p>
                   I want to understand how cells make decisions, and reprogram them to do useful things for people and the planet.
@@ -43,12 +43,12 @@ layout: default
                   <input type="checkbox" id="trigger-e">
                   <label for="trigger-e"><a id="fakelink">email</a></label>.
                   <span id="box"><span class="inline-code">xsnvmv@hpfq.rqh</span> (ROT13)</span>
-                  I'm also on <a href="https://www.twitter.com/kianfaizi/" title="@kianfaizi" target="_blank" rel="noreferrer noopener">Twitter</a> and <a href="https://www.github.com/kfaizi/" title="@kfaizi" target="_blank" rel="noreferrer noopener">GitHub</a>.
+                  I'm also on <a href="https://www.twitter.com/kianfaizi/" target="_blank" rel="noreferrer noopener">Twitter</a> and <a href="https://www.github.com/kfaizi/" target="_blank" rel="noreferrer noopener">GitHub</a>.
                 </p>
               </td>
-              <td style="max-width:50%;vertical-align:text-top;">
-                <a href="/assets/images/yosemite.jpg"><img alt="headshot" title="Figure 1: A typical Zoom University student falls victim to poor chroma keying." src="/assets/images/yosemite.jpg"></a>
-              </td>
+              <!-- <td style="max-width:50%;vertical-align:text-top;">
+                <a href="none"><img alt="headshot" title="none" src="none"></a>
+              </td> -->
             </tr>
           </tbody>
         </table>
@@ -81,7 +81,7 @@ layout: default
               <td style="padding:5px 20px;width:100%;vertical-align:top">
                 <heading>Research</heading>
                 <p>
-                  I'm interested in <strong>synthetic biology</strong>, <strong>cellular information processing</strong>, and <strong>biomolecular computation</strong>, especially as applied to solving human and environmental problems. I'm currently a tech in <a href="https://www.busch.salk.edu/" title="Busch Lab homepage" target="_blank" rel="noreferrer noopener">Dr. Wolfgang Busch’s</a> plant genetics group at the <a href="https://www.salk.edu/" title="Salk Institute" target="_blank" rel="noreferrer noopener">Salk Institute</a>, where I study root-environment interactions in <i>Arabidopsis thaliana</i> using quantitative and computational methods; a major goal of this research is to aid crop engineering efforts to <a href="https://www.salk.edu/science/power-of-plants/" title="Harnessing Plants Initiative" target="_blank" rel="noreferrer noopener">fight climate change</a>. Before that, I worked in <a href="http://www.patrickhsulab.org/" title="Hsu Lab homepage" target="_blank" rel="noreferrer noopener">Dr. Patrick Hsu's</a> lab, where I helped develop CRISPR-Cas13d for RNA editing applications.
+                  I'm interested in <highlight>synthetic biology</highlight>, <highlight>cellular information processing</highlight>, and <highlight>biomolecular computation</highlight>, especially as applied to solving human and environmental problems. I'm currently a tech in <a href="https://www.busch.salk.edu/" target="_blank" rel="noreferrer noopener">Dr. Wolfgang Busch’s</a> plant genetics group at the <a href="https://www.salk.edu/" target="_blank" rel="noreferrer noopener">Salk Institute</a>, where I study root-environment interactions in <i>Arabidopsis thaliana</i> using quantitative and computational methods; a major goal of this research is to aid crop engineering efforts to <a href="https://www.salk.edu/science/power-of-plants/" target="_blank" rel="noreferrer noopener">fight climate change</a>. Before that, I worked in <a href="http://www.patrickhsulab.org/" target="_blank" rel="noreferrer noopener">Dr. Patrick Hsu's</a> lab, where I helped develop CRISPR-Cas13d for RNA editing applications.
 
                   <!-- Representative projects are <span class="highlight">highlighted</span>. -->
 
@@ -98,12 +98,12 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/wiring.png" alt="wiring" title="batteries and faulty assumptions included">
+                <img class="project-img" src="/assets/images/wiring.png" alt="wiring" title="you may think this is too simplified, and you'd be right">
               </td>
               <td class="project-info">
                 <span class="project-title">A Boolean Network Model of the Bacterial <i>lac</i> Operon</span>
                 <br>
-                <strong>Kian Faizi</strong>
+                <highlight>Kian Faizi</highlight>
                 <br>
                 <a href="https://github.com/kfaizi/boolean-lac" title="boolean-lac on GitHub" target="_blank" rel="noreferrer noopener">code</a>
                 <p></p>
@@ -121,7 +121,7 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Curve Skeleton Extraction from 3D Point Clouds for High-Throughput Plant Phenotyping</span>
                 <br>
-                <a href="https://www.linkedin.com/in/illiaziamtsov/" target="_blank" rel="noreferrer noopener">Illia Ziamtsov</a>, <strong>Kian Faizi</strong>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">Saket Navlakha</a>
+                <a href="https://www.linkedin.com/in/illiaziamtsov/" target="_blank" rel="noreferrer noopener">Illia Ziamtsov</a>, <highlight>Kian Faizi</highlight>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">Saket Navlakha</a>
                 <br>
                 <i>manuscript in preparation</i>
                 <br>
@@ -145,7 +145,7 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Predicting Functional Homologs from Single-Cell Coexpression Networks</span>
                 <br>
-                <strong>Kian Faizi</strong>, <a href="https://www.salk.edu/scientist/wolfgang-busch/" target="_blank" rel="noreferrer noopener">Wolfgang Busch</a>
+                <highlight>Kian Faizi</highlight>, <a href="https://www.salk.edu/scientist/wolfgang-busch/" target="_blank" rel="noreferrer noopener">Wolfgang Busch</a>
                 <br>
     <!--             <input type="checkbox" id="trigger4">
                 <label for="trigger4"><a id="fakelink">abstract</a></label>
@@ -168,7 +168,7 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Network Design Principles in the <i>Arabidopsis</i> Root System</span>
                 <br>
-                <strong>Kian Faizi</strong>, <a href="https://scholar.google.com/citations?user=heUMphcAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">Matthieu Platre</a>, <a href="https://www.arjun-chandrasekhar-teaching.com" target="_blank" rel="noreferrer noopener">Arjun Chandrasekhar</a>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">Saket Navlakha</a>, <a href="https://www.salk.edu/scientist/wolfgang-busch/" target="_blank" rel="noreferrer noopener">Wolfgang Busch</a>
+                <highlight>Kian Faizi</highlight>, <a href="https://scholar.google.com/citations?user=heUMphcAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">Matthieu Platre</a>, <a href="https://www.arjun-chandrasekhar-teaching.com" target="_blank" rel="noreferrer noopener">Arjun Chandrasekhar</a>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">Saket Navlakha</a>, <a href="https://www.salk.edu/scientist/wolfgang-busch/" target="_blank" rel="noreferrer noopener">Wolfgang Busch</a>
                 <br>
                 <i>manuscript in preparation</i>
                 <br>
@@ -188,12 +188,12 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/screen.png" alt="screen" title="many, many more cells than these were involved">
+                <img class="project-img" src="/assets/images/screen.png" alt="screen" title="yeah, those are supposed to be cells">
               </td>
               <td class="project-info">
                 <span class="project-title">A Pooled CRISPR-Cas13d Screen Reveals Guide RNA Design Principles</span>
                 <br>
-                <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">Silvana Konermann</a>, <strong>Kian Faizi</strong>, <a href="https://www.linkedin.com/in/peter-lotfy-ba045684/" target="_blank" rel="noreferrer noopener">Peter Lotfy</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">Patrick Hsu</a>
+                <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">Silvana Konermann</a>, <highlight>Kian Faizi</highlight>, <a href="https://www.linkedin.com/in/peter-lotfy-ba045684/" target="_blank" rel="noreferrer noopener">Peter Lotfy</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">Patrick Hsu</a>
                 <br>
                 <i>manuscript in preparation</i>
                 <br>
@@ -213,12 +213,12 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/crisprminer.png" alt="crisprminer" title="phylogenetic classification of the variants I found">
+                <img class="project-img" src="/assets/images/crisprminer.png" alt="crisprminer" title="pretty phylogenetic classification of the variants I found">
               </td>
               <td class="project-info">
                 <span class="project-title">Metagenomic Discovery of Novel Type VI-D CRISPR Effectors</span>
                 <br>
-                <strong>Kian Faizi</strong>, <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">Silvana Konermann</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">Patrick Hsu</a>
+                <highlight>Kian Faizi</highlight>, <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">Silvana Konermann</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">Patrick Hsu</a>
                 <br>
              <!--    <input type="checkbox" id="trigger1">
                 <label for="trigger1"><a id="fakelink">abstract</a></label>
@@ -272,7 +272,7 @@ layout: default
               <td style="padding:5px 20px;width:100%;vertical-align:top">
                 <heading>etc</heading>
                 <p>
-                  Some of my hobbies and interests, in no particular order: solo backpacking, Linux, homesteading, <a href="https://www.youtube.com/watch?v=s_ZLPm9Qhoc" title="Waking Up to the Newspaper" target="_blank" rel="noreferrer noopener">slam poetry</a>, freestyle rap, teaching, data privacy, open source, <a href="https://en.wikipedia.org/wiki/Dérive" target="_blank" rel="noreferrer noopener">d&eacute;rive</a>.
+                  Some of my hobbies and interests, in no particular order: solo backpacking, Linux, homesteading, <a href="https://www.youtube.com/watch?v=s_ZLPm9Qhoc" target="_blank" rel="noreferrer noopener">slam poetry</a>, freestyle rap, teaching, data privacy, open source, <a href="https://en.wikipedia.org/wiki/Dérive" target="_blank" rel="noreferrer noopener">d&eacute;rive</a>.
                 </p>
               </td>
             </tr>
@@ -286,7 +286,7 @@ layout: default
               <td style="padding:5px 20px;width:100%;vertical-align:top">
                 <heading>Acknowledgements</heading>
                 <p>
-                  My homepage layout is inspired by <a href="https://jonbarron.info" title="Jon Barron" target="_blank" rel="noreferrer noopener">this ubiquitous website</a>.
+                  My homepage layout is inspired by <a href="https://jonbarron.info" target="_blank" rel="noreferrer noopener">this ubiquitous website</a>.
                 </p>
               </td>
             </tr>
