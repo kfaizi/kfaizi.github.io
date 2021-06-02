@@ -35,6 +35,30 @@
         <meta name="theme-color" content="#ffffff">
         <!-- privacy-conscious analytics -->
         <script data-goatcounter="https://kian.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+        <!-- page-specific css -->
+        <style>
+            html {
+                background-color: black;
+            }
+            .highlight pre, pre, .highlight .hll {
+                background-color: #222;
+                border: 1px solid #ccc;
+                padding: 6px 10px;
+                border-radius: 3px;
+            }
+            body, footer, a {
+                color: white;
+                font-family: Inconsolata;
+            }
+            a:hover {
+                color: black;
+                background-color: white;
+            }
+            nav ul li a {
+                color: white;
+                background-color: #222;
+            }            
+        </style>
     </head>
     <body>
         <div class="content-container">

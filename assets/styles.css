@@ -110,6 +110,10 @@ a:hover {
     background-color: black;
 }
 
+#headshot:hover {
+    background-color: white;
+}
+
 /*https://stackoverflow.com/questions/17731457/hide-show-content-list-with-only-css-no-javascript-used*/
 #box, #trigger-e, #trigger1, #trigger2, #trigger3, #trigger4, #trigger5 {
     display: none;
@@ -162,13 +166,6 @@ h3 {
     font-size: 1.1em;
 }
 
-.footnote, .footnotes a {
-    background-image: none;
-    border: none;
-    color: #1498e0;
-    text-decoration: underline;
-}
-
 hr {
     border: 1px solid lightgray;
 }
@@ -214,12 +211,7 @@ nav ul li a {
     text-decoration: none;
     padding: .4em .7em;
     background-color: lightgoldenrodyellow;
-
-    -webkit-transition: border-bottom 0.2s;
-    -moz-transition: border-bottom 0.2s;
-    -o-transition: border-bottom 0.2s;
-    -ms-transition: border-bottom 0.2s;
-    transition: border-bottom 0.2s;
+    font-weight: 300;
 }
 
 nav ul li a:hover {

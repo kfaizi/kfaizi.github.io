@@ -39,15 +39,15 @@ layout: default
                   I want to understand how cells make decisions, and reprogram them to do useful things for people and the planet.
                 </p>
                 <p>
-                  Want to connect? Feel free to reach me by
+                  Feel free to reach me by
                   <input type="checkbox" id="trigger-e">
                   <label for="trigger-e"><a id="fakelink">email</a></label>.
                   <span id="box"><span class="inline-code">xsnvmv@hpfq.rqh</span> (ROT13)</span>
                   I'm also on <a href="https://www.twitter.com/kianfaizi/" target="_blank" rel="noreferrer noopener">Twitter</a> and <a href="https://www.github.com/kfaizi/" target="_blank" rel="noreferrer noopener">GitHub</a>.
                 </p>
               </td>
-              <!-- <td style="max-width:50%;vertical-align:text-top;">
-                <a href="none"><img alt="headshot" title="none" src="none"></a>
+              <!-- <td style="max-width:37%;vertical-align:text-top;">
+                <a href="/assets/images/figtree-headshot.jpg" id="headshot"><img alt="headshot" src="/assets/images/figtree-headshot.jpg"></a>
               </td> -->
             </tr>
           </tbody>
@@ -81,7 +81,7 @@ layout: default
               <td style="padding:5px 20px;width:100%;vertical-align:top">
                 <heading>Research</heading>
                 <p>
-                  I'm interested in <highlight>synthetic biology</highlight>, <highlight>cellular information processing</highlight>, and <highlight>biomolecular computation</highlight>, especially as applied to solving human and environmental problems. I'm currently a tech in <a href="https://www.busch.salk.edu/" target="_blank" rel="noreferrer noopener">Dr. Wolfgang Busch’s</a> plant genetics group at the <a href="https://www.salk.edu/" target="_blank" rel="noreferrer noopener">Salk Institute</a>, where I study root-environment interactions in <i>Arabidopsis thaliana</i> using quantitative and computational methods; a major goal of this research is to aid crop engineering efforts to <a href="https://www.salk.edu/science/power-of-plants/" target="_blank" rel="noreferrer noopener">fight climate change</a>. Before that, I worked in <a href="http://www.patrickhsulab.org/" target="_blank" rel="noreferrer noopener">Dr. Patrick Hsu's</a> lab, where I helped develop CRISPR-Cas13d for RNA editing applications.
+                  I'm interested in <highlight>synthetic biology</highlight>, <highlight>cellular information processing</highlight>, and <highlight>biomolecular computation</highlight>, especially as applied to solving human and environmental problems. I'm currently a tech in <a href="https://www.busch.salk.edu/" target="_blank" rel="noreferrer noopener">Dr. Wolfgang Busch’s</a> plant genetics group at the <a href="https://www.salk.edu/" target="_blank" rel="noreferrer noopener">Salk Institute</a>, where I study root-environment interactions in <i>Arabidopsis thaliana</i> using quantitative and computational methods. A major goal of this research is to aid crop engineering efforts that will <a href="https://www.salk.edu/science/power-of-plants/" target="_blank" rel="noreferrer noopener">fight climate change</a>. Before that, I worked in <a href="http://www.patrickhsulab.org/" target="_blank" rel="noreferrer noopener">Dr. Patrick Hsu's</a> lab, where I helped develop CRISPR-Cas13d for programmable RNA editing.
 
                   <!-- Representative projects are <span class="highlight">highlighted</span>. -->
 
@@ -272,7 +272,7 @@ layout: default
               <td style="padding:5px 20px;width:100%;vertical-align:top">
                 <heading>etc</heading>
                 <p>
-                  Some of my hobbies and interests, in no particular order: solo backpacking, Linux, homesteading, <a href="https://www.youtube.com/watch?v=s_ZLPm9Qhoc" target="_blank" rel="noreferrer noopener">slam poetry</a>, freestyle rap, teaching, data privacy, open source, <a href="https://en.wikipedia.org/wiki/Dérive" target="_blank" rel="noreferrer noopener">d&eacute;rive</a>.
+                  Some stuff I like to do <a href="/fun.html">for fun</a>.
                 </p>
               </td>
             </tr>
