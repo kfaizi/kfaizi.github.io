@@ -19,13 +19,13 @@ title: Fun
 ## writing
 <hr>
 poetry
-- untitled collection 1 (in progress)
+- untitled collection 1
 - <a href="https://www.youtube.com/watch?v=CHZpVQrLN-M" target="_blank" rel="noreferrer noopener">alphabet soup</a>
 - <a href="https://www.youtube.com/watch?v=s_ZLPm9Qhoc" target="_blank" rel="noreferrer noopener">waking up to the newspaper</a>
 
 short plays
-- manhole (in progress)
+- manhole
 
-## nerdy stuff
+## tech
 <hr>
 - <a href="https://pcpartpicker.com/list/hLhnRk" target="_blank" rel="noreferrer noopener">quarantine PC build</a>
