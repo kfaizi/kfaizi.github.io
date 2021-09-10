@@ -52,7 +52,7 @@ layout: default
                 </p>
               </td>
               <td style="max-width:37%;vertical-align:text-top;">
-                <a href="/assets/images/nz.png" id="headshot"><img alt="headshot" src="/assets/images/nz.png"></a>
+                <a href="/assets/images/yosemite.png" id="headshot"><img alt="headshot" title="it's me" src="/assets/images/yosemite-headshot.png"></a>
               </td>
             </tr>
           </tbody>
@@ -103,7 +103,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/p3d.jpg" alt="p3d" title="skeletonization go brrrr">
+                <img class="project-img" src="/assets/images/p3d.jpg" alt="p3d" title="skeletonization algorithm goes brrrr">
               </td>
               <td class="project-info">
                 <span class="project-title">Branch-Pipe: Improving graph skeletonization around branch points in 3D point clouds</span>
@@ -153,7 +153,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/coexpression.png" alt="coexpression" title="but is your network scale free though?">
+                <img class="project-img" src="/assets/images/coexpression.png" alt="coexpression" title="making cytoscape play nice with an ipynb is weirdly hard">
               </td>
               <td class="project-info">
                 <span class="project-title">Predicting Functional Homologs from Single-Cell Co-expression Networks</span>
@@ -171,7 +171,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/wiring.png" alt="wiring" title="you may think this is too simplified, and you’d be right">
+                <img class="project-img" src="/assets/images/wiring.png" alt="wiring" title="you may think this is too simple. you’d be right">
               </td>
               <td class="project-info">
                 <span class="project-title">A Boolean Network Model of the Bacterial <i>lac</i> Operon</span>
@@ -189,7 +189,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/screen.png" alt="screen" title="yeah, those are supposed to be cells">
+                <img class="project-img" src="/assets/images/screen.png" alt="screen" title="there was a lot of TC work">
               </td>
               <td class="project-info">
                 <span class="project-title">A Pooled CRISPR-Cas13d Screen Reveals Guide RNA Design Principles</span>
