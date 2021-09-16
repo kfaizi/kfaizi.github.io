@@ -52,7 +52,7 @@ layout: default
                 </p>
               </td>
               <td style="max-width:37%;vertical-align:text-top;">
-                <a href="/assets/images/yosemite.png" id="headshot"><img alt="headshot" title="it's me" src="/assets/images/yosemite-headshot.png"></a>
+                <a href="/assets/images/yosemite.png" id="headshot"><img alt="headshot" title="it's me!" src="/assets/images/yosemite-headshot.jpg"></a>
               </td>
             </tr>
           </tbody>
@@ -103,6 +103,31 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
+                <img class="project-img" src="/assets/images/screen.jpg" alt="screen" title="there was a lot of TC work">
+              </td>
+              <td class="project-info">
+                <span class="project-title">Deep learning of Cas13 guide activity from high-throughput gene essentiality screening</span>
+                <br>
+                Jingyi Wei, <a href="https://www.linkedin.com/in/peter-lotfy-ba045684/" target="_blank" rel="noreferrer noopener">Peter Lotfy</a>, <highlight>Kian Faizi</highlight>, Hugo Kitano, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">Patrick D. Hsu</a>, <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">Silvana Konermann</a>
+                <br>
+                <i>In press</i>
+                <br>
+                <input type="checkbox" id="trigger2">
+                <label for="trigger2"><a id="fakelink">abstract</a></label>
+                <span id="box">
+                  Transcriptome engineering requires flexible RNA-targeting technologies that can perturb mammalian transcripts in a robust and scalable manner. CRISPR systems that natively target RNA molecules, such as Cas13 enzymes, are enabling rapid progress in the investigation of RNA biology and advancement of RNA therapeutics. Here, we sought to develop a Cas13 platform for high-throughput phenotypic screening and elucidate the design principles underpinning its RNA targeting efficiency. We employed the RfxCas13d (CasRx) system in a positive selection screen by tiling 55 known essential genes with single nucleotide resolution. Leveraging this dataset of over 127,000 guide RNAs, we systematically compared a series of linear regression and machine learning algorithms to train a convolutional neural network (CNN) model that is able to robustly predict guide RNA performance based on guide sequence alone. We further incorporated secondary features including secondary structure, free energy, target site position, and target isoform percent. To evaluate model performance, we conducted orthogonal screens via cell surface protein knockdown. The final CNN model is able to predict highly effective guide RNAs (gRNAs) within each transcript with >90% accuracy in this independent test set. To provide user interpretability, we evaluate feature contributions using both integrated gradients and SHapley Additive exPlanations (SHAP). We identify a specific sequence motif at guide position 15-24 along with selected secondary features to be predictive of highly efficient guides. Taken together, we derive Cas13d guide design rules from large-scale screen data, release a guide design tool (<a href="http://RNAtargeting.org">http://RNAtargeting.org</a>) to advance the RNA targeting toolbox, and describe a path for systematic development of deep learning models to predict CRISPR activity.
+                </span> /
+                <a href="https://doi.org/10.1101/2021.09.14.460134" target="_blank" rel="noreferrer noopener">preprint</a>
+                <p></p>
+                <p>
+                  I helped conduct a 150,000-guide CRISPR-Cas13d screen to identify guide RNA efficiency rules and optimize transcriptome editing efficiency.
+                </p>
+              </td>
+            </tr>
+            
+            <!-- pub -->
+            <tr>
+              <td class="project-media">
                 <img class="project-img" src="/assets/images/p3d.jpg" alt="p3d" title="skeletonization algorithm goes brrrr">
               </td>
               <td class="project-info">
@@ -124,7 +149,6 @@ layout: default
               </td>
             </tr>
 
-            
             <!-- pub -->
             <tr>
               <td class="project-media">
@@ -158,8 +182,6 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Predicting Functional Homologs from Single-Cell Co-expression Networks</span>
                 <br>
-                <highlight>Kian Faizi</highlight>, <a href="https://www.salk.edu/scientist/wolfgang-busch/" target="_blank" rel="noreferrer noopener">Wolfgang Busch</a>
-                <br>
                 <a href="https://github.com/kfaizi/coexpression-analysis" title="coexpression-analysis on GitHub" target="_blank" rel="noreferrer noopener">code</a>
                 <p></p>
                 <p>
@@ -176,32 +198,10 @@ layout: default
               <td class="project-info">
                 <span class="project-title">A Boolean Network Model of the Bacterial <i>lac</i> Operon</span>
                 <br>
-                <highlight>Kian Faizi</highlight>
-                <br>
                 <a href="https://github.com/kfaizi/boolean-lac" title="boolean-lac on GitHub" target="_blank" rel="noreferrer noopener">code</a>
                 <p></p>
                 <p>
                   I programmed a toy model of the <i>lac</i> operon as an asynchronous Boolean network, and simulated gene knockout and overexpression experiments. Class project for MATH 111A.
-                </p>
-              </td>
-            </tr>
-
-            <!-- pub -->
-            <tr>
-              <td class="project-media">
-                <img class="project-img" src="/assets/images/screen.png" alt="screen" title="there was a lot of TC work">
-              </td>
-              <td class="project-info">
-                <span class="project-title">A Pooled CRISPR-Cas13d Screen Reveals Guide RNA Design Principles</span>
-                <br>
-                <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">Silvana Konermann</a>, <highlight>Kian Faizi</highlight>, <a href="https://www.linkedin.com/in/peter-lotfy-ba045684/" target="_blank" rel="noreferrer noopener">Peter Lotfy</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">Patrick Hsu</a>
-                <br>
-                <i>manuscript in preparation</i>
-                <br>
-                <a href="https://www.nature.com/articles/nprot.2017.016" title="Joung 2017" target="_blank" rel="noreferrer noopener">image credit</a>
-                <p></p>
-                <p>
-                  I helped conduct a 150,000-guide CRISPR-Cas13d screen to identify guide RNA efficiency rules and optimize transcriptome editing efficiency.
                 </p>
               </td>
             </tr>
