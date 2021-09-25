@@ -110,7 +110,7 @@ layout: default
                 <br>
                 Jingyi Wei, <a href="https://www.linkedin.com/in/peter-lotfy-ba045684/" target="_blank" rel="noreferrer noopener">Peter Lotfy</a>, <highlight>Kian Faizi</highlight>, Hugo Kitano, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">Patrick D. Hsu</a>, <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">Silvana Konermann</a>
                 <br>
-                <i>In press</i>
+                <i>bioRxiv.</i> (2021)
                 <br>
                 <input type="checkbox" id="trigger2">
                 <label for="trigger2"><a id="fakelink">abstract</a></label>
@@ -135,16 +135,18 @@ layout: default
                 <br>
                 <a href="https://www.linkedin.com/in/illiaziamtsov/" target="_blank" rel="noreferrer noopener">Illia Ziamtsov</a>, <highlight>Kian Faizi</highlight>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">Saket Navlakha</a>
                 <br>
-                <i>To appear in Remote Sensing</i>
+                <i>Remote Sensing (open access).</i> (2021)
                 <br>
                 <input type="checkbox" id="trigger1">
                 <label for="trigger1"><a id="fakelink">abstract</a></label>
                 <span id="box">
                   Modern plant phenotyping requires tools that are robust to noise and missing data, while being able to efficiently process large numbers of plants. In this manuscript, we studied skeletonization of plant architectures from 3D point clouds, which is critical for many downstream tasks, including analyses of plant shape, morphology, and branching angles. Specifically, we developed an algorithm to improve skeletonization at branch points (forks) by leveraging geometric properties of cylinders around branch points. We tested this algorithm on a diverse set of high-resolution 3D point clouds of tomato and tobacco plants, grown in five environments and across multiple developmental timepoints. Compared to existing methods for 3D skeletonization, our method efficiently and more accurately estimated branching angles, even in areas with noisy, missing, or non-uniformly sampled data. Our method is also applicable to inorganic datasets, such as scans of industrial pipes or urban scenes containing networks of complex cylindrical shapes.
-                </span>
+                </span> /
+                <a href="https://doi.org/10.3390/rs13193802" target="_blank" rel="noreferrer noopener">paper</a> /
+                <a href="https://twitter.com/kianfaizi/status/1441069414837731343?s=20" target="_blank" rel="noreferrer noopener">thread</a>
                 <p></p>
                 <p>
-                  I assisted in the development of a software package for plant phenotyping, with a focus on handling noisy 3D point clouds produced from LiDAR scans.
+                  I assisted in the development of a software package for plant phenotyping, with a focus on accurate skeleton graph extraction from noisy 3D point clouds.
                 </p>
               </td>
             </tr>
