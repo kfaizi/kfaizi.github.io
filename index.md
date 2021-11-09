@@ -33,17 +33,19 @@ layout: default
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:top">
                 <p>
-                  Hi, I’m Kian. I’m a PhD student at <a href="https://www.caltech.edu" target="_blank" rel="noreferrer noopener">Caltech</a> in the systems biology program. I did my undergrad at <a href="https://www.ucsd.edu" target="_blank" rel="noreferrer noopener">UCSD</a> studying molecular biology and math. I build tools for observing living things, and use them to study how they sense and respond to the world.
+                  Hi, I’m Kian. I’m a PhD student at <a href="https://www.caltech.edu" target="_blank" rel="noreferrer noopener">Caltech</a> in the systems biology program. I did my undergrad at <a href="https://www.ucsd.edu" target="_blank" rel="noreferrer noopener">UCSD</a> studying molecular biology and math.
                 </p>
                 <p>
                   <highlight>I want to understand how cells make decisions, and reprogram them to do useful things for people and the planet.</highlight>
                 </p>
                 <p>
+                  I believe that managing human impacts on the environment — and preventing catastrophic climate change — will be the most important problem of our lifetimes.
+                </p>
+                <p>
                   In addition, I like thinking about:
                   <ul>
-                    <li>human impacts on the environment</li>
-                    <li>metacognition and numeracy</li>
                     <li>startups and biotech</li>
+                    <li>mental models, metacognition, and numeracy</li>
                     <li>knowledge sharing and collaboration</li>
                   </ul>
                 </p>
@@ -63,7 +65,7 @@ layout: default
           <tbody>
             <tr>
               <td style="padding:20px;width:100%;vertical-align:top">
-                <heading>Blog</heading>
+                <h2>Blog</h2>
                 <p>
                   <a href="/blog.html">Sometimes I write</a> about science, programming, and anything else I’m currently curious about. Check out my most recent posts below:
                 </p>
@@ -84,7 +86,7 @@ layout: default
           <tbody>
             <tr>
               <td style="padding:5px 20px;width:100%;vertical-align:top">
-                <heading>Research</heading>
+                <h2>Research</h2>
                 <p>
                   I’m interested in how life works, and how it can be engineered to solve human and environmental problems. I enjoy thinking about how mathematical models and physical laws can describe (and predict!) cellular behavior. I’m fascinated by developmental plasticity and self-organization in biological systems.
                 </p>
@@ -113,14 +115,14 @@ layout: default
                 <i>bioRxiv.</i> (2021)
                 <br>
                 <input type="checkbox" id="trigger2">
-                <label for="trigger2"><a id="fakelink">abstract</a></label>
+                [<label for="trigger2"><a id="fakelink">abstract</a></label>]
                 <span id="box">
                   Transcriptome engineering requires flexible RNA-targeting technologies that can perturb mammalian transcripts in a robust and scalable manner. CRISPR systems that natively target RNA molecules, such as Cas13 enzymes, are enabling rapid progress in the investigation of RNA biology and advancement of RNA therapeutics. Here, we sought to develop a Cas13 platform for high-throughput phenotypic screening and elucidate the design principles underpinning its RNA targeting efficiency. We employed the RfxCas13d (CasRx) system in a positive selection screen by tiling 55 known essential genes with single nucleotide resolution. Leveraging this dataset of over 127,000 guide RNAs, we systematically compared a series of linear regression and machine learning algorithms to train a convolutional neural network (CNN) model that is able to robustly predict guide RNA performance based on guide sequence alone. We further incorporated secondary features including secondary structure, free energy, target site position, and target isoform percent. To evaluate model performance, we conducted orthogonal screens via cell surface protein knockdown. The final CNN model is able to predict highly effective guide RNAs (gRNAs) within each transcript with >90% accuracy in this independent test set. To provide user interpretability, we evaluate feature contributions using both integrated gradients and SHapley Additive exPlanations (SHAP). We identify a specific sequence motif at guide position 15-24 along with selected secondary features to be predictive of highly efficient guides. Taken together, we derive Cas13d guide design rules from large-scale screen data, release a guide design tool (<a href="http://RNAtargeting.org">http://RNAtargeting.org</a>) to advance the RNA targeting toolbox, and describe a path for systematic development of deep learning models to predict CRISPR activity.
                 </span> /
-                <a href="https://doi.org/10.1101/2021.09.14.460134" target="_blank" rel="noreferrer noopener">preprint</a>
+                [<a href="https://doi.org/10.1101/2021.09.14.460134" target="_blank" rel="noreferrer noopener">preprint</a>]
                 <p></p>
                 <p>
-                  I helped conduct a 150,000-guide CRISPR-Cas13d screen to identify guide RNA efficiency rules and optimize transcriptome editing efficiency.
+                  I helped conduct a 150,000-guide CRISPR-Cas13d screen to identify guide RNA design rules and optimize transcriptome editing efficiency.
                 </p>
               </td>
             </tr>
@@ -138,12 +140,12 @@ layout: default
                 <i>Remote Sensing (open access).</i> (2021)
                 <br>
                 <input type="checkbox" id="trigger1">
-                <label for="trigger1"><a id="fakelink">abstract</a></label>
+                [<label for="trigger1"><a id="fakelink">abstract</a></label>]
                 <span id="box">
                   Modern plant phenotyping requires tools that are robust to noise and missing data, while being able to efficiently process large numbers of plants. In this manuscript, we studied skeletonization of plant architectures from 3D point clouds, which is critical for many downstream tasks, including analyses of plant shape, morphology, and branching angles. Specifically, we developed an algorithm to improve skeletonization at branch points (forks) by leveraging geometric properties of cylinders around branch points. We tested this algorithm on a diverse set of high-resolution 3D point clouds of tomato and tobacco plants, grown in five environments and across multiple developmental timepoints. Compared to existing methods for 3D skeletonization, our method efficiently and more accurately estimated branching angles, even in areas with noisy, missing, or non-uniformly sampled data. Our method is also applicable to inorganic datasets, such as scans of industrial pipes or urban scenes containing networks of complex cylindrical shapes.
                 </span> /
-                <a href="https://doi.org/10.3390/rs13193802" target="_blank" rel="noreferrer noopener">paper</a> /
-                <a href="https://twitter.com/kianfaizi/status/1441069414837731343?s=20" target="_blank" rel="noreferrer noopener">thread</a>
+                [<a href="https://doi.org/10.3390/rs13193802" target="_blank" rel="noreferrer noopener">paper</a>] /
+                [<a href="https://twitter.com/kianfaizi/status/1441069414837731343?s=20" target="_blank" rel="noreferrer noopener">thread</a>]
                 <p></p>
                 <p>
                   I assisted in the development of a software package for plant phenotyping, with a focus on accurate skeleton graph extraction from noisy 3D point clouds.
@@ -168,10 +170,10 @@ layout: default
                 <span id="box">
                   <b>rootmarker</b> is a Python GUI for manually segmenting 2D scans of plant roots. Users point and click to place nodes, creating a skeletonized graph that describes the root system architecture. Includes support for annotating time-series GIFs.
                 </span> / -->
-                <a href="https://github.com/kfaizi/ariadne" title="ariadne on GitHub" target="_blank" rel="noreferrer noopener">code</a>
+                [<a href="https://github.com/kfaizi/ariadne" title="ariadne on GitHub" target="_blank" rel="noreferrer noopener">code</a>]
                 <p></p>
                 <p>
-                  I developed Ariadne, a time-series image segmentation tool for root phenotyping, and used it to measure cost-performance trade-offs in root growth.
+                  I developed Ariadne, a time-series image segmentation tool for root phenotyping, and used it to measure Pareto-optimal trade-offs in root growth.
                 </p>
               </td>
             </tr>
@@ -184,10 +186,10 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Predicting Functional Homologs from Single-Cell Co-expression Networks</span>
                 <br>
-                <a href="https://github.com/kfaizi/coexpression-analysis" title="coexpression-analysis on GitHub" target="_blank" rel="noreferrer noopener">code</a>
+                [<a href="https://github.com/kfaizi/coexpression-analysis" title="coexpression-analysis on GitHub" target="_blank" rel="noreferrer noopener">code</a>]
                 <p></p>
                 <p>
-                  I built a basic workflow for predicting functional homologs of genes driving plant root growth, via co-expression analysis of single-cell RNA-seq data.
+                  I built a basic workflow for predicting functional homologs of genes driving plant root growth, via co-expression network analysis of single-cell RNA-seq data.
                 </p>
               </td>
             </tr>
@@ -200,7 +202,7 @@ layout: default
               <td class="project-info">
                 <span class="project-title">A Boolean Network Model of the Bacterial <i>lac</i> Operon</span>
                 <br>
-                <a href="https://github.com/kfaizi/boolean-lac" title="boolean-lac on GitHub" target="_blank" rel="noreferrer noopener">code</a>
+                [<a href="https://github.com/kfaizi/boolean-lac" title="boolean-lac on GitHub" target="_blank" rel="noreferrer noopener">code</a>]
                 <p></p>
                 <p>
                   I programmed a toy model of the <i>lac</i> operon as an asynchronous Boolean network, and simulated gene knockout and overexpression experiments. Class project for MATH 111A.
@@ -218,8 +220,8 @@ layout: default
                 <br>
                 <highlight>Kian Faizi</highlight>, <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">Silvana Konermann</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">Patrick Hsu</a>
                 <br>
-                <a href="/assets/kian-faizi-srs-2019.pdf" title="srs-2019" target="_blank" rel="noreferrer noopener"> poster</a> /
-                <a href="https://github.com/kfaizi/CRISPR-search" title="CRISPR-search on GitHub" target="_blank" rel="noreferrer noopener">code</a>
+                [<a href="/assets/kian-faizi-srs-2019.pdf" title="srs-2019" target="_blank" rel="noreferrer noopener">poster</a>] /
+                [<a href="https://github.com/kfaizi/CRISPR-search" title="CRISPR-search on GitHub" target="_blank" rel="noreferrer noopener">code</a>]
                 <p></p>
                 <p>
                   I wrote a Python pipeline to mine new orthologs of CRISPR-Cas13d from publicly available metagenomic sequence data at terabyte scale.
@@ -235,7 +237,7 @@ layout: default
           <tbody>
             <tr>
               <td style="padding:5px 20px;width:100%;vertical-align:top">
-                <heading>Teaching</heading>
+                <h2>Teaching</h2>
               </td>
             </tr>
           </tbody>
@@ -263,7 +265,7 @@ layout: default
           <tbody>
             <tr>
               <td style="padding:5px 20px;width:100%;vertical-align:top">
-                <heading>etc</heading>
+                <h2>etc</h2>
                 <p>
                   Some stuff I like to do <a href="/fun.html">for fun</a>.
                 </p>
@@ -277,7 +279,7 @@ layout: default
           <tbody>
             <tr>
               <td style="padding:5px 20px;width:100%;vertical-align:top">
-                <heading>Acknowledgements</heading>
+                <h2>Acknowledgements</h2>
                 <p>
                   My homepage layout is inspired by <a href="https://jonbarron.info" target="_blank" rel="noreferrer noopener">this guy</a>.
                 </p>

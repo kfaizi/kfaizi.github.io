@@ -19,7 +19,7 @@ title: Fun
 ## writing
 <hr>
 poetry
-- untitled collection 1
+- unfinished business: an unfinished chapbook
 - <a href="https://www.youtube.com/watch?v=CHZpVQrLN-M" target="_blank" rel="noreferrer noopener">alphabet soup</a>
 - <a href="https://www.youtube.com/watch?v=s_ZLPm9Qhoc" target="_blank" rel="noreferrer noopener">waking up to the newspaper</a>
 

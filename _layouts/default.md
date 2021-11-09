@@ -4,11 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{% if page.title %}{{ page.title | append: " - Kian Faizi"}}{% else %}{{ site.title }}{% endif %}</title>
+        <meta name="author" content="Kian Faizi">
         <!-- custom css -->
         <link rel="stylesheet" type="text/css" href="/assets/styles.css">
         <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap" rel="stylesheet">
-        <meta name="author" content="Kian Faizi">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
         <!-- open graph -->
         <meta name="title" property="og:title" content="{{ page.title }}">
         <meta property="og:type" content="website">
