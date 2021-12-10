@@ -1,3 +1,8 @@
+:root {
+    --text-color: #333;
+    --accent-color: #12a8ce;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -64,13 +69,15 @@ td.project-info {
 
 /*link hover animation*/
 /*https://css-tricks.com/having-fun-with-link-hover-effects/*/
-/*a {
-    background-image: linear-gradient(to bottom, orange 0%, orange 100%);
+
+/* a, #fakelink {
+    background-image: linear-gradient(to bottom, var(--accent-color) 0%, var(--accent-color) 100%);
     background-position: 0 100%;
     background-repeat: repeat-x;
-    background-size: 4px 4px;
-    color: #333;
+    background-size: 2px 2px;
+    color: var(--text-color);
     text-decoration: none;
+    cursor: pointer;
 
     -webkit-transition: background-size 0.4s;
     -moz-transition: background-size 0.4s;
@@ -79,11 +86,17 @@ td.project-info {
     transition: background-size 0.4s;
 }
 
+a:hover, #fakelink:hover {
+    background-size: 2px 50px;
+} */
+
+a {
+    color: black;
+}
+    
 a:hover {
-    background-size: 4px 50px;
-}*/
-
-
+    color: var(--accent-color);
+}
 
 img {
     max-width: 100%;
@@ -91,16 +104,6 @@ img {
 
 highlight {
     background-color: lightgoldenrodyellow;
-}
-
-a {
-    color: black;
-    font-weight: 400;
-}
-
-a:hover {
-    color: white;
-    background-color: black;
 }
 
 #headshot:hover {
@@ -124,7 +127,7 @@ a:hover {
     cursor: pointer;
 }
 
-#fakelink:hover{
+#fakelink:hover {
     color: white;
     background-color: black;
 }
