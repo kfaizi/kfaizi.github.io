@@ -105,6 +105,26 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
+                <img class="project-img" src="/assets/images/catastrophe.jpg" alt="catastrophe" title="things fall apart">
+              </td>
+              <td class="project-info">
+                <span class="project-title">Modeling Microtubule Catastrophe</span>
+                <br>
+                <highlight>Kian Faizi</highlight>, David Jin, <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=44KjzP0AAAAJ" target="_blank" rel="noreferrer noopener">James Mullahoo</a>, Ziyan Wu
+                <br>
+                [<a href="https://www.kianfaizi.com/catastrophe/index.html" target="_blank" rel="noreferrer noopener">website</a>] /
+                [<a href="https://github.com/kfaizi/catastrophe" title="catastrophe on GitHub" target="_blank" rel="noreferrer noopener">code</a>]
+                <p></p>
+                <p>
+                  I built a website showcasing my team's analysis of the dynamics of microtubule growth, based on <a href="https://gchure.github.io" target="_blank" rel="noreferrer noopener">Griffin Chure's</a> template for reproducible research. Class project for <a href="https://bebi103a.github.io" target="_blank" rel="noreferrer noopener">BE/Bi 103a</a>.
+                </p>
+              </td>
+            </tr>
+
+
+            <!-- pub -->
+            <tr>
+              <td class="project-media">
                 <img class="project-img" src="/assets/images/screen.jpg" alt="screen" title="there was a lot of TC work">
               </td>
               <td class="project-info">
@@ -205,7 +225,7 @@ layout: default
                 [<a href="https://github.com/kfaizi/boolean-lac" title="boolean-lac on GitHub" target="_blank" rel="noreferrer noopener">code</a>]
                 <p></p>
                 <p>
-                  I programmed a toy model of the <i>lac</i> operon as an asynchronous Boolean network, and simulated gene knockout and overexpression experiments. Class project for MATH 111A.
+                  I programmed a toy model of the <i>lac</i> operon as an asynchronous Boolean network, and simulated gene knockout and overexpression experiments. Class project for <a href="https://ccom.ucsd.edu/~acloninger/111A_F20/teachingMath111A.html" target="_blank" rel="noreferrer noopener">MATH 111A</a>.
                 </p>
               </td>
             </tr>
