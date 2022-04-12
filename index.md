@@ -54,7 +54,7 @@ layout: default
                 </p>
               </td>
               <td style="max-width:37%;vertical-align:text-top;">
-                <a href="/assets/images/yosemite.png" id="headshot"><img alt="headshot" title="it's me!" src="/assets/images/yosemite-headshot.jpg"></a>
+                <a href="/assets/images/rainier-headshot.jpg" id="headshot"><img alt="headshot" title="it's me!" src="/assets/images/cropped-rainier-headshot.png"></a>
               </td>
             </tr>
           </tbody>
