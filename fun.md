@@ -11,10 +11,11 @@ title: Fun
         </ul>
     </nav>
 </header>
+
 # side projects
 (keeping me sane since 1999)
 
-<i>obligatory hobbies + interests blurb: i like backpacking, writing poetry, teaching, tech/data ethics, open source, homesteading, permaculture, freestyle rap, and photic sneezing</i>
+obligatory hobbies + interests blurb: i like backpacking, writing poetry, teaching, tech/data ethics, open source, homesteading, permaculture, freestyle rap, and photic sneezing
 
 ## writing
 <hr>

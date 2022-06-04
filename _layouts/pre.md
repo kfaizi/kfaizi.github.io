@@ -7,7 +7,9 @@
         <!-- custom css -->
         <link rel="stylesheet" type="text/css" href="/assets/styles.css">
         <!-- fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Joan&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Rubik+Glitch&family=Rubik+Microbe&family=Rubik+Wet+Paint&display=swap" rel="stylesheet"> 
         <meta name="author" content="Kian Faizi">
         <!-- open graph -->
         <meta name="title" property="og:title" content="{{ page.title }}">
@@ -37,8 +39,11 @@
         <script data-goatcounter="https://kian.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
         <!-- page-specific css -->
         <style>
-            html {
+            html, body {
                 background-color: black;
+            }
+            h1, h2 {
+                font-family: 'Rubik Glitch';
             }
             .highlight pre, pre, .highlight .hll {
                 background-color: #222;
@@ -48,15 +53,16 @@
             }
             body, footer, a {
                 color: white;
-                font-family: Inconsolata;
+                font-family: 'Fira Code', monospace;
             }
             a:hover {
                 color: black;
                 background-color: white;
             }
             nav ul li a {
+                font-family: 'Rubik Glitch';
                 color: white;
-                background-color: #222;
+                background-color: black;
             }            
         </style>
     </head>

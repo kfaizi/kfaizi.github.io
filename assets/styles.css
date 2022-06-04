@@ -6,14 +6,18 @@
 html, body {
     margin: 0;
     padding: 0;
+    /* background-color: #ffffff; */
+    /* background-color: #f9f1d9; (warm and cozy, but not great for images) */
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.1em;
-    color: #333;
-    line-height: 1.6em;
-    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-size: 1.05em;
+    color: var(--text-color);
+    line-height: 1.5em;
+    font-weight: 400;
 }
 
 table {
@@ -64,7 +68,7 @@ td.project-info {
 }
 
 .project-title {
-    font-weight: 500;
+    font-weight: bold;
 }
 
 /*link hover animation*/
@@ -113,7 +117,8 @@ highlight {
 /*https://stackoverflow.com/questions/17731457/hide-show-content-list-with-only-css-no-javascript-used*/
 #box, #trigger-e, #trigger1, #trigger2, #trigger3, #trigger4, #trigger5 {
     display: none;
-    background: #ccc;
+    line-height: 1.5em;
+    background: rgb(219, 219, 219);
 }
 #trigger-e:checked~#box, #trigger1:checked~#box, #trigger2:checked~#box, #trigger3:checked~#box, #trigger4:checked~#box, #trigger5:checked~#box {
     display: block;
@@ -128,20 +133,18 @@ highlight {
 }
 
 #fakelink:hover {
-    color: white;
-    background-color: black;
+    color: var(--accent-color);
 }
 
 .content-container {
-    max-width: 800px;
+    max-width: 70%;
     margin: 3em auto;
     padding: 0 2em;
     padding-top: 1em;
 }
 
 h1, h2, h3 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* font-family: 'Playfair Display', sans-serif; */
+    font-family: 'Libre Baskerville', sans-serif;
     margin-bottom: 0.3em;
     padding: 0;
     line-height: 1.3em;
@@ -205,11 +208,10 @@ nav ul li {
 }
 
 nav ul li a {
+    font-family: 'Libre Baskerville', sans-serif;
     display: block;
     text-align: center;
-    text-decoration: none;
     padding: .4em .7em;
-    background-color: lightgoldenrodyellow;
     font-weight: 300;
 }
 
@@ -219,8 +221,7 @@ nav ul li a:hover {
 
 nav ul li a.active {
     text-decoration: underline;
-    /* background-color: teal; */
-    /* color: goldenrod; */
+    color: var(--accent-color);
 }
 
 footer {

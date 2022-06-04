@@ -53,7 +53,7 @@ layout: default
                   If it sounds like our interests align, <a href="mailto:kian@caltech.edu">say hi</a>! I’m always interested in talking science over a cup of coffee. You can also find me on <a href="https://www.twitter.com/kianfaizi/" target="_blank" rel="noreferrer noopener">Twitter</a> and <a href="https://www.github.com/kfaizi/" target="_blank" rel="noreferrer noopener">GitHub</a>.
                 </p>
               </td>
-              <td style="max-width:37%;vertical-align:text-top;">
+              <td style="max-width:30%;vertical-align:text-top;padding-left:1%">
                 <a href="/assets/images/rainier-headshot.jpg" id="headshot"><img alt="headshot" title="it's me!" src="/assets/images/cropped-rainier-headshot.png"></a>
               </td>
             </tr>
