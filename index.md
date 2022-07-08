@@ -13,18 +13,20 @@ layout: default
 
 <!-- new stuff -->
 <!-- Master table -->
-<table>
+<table class="index">
   <tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
 
         <!-- Introduction -->
-        <table id="intro-table">
+        <table class="index" id="intro-table">
           <tbody>
             <tr style="padding:0px">
               <td style="width:63%;vertical-align:middle;">
                 <p style="text-align:center">
-                  <h1 style="text-align: center;">Kian Faizi</h1>
+                  <h1 style="text-align: center;">
+                    <span class="tooltip">Kian Faizi<span class="tooltip-text">/kiɑn fɑɪzi/</span></span>
+                  </h1>
                 </p>
               </td>
               <td>
@@ -33,10 +35,19 @@ layout: default
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:top">
                 <p>
-                  Hi, I’m Kian. I’m a PhD student at <a href="https://www.caltech.edu" target="_blank" rel="noreferrer noopener">Caltech</a> in the systems biology program. I did my undergrad at <a href="https://www.ucsd.edu" target="_blank" rel="noreferrer noopener">UCSD</a> studying molecular biology and math.
+                  Hi, I'm Kian.
+                  
+                  I'm interested in how life works, and how we can engineer it to make the world a better place.
+                </p>
+
+                <p>
+                </p>
+                  
+                <p>
+                  I'm a PhD student at <a href="https://www.caltech.edu" target="_blank" rel="noreferrer noopener">Caltech</a> in the systems biology program. I did my undergrad at <a href="https://www.ucsd.edu" target="_blank" rel="noreferrer noopener">UCSD</a> studying molecular biology and math.
                 </p>
                 <p>
-                  <highlight>I want to understand how cells make decisions, and reprogram them to do useful things for people and the planet.</highlight>
+                  &#x1F4CC; I'm currently on sabbatical in <a href="https://silver.med.harvard.edu/" target="_blank" rel="noreferrer noopener">Dr. Pam Silver's</a> lab at <a href="https://www.hms.harvard.edu" target="_blank" rel="noreferrer noopener">Harvard Medical School</a> as an inaugural <a href="https://www.newscience.org" target="_blank" rel="noreferrer noopener">New Science</a> summer fellow. 
                 </p>
                 <p>
                   I believe that managing human impacts on the environment — and preventing catastrophic climate change — will be the most important problem of our lifetimes.
@@ -50,7 +61,7 @@ layout: default
                   </ul>
                 </p>
                 <p>
-                  If it sounds like our interests align, <a href="mailto:kian@caltech.edu">say hi</a>! I’m always interested in talking science over a cup of coffee. You can also find me on <a href="https://www.twitter.com/kianfaizi/" target="_blank" rel="noreferrer noopener">Twitter</a> and <a href="https://www.github.com/kfaizi/" target="_blank" rel="noreferrer noopener">GitHub</a>.
+                  <highlight>If it sounds like our interests align, <a href="mailto:kian@caltech.edu">say hi</a>!</highlight> I'm always interested in talking science over a cup of coffee. You can also find me on <a href="https://www.twitter.com/kianfaizi/" target="_blank" rel="noreferrer noopener">Twitter</a> and <a href="https://www.github.com/kfaizi/" target="_blank" rel="noreferrer noopener">GitHub</a>.
                 </p>
               </td>
               <td style="max-width:30%;vertical-align:text-top;padding-left:1%">
@@ -60,38 +71,58 @@ layout: default
           </tbody>
         </table>
 
-        <!-- Blog -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <!-- newsfeed -->
+        <h2>Newsfeed</h2>
+        <p>This is a test of me writing some stuff. Blaaaa</p>
+        <table>
+          <thead>
+            <tr>
+              <th>date</th>
+              <th>description</th>
+            </tr>
+          </thead>
           <tbody>
             <tr>
-              <td style="padding:20px;width:100%;vertical-align:top">
-                <h2>Blog</h2>
+              <td>(2022-06-01)</td>
+              <td>I started a new position at X inc.!</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Blog -->
+        <h2>Blog</h2>
+        <table class="index">
+          <tbody>
+            <tr>
+              <td>
                 <p>
-                  <a href="/blog.html">Sometimes I write</a> about science, programming, and anything else I’m currently curious about. Check out my most recent posts below:
+                  <a href="/blog.html">Sometimes I write</a> about science, programming, and anything else I'm currently curious about.
                 </p>
-                <ul>
+
+                <!-- <ul>
                   {% for post in site.posts limit:5 %}
                     <li>
-                      <a href="{{ post.url }}">{{ post.title }}</a> <span id="post-date">({{ post.date | date: "%-m/%-d/%y" }})</span>
+                      <a href="{{ post.url }}">{{ post.title }}</a> <span id="post-date">({{ post.date | date: "%-Y-%m-%d" }})</span>
                     </li>
                   {% endfor %}
-                </ul>
+                </ul> -->
+
               </td>
             </tr>
           </tbody>
         </table>
 
         <!-- Research interests -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <h2>Research</h2>
+        <table class="index">
           <tbody>
             <tr>
-              <td style="padding:5px 20px;width:100%;vertical-align:top">
-                <h2>Research</h2>
+              <td>
                 <p>
-                  I’m interested in how life works, and how it can be engineered to solve human and environmental problems. I enjoy thinking about how mathematical models and physical laws can describe (and predict!) cellular behavior. I’m fascinated by developmental plasticity and self-organization in biological systems.
+                  I enjoy thinking about how mathematical models and physical laws can describe (and predict!) cellular behavior. I'm fascinated by developmental plasticity and self-organization in biological systems.
                 </p>
                 <p>
-                  Previously, I was a tech in <a href="https://www.busch.salk.edu/" target="_blank" rel="noreferrer noopener">Dr. Wolfgang Busch’s</a> plant genetics group at the <a href="https://www.salk.edu/" target="_blank" rel="noreferrer noopener">Salk Institute</a>, where I studied root-environment interactions in <i>Arabidopsis thaliana</i> using quantitative and computational methods. Before that, I worked in <a href="http://www.patrickhsulab.org/" target="_blank" rel="noreferrer noopener">Dr. Patrick Hsu’s</a> lab, where I helped develop CRISPR-Cas13d for programmable RNA editing.
+                  Previously, I was a tech in <a href="https://www.busch.salk.edu/" target="_blank" rel="noreferrer noopener">Dr. Wolfgang Busch's</a> plant genetics group at the <a href="https://www.salk.edu/" target="_blank" rel="noreferrer noopener">Salk Institute</a>, where I studied root-environment interactions in <i>Arabidopsis thaliana</i> using quantitative and computational methods. Before that, I worked in <a href="http://www.patrickhsulab.org/" target="_blank" rel="noreferrer noopener">Dr. Patrick Hsu's</a> lab, where I helped develop CRISPR-Cas13d for programmable RNA editing.
                 </p>
               </td>
             </tr>
@@ -99,8 +130,32 @@ layout: default
         </table>
 
         <!-- Publications and projects -->
-        <table>
+        <table class="index">
           <tbody>
+
+            <!-- pub -->
+            <tr>
+              <td class="project-media">
+                <img class="project-img" src="/assets/images/screen.jpg" alt="alt" title="title">
+              </td>
+              <td class="project-info">
+                <span class="project-title">Towards a free-living chloroplast</span>
+                <br>
+                <highlight>Kian Faizi</highlight>
+                <br>
+                <input type="checkbox" id="trigger3">
+                [<label for="trigger3"><a id="fakelink">abstract</a></label>]
+                <span id="box">
+                  Abstract here.
+                </span> /
+                [<a href="/" target="_blank" rel="noreferrer noopener">proposal</a>]
+                <p></p>
+                <p>
+                  Blurb.
+                </p>
+              </td>
+            </tr>
+
 
             <!-- pub -->
             <tr>
@@ -201,7 +256,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/coexpression.png" alt="coexpression" title="making cytoscape play nice with an ipynb is weirdly hard">
+                <img class="project-img" src="/assets/images/coexpression.png" alt="coexpression" title="making cytoscape work in jupyter is weirdly hard">
               </td>
               <td class="project-info">
                 <span class="project-title">Predicting Functional Homologs from Single-Cell Co-expression Networks</span>
@@ -217,7 +272,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/wiring.png" alt="wiring" title="you may think this is too simple. you’d be right">
+                <img class="project-img" src="/assets/images/wiring.png" alt="wiring" title="you may think this is oversimplified. you'd be right">
               </td>
               <td class="project-info">
                 <span class="project-title">A Boolean Network Model of the Bacterial <i>lac</i> Operon</span>
@@ -251,63 +306,45 @@ layout: default
           </tbody>
         </table>
 
-
-        <!-- teaching header -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tbody>
-            <tr>
-              <td style="padding:5px 20px;width:100%;vertical-align:top">
-                <h2>Teaching</h2>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
         <!-- classes -->
-        <table>
+        <h2>Teaching</h2>
+        <table class="index">
           <tbody>
             <tr>
               <td class="project-media">
                 <img class="project-img" src="/assets/images/sisyphus-titian.jpg" title="one must imagine teaching assistants happy" alt="love">
               </td>
               <td class="project-info">
-                <span class="project-title"><a href="https://www.ucsd.edu/catalog/courses/BIOL.html#bicd102" target="_blank" rel="noreferrer noopener">BICD 102: Genetic Inquiry</a></span>, UCSD, Fall 2020
-                <br>
-                See evaluations from: <a href="/assets/Faizi_Kian_Student_IA_Evaluation_BICD_102_FA20.pdf" target="_blank" rel="noreferrer noopener">my students</a> / <a href="/assets/Faizi_Kian_Instructor_IA_Evaluation_BICD_102_FA20.pdf" target="_blank" rel="noreferrer noopener">the professor</a>
-              </td>
-            </tr>
-
-          </tbody>
-        </table>
-
-        <!-- etc -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tbody>
-            <tr>
-              <td style="padding:5px 20px;width:100%;vertical-align:top">
-                <h2>etc</h2>
                 <p>
-                  Some stuff I like to do <a href="/fun.html">for fun</a>.
+                  Helping people learn is one of my favorite things in the world. Below is a list of classes I've helped teach, as well as any formal feedback I've received. (As a rule, I think instructors should work as transparently as possible.)
                 </p>
+                <p>
+                  <i>Note: Caltech doesn't provide a nice way to collate instructor reviews, so I've just copied over any comments I received in plaintext.</i>
+                </p>
+
+                <p></p>
+
+                <span class="project-title">Bi 1: Principles of Biology</span>, Caltech, spring 2022
+                <br>
+                [<a href="/bi1-22-feedback.html" rel="noreferrer noopener">student evaluations</a>]
+                
+                <p></p>
+
+                <span class="project-title"><a href="https://www.ucsd.edu/catalog/courses/BIOL.html#bicd102" target="_blank" rel="noreferrer noopener">BICD 102: Genetic Inquiry</a></span>, UCSD, fall 2020
+                <br>
+                [<a href="/assets/Faizi_Kian_Student_IA_Evaluation_BICD_102_FA20.pdf" target="_blank" rel="noreferrer noopener">student evaluations</a>] / [<a href="/assets/Faizi_Kian_Instructor_IA_Evaluation_BICD_102_FA20.pdf" target="_blank" rel="noreferrer noopener">professor's evaluation</a>]
               </td>
             </tr>
+
           </tbody>
         </table>
+
 
         <!-- Acknowledgements -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tbody>
-            <tr>
-              <td style="padding:5px 20px;width:100%;vertical-align:top">
-                <h2>Acknowledgements</h2>
-                <p>
-                  My homepage layout is inspired by <a href="https://jonbarron.info" target="_blank" rel="noreferrer noopener">this guy</a>.
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
+        <h2>Acknowledgements</h2>
+        <p>
+          My homepage layout is inspired by <a href="https://jonbarron.info" target="_blank" rel="noreferrer noopener">this guy</a>.
+        </p>
 
 
       </td>

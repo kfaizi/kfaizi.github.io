@@ -6,11 +6,11 @@
         <title>{% if page.title %}{{ page.title | append: " - Kian Faizi"}}{% else %}{{ site.title }}{% endif %}</title>
         <meta name="author" content="Kian Faizi">
         <!-- custom css -->
-        <link rel="stylesheet" type="text/css" href="/assets/styles.css">
+        <link rel="stylesheet" type="text/css" href="/assets/raw_styles.css">
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Joan&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Rubik+Glitch&family=Rubik+Microbe&family=Rubik+Wet+Paint&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Joan&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
         <!-- open graph -->
         <meta name="title" property="og:title" content="{{ page.title }}">
         <meta property="og:type" content="website">
@@ -37,39 +37,8 @@
         <meta name="theme-color" content="#ffffff">
         <!-- privacy-conscious analytics -->
         <script data-goatcounter="https://kian.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-        <!-- page-specific css -->
-        <style>
-            html, body {
-                background-color: black;
-            }
-            h1, h2 {
-                font-family: 'Rubik Glitch';
-            }
-            .highlight pre, pre, .highlight .hll {
-                background-color: #222;
-                border: 1px solid #ccc;
-                padding: 6px 10px;
-                border-radius: 3px;
-            }
-            body, footer, a {
-                color: white;
-                font-family: 'Fira Code', monospace;
-            }
-            a:hover {
-                color: black;
-                background-color: white;
-            }
-            nav ul li a {
-                font-family: 'Rubik Glitch';
-                color: white;
-                background-color: black;
-            }            
-        </style>
     </head>
     <body>
-        <div class="content-container">
-            {{ content }}
-            {% include footer.html %}
-        </div>
+        {{ content }}
     </body>
 </html>
