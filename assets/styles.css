@@ -2,7 +2,6 @@
     --text-color: #333;
     --accent-color: #12a8ce;
     --background-color: #ffffff;
-    --dark-color: #cccccc;
 }
 
 html, body {
@@ -39,16 +38,9 @@ table, th, td {
 }
 
 td {
-    padding: 10px;
-}
-
-table.index, table.index > tbody > tr > td {
-    border: none;
-    padding: 0px;
-}
-
-td {
+    padding: 10px 0px;
     vertical-align: top;
+
 }
 
 td.project-media {
@@ -58,11 +50,24 @@ td.project-media {
 
 td.project-info {
     width: 75%;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+table.index, table.index > tbody > tr > td {
+    border: none;
+    /* padding: 0px; */
+    /* padding-bottom: 10px; */
+}
+
+
+table {
+    margin: auto;
 }
 
 /* alternate row background colors in tables */
 tr:nth-child(odd){
-    background-color: var(--dark-color);
+    background-color: lightgray;
 }
 
 /* ...unless the table is of class `index`, or it's a header */
@@ -128,7 +133,7 @@ table.index > tbody > tr:nth-child(odd), thead>tr:nth-child(odd){
 }
 
 .tldr th {
-    background-color: var(--dark-color);
+    background-color: lightgray;
     text-align: left;
     padding: 5px 10px;
     border-bottom: 1px solid black;

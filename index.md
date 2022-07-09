@@ -33,38 +33,18 @@ layout: default
               </td>
             </tr>
             <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:top">
+              <td style="width:63%;vertical-align:top">
                 <p>
-                  Hi, I'm Kian.
-                  
-                  I'm interested in how life works, and how we can engineer it to make the world a better place.
-                </p>
-
+                  Hi, I'm Kian! I'm interested in how life works — and how we can engineer it to make the world a better place.
+                </p>                  
                 <p>
-                </p>
-                  
-                <p>
-                  I'm a PhD student at <a href="https://www.caltech.edu" target="_blank" rel="noreferrer noopener">Caltech</a> in the systems biology program. I did my undergrad at <a href="https://www.ucsd.edu" target="_blank" rel="noreferrer noopener">UCSD</a> studying molecular biology and math.
+                  I'm a PhD student at Caltech in the systems biology program, currently on sabbatical at Harvard as an inaugural <a href="https://www.newscience.org" target="_blank" rel="noreferrer noopener">New Science</a> summer fellow.
                 </p>
                 <p>
-                  &#x1F4CC; I'm currently on sabbatical in <a href="https://silver.med.harvard.edu/" target="_blank" rel="noreferrer noopener">Dr. Pam Silver's</a> lab at <a href="https://www.hms.harvard.edu" target="_blank" rel="noreferrer noopener">Harvard Medical School</a> as an inaugural <a href="https://www.newscience.org" target="_blank" rel="noreferrer noopener">New Science</a> summer fellow. 
-                </p>
-                <p>
-                  I believe that managing human impacts on the environment — and preventing catastrophic climate change — will be the most important problem of our lifetimes.
-                </p>
-                <p>
-                  In addition, I like thinking about:
-                  <ul>
-                    <li>startups and biotech</li>
-                    <li>mental models, metacognition, and numeracy</li>
-                    <li>knowledge sharing and collaboration</li>
-                  </ul>
-                </p>
-                <p>
-                  <highlight>If it sounds like our interests align, <a href="mailto:kian@caltech.edu">say hi</a>!</highlight> I'm always interested in talking science over a cup of coffee. You can also find me on <a href="https://www.twitter.com/kianfaizi/" target="_blank" rel="noreferrer noopener">Twitter</a> and <a href="https://www.github.com/kfaizi/" target="_blank" rel="noreferrer noopener">GitHub</a>.
+                  <highlight>If it sounds like our interests align, <a href="mailto:kian@caltech.edu">say hi</a>!</highlight> I'm always excited to talk science with new people. You can also find me on <a href="https://www.twitter.com/kianfaizi/" target="_blank" rel="noreferrer noopener">Twitter</a> and <a href="https://www.github.com/kfaizi/" target="_blank" rel="noreferrer noopener">GitHub</a>.
                 </p>
               </td>
-              <td style="max-width:30%;vertical-align:text-top;padding-left:1%">
+              <td style="max-width:30%;vertical-align:text-top;padding-left:3%">
                 <a href="/assets/images/rainier-headshot.jpg" id="headshot"><img alt="headshot" title="it's me!" src="/assets/images/cropped-rainier-headshot.png"></a>
               </td>
             </tr>
@@ -72,8 +52,8 @@ layout: default
         </table>
 
         <!-- newsfeed -->
-        <h2>Newsfeed</h2>
-        <p>This is a test of me writing some stuff. Blaaaa</p>
+        <!-- <h2>Newsfeed</h2>
+        <p>Placeholder text</p>
         <table>
           <thead>
             <tr>
@@ -83,11 +63,14 @@ layout: default
           </thead>
           <tbody>
             <tr>
-              <td>(2022-06-01)</td>
-              <td>I started a new position at X inc.!</td>
+              <td>(2022-07-07)</td>
+              <td>placeholder text!</td>
             </tr>
           </tbody>
-        </table>
+        </table> 
+        <br>-->
+
+
 
         <!-- Blog -->
         <h2>Blog</h2>
@@ -96,16 +79,16 @@ layout: default
             <tr>
               <td>
                 <p>
-                  <a href="/blog.html">Sometimes I write</a> about science, programming, and anything else I'm currently curious about.
+                  <a href="/blog.html">Sometimes I write</a> about science, programming, and anything else I'm currently curious about. Check out my most recent posts below:
                 </p>
 
-                <!-- <ul>
+                <ul>
                   {% for post in site.posts limit:5 %}
                     <li>
                       <a href="{{ post.url }}">{{ post.title }}</a> <span id="post-date">({{ post.date | date: "%-Y-%m-%d" }})</span>
                     </li>
                   {% endfor %}
-                </ul> -->
+                </ul>
 
               </td>
             </tr>
@@ -122,19 +105,22 @@ layout: default
                   I enjoy thinking about how mathematical models and physical laws can describe (and predict!) cellular behavior. I'm fascinated by developmental plasticity and self-organization in biological systems.
                 </p>
                 <p>
-                  Previously, I was a tech in <a href="https://www.busch.salk.edu/" target="_blank" rel="noreferrer noopener">Dr. Wolfgang Busch's</a> plant genetics group at the <a href="https://www.salk.edu/" target="_blank" rel="noreferrer noopener">Salk Institute</a>, where I studied root-environment interactions in <i>Arabidopsis thaliana</i> using quantitative and computational methods. Before that, I worked in <a href="http://www.patrickhsulab.org/" target="_blank" rel="noreferrer noopener">Dr. Patrick Hsu's</a> lab, where I helped develop CRISPR-Cas13d for programmable RNA editing.
+                  I did my undergrad at UCSD studying molecular biology and math. While there, I was a tech in <a href="https://www.busch.salk.edu/" target="_blank" rel="noreferrer noopener">Dr. Wolfgang Busch's</a> plant genetics group at the Salk Institute, where I studied root-environment interactions in <i>Arabidopsis thaliana</i> using quantitative and computational methods. Before that, I worked in <a href="http://www.patrickhsulab.org/" target="_blank" rel="noreferrer noopener">Dr. Patrick Hsu's</a> lab, where I helped develop CRISPR-Cas13d for programmable RNA editing. See <a href="/assets/kian-faizi-cv.pdf">my CV</a> for more details, or read about some of my projects below:
                 </p>
               </td>
             </tr>
           </tbody>
         </table>
 
+        <p>
+        </p>
+
         <!-- Publications and projects -->
         <table class="index">
           <tbody>
 
             <!-- pub -->
-            <tr>
+            <!-- <tr>
               <td class="project-media">
                 <img class="project-img" src="/assets/images/screen.jpg" alt="alt" title="title">
               </td>
@@ -148,13 +134,14 @@ layout: default
                 <span id="box">
                   Abstract here.
                 </span> /
-                [<a href="/" target="_blank" rel="noreferrer noopener">proposal</a>]
+                [<a href="/" target="_blank" rel="noreferrer noopener">proposal</a>] /
+                [<a href="https://newscience.org/2022-summer-fellows/" target="_blank" rel="noreferrer noopener">press release</a>]
                 <p></p>
                 <p>
                   Blurb.
                 </p>
               </td>
-            </tr>
+            </tr> -->
 
 
             <!-- pub -->
@@ -316,7 +303,7 @@ layout: default
               </td>
               <td class="project-info">
                 <p>
-                  Helping people learn is one of my favorite things in the world. Below is a list of classes I've helped teach, as well as any formal feedback I've received. (As a rule, I think instructors should work as transparently as possible.)
+                  Helping people learn is one of my favorite things in the world. Below is a list of classes I've helped teach, as well as any formal feedback I've received (as a rule, I think instructors should work as transparently as possible):
                 </p>
                 <p>
                   <i>Note: Caltech doesn't provide a nice way to collate instructor reviews, so I've just copied over any comments I received in plaintext.</i>
