@@ -38,7 +38,7 @@ layout: default
                   Hi, I'm Kian! I'm interested in how life works — and how we can engineer it to make the world a better place.
                 </p>                  
                 <p>
-                  I'm a PhD student at Caltech in the systems biology program, currently on sabbatical at Harvard as an inaugural <a href="https://www.newscience.org" target="_blank" rel="noreferrer noopener">New Science</a> summer fellow.
+                  I'm a PhD student at Caltech in the systems biology program. This summer, I was on sabbatical at Harvard as an inaugural <a href="https://www.newscience.org" target="_blank" rel="noreferrer noopener">New Science</a> summer fellow.
                 </p>
                 <p>
                   <highlight>If it sounds like our interests align, <a href="mailto:kian@caltech.edu">say hi</a>!</highlight> I'm always excited to talk science with new people. You can also find me on <a href="https://www.twitter.com/kianfaizi/" target="_blank" rel="noreferrer noopener">Twitter</a> and <a href="https://www.github.com/kfaizi/" target="_blank" rel="noreferrer noopener">GitHub</a>.
@@ -82,13 +82,25 @@ layout: default
                   <a href="/blog.html">Sometimes I write</a> about science, programming, and anything else I'm currently curious about. Check out my most recent posts below:
                 </p>
 
-                <ul>
+                <ul class="posts">
+                  {% for post in site.posts limit:5 %}
+                      <li>
+                      {% if post.external_url %}
+                          <a href="{{ post.external_url }}">{{ post.title }} ↗</a> (published at {{post.external_host}}) <span id="post-date">({{ post.date | date: "%-m/%-d/%y" }})</span>
+                      {% else %}
+                          <a href="{{ post.url }}">{{ post.title }}</a> <span id="post-date">({{ post.date | date: "%-m/%-d/%y" }})</span>
+                      {% endif %}    
+                      </li>
+                  {% endfor %}
+                </ul>
+
+                <!-- <ul>
                   {% for post in site.posts limit:5 %}
                     <li>
                       <a href="{{ post.url }}">{{ post.title }}</a> <span id="post-date">({{ post.date | date: "%-Y-%m-%d" }})</span>
                     </li>
                   {% endfor %}
-                </ul>
+                </ul> -->
 
               </td>
             </tr>
@@ -303,7 +315,7 @@ layout: default
               </td>
               <td class="project-info">
                 <p>
-                  Helping people learn is one of my favorite things in the world. Below is a list of classes I've helped teach, as well as any formal feedback I've received (as a rule, I think instructors should work as transparently as possible):
+                  Helping people learn is one of my favorite things in the world. In the future, I'd like to compile a list of tools and resources that have helped me get better at doing it. For now, here's a list of classes I've helped teach, as well as any formal feedback I've received:
                 </p>
                 <p>
                   <i>Note: Caltech doesn't provide a nice way to collate instructor reviews, so I've just copied over any comments I received in plaintext.</i>
