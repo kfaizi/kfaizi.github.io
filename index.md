@@ -38,7 +38,7 @@ layout: default
                   Hi, I'm Kian! I'm interested in how life works — and how we can engineer it to make the world a better place.
                 </p>                  
                 <p>
-                  I'm a PhD student at Caltech in the systems biology program. This summer, I was on sabbatical at Harvard as an inaugural <a href="https://www.newscience.org" target="_blank" rel="noreferrer noopener">New Science</a> summer fellow.
+                  I'm a PhD student at Caltech in the systems biology program. I was briefly on sabbatical at Harvard as an inaugural <a href="https://www.newscience.org" target="_blank" rel="noreferrer noopener">New Science</a> summer fellow.
                 </p>
                 <p>
                   <highlight>If it sounds like our interests align, <a href="mailto:kian@caltech.edu">say hi</a>!</highlight> I'm always excited to talk science with new people. You can also find me on <a href="https://www.twitter.com/kianfaizi/" target="_blank" rel="noreferrer noopener">Twitter</a> and <a href="https://www.github.com/kfaizi/" target="_blank" rel="noreferrer noopener">GitHub</a>.
@@ -157,7 +157,7 @@ layout: default
 
 
             <!-- pub -->
-            <tr>
+            <!-- <tr>
               <td class="project-media">
                 <img class="project-img" src="/assets/images/catastrophe.jpg" alt="catastrophe" title="things fall apart">
               </td>
@@ -173,7 +173,7 @@ layout: default
                   I built a website showcasing my team's analysis of the dynamics of microtubule growth, based on <a href="https://gchure.github.io" target="_blank" rel="noreferrer noopener">Griffin Chure's</a> template for reproducible research. Class project for <a href="https://bebi103a.github.io" target="_blank" rel="noreferrer noopener">BE/Bi 103a</a>.
                 </p>
               </td>
-            </tr>
+            </tr> -->
 
 
             <!-- pub -->
@@ -317,15 +317,18 @@ layout: default
                 <p>
                   Helping people learn is one of my favorite things in the world. In the future, I'd like to compile a list of tools and resources that have helped me get better at doing it. For now, here's a list of classes I've helped teach, as well as any formal feedback I've received:
                 </p>
-                <p>
-                  <i>Note: Caltech doesn't provide a nice way to collate instructor reviews, so I've just copied over any comments I received in plaintext.</i>
-                </p>
 
+                <p></p>
+
+                <span class="project-title">Bi 1: The Great Ideas of Biology</span>, Caltech, spring 2023
+                <br>
+                [<a href="/assets/images/bi1-2023.png">student evaluations</a>] / [<a href="https://bi1.caltech.edu/2023/" target="_blank" rel="noreferrer noopener">course website I made</a>]
+                
                 <p></p>
 
                 <span class="project-title">Bi 1: Principles of Biology</span>, Caltech, spring 2022
                 <br>
-                [<a href="/bi1-22-feedback.html" rel="noreferrer noopener">student evaluations</a>]
+                [<a href="/assets/images/bi1-2022.png">student evaluations</a>]
                 
                 <p></p>
 
