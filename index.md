@@ -35,13 +35,16 @@ layout: default
             <tr style="padding:0px">
               <td style="width:63%;vertical-align:top">
                 <p>
-                  hi, i'm kian! i'm interested in how life works — and how we can engineer it to make the world a better place.
+                  hi, i'm kian! i want to know how life works — and how we can engineer it to make the world a better place.
                 </p>                  
                 <p>
-                  i'm a phd student at caltech in the systems biology program. i was briefly on sabbatical at harvard as an inaugural <a href="https://www.newscience.org" target="_blank" rel="noreferrer noopener">new science</a> summer fellow.
+                  i'm a phd student at caltech in the systems biology program, where i'm advised by <a href="http://www.rpgroup.caltech.edu/" target="_blank" rel="noreferrer noopener">dr. rob phillips</a>. my research explores how bacteria adapt to changing environments, especially when those changes are the result of human activity.
                 </p>
                 <p>
-                  <highlight>if it sounds like our interests align, <a href="mailto:kian@caltech.edu">say hi</a>!</highlight> i'm always excited to talk science with new people. you can also find me on <a href="https://www.twitter.com/kianfaizi/" target="_blank" rel="noreferrer noopener">twitter</a> and <a href="https://www.github.com/kfaizi/" target="_blank" rel="noreferrer noopener">github</a>.
+                  i spent the summer after my first year of grad school on sabbatical at harvard as an inaugural <a href="https://www.newscience.org" target="_blank" rel="noreferrer noopener">new science</a> summer fellow.
+                </p>
+                <p>
+                  if it sounds like our interests align, <a href="mailto:kian@caltech.edu">say hi</a>! i always enjoy talking science with new people. you can also find me on <a href="https://www.twitter.com/kianfaizi/" target="_blank" rel="noreferrer noopener">twitter</a> and <a href="https://www.github.com/kfaizi/" target="_blank" rel="noreferrer noopener">github</a>.
                 </p>
               </td>
               <td style="max-width:30%;vertical-align:text-top;padding-left:3%">
@@ -79,16 +82,16 @@ layout: default
             <tr>
               <td>
                 <p>
-                  <a href="/blog.html">somtimes i write</a> about science, programming, and anything else i'm currently curious about. check out my most recent posts below:
+                  sometimes i write. less often, and at agonizing intervals, a few of those pieces end up in my blog:
                 </p>
 
                 <ul class="posts">
                   {% for post in site.posts limit:5 %}
                       <li>
                       {% if post.external_url %}
-                          <a href="{{ post.external_url }}">{{ post.title }} ↗</a> (published at {{post.external_host}}) <span id="post-date">({{ post.date | date: "%-m/%-d/%y" }})</span>
+                          <a href="{{ post.external_url }}">↗ {{ post.title }}</a> (published at {{post.external_host}}) <span id="post-date">({{ post.date | date: "%Y-%m-%d" }})</span>
                       {% else %}
-                          <a href="{{ post.url }}">{{ post.title }}</a> <span id="post-date">({{ post.date | date: "%-m/%-d/%y" }})</span>
+                          <a href="{{ post.url }}">{{ post.title }}</a> <span id="post-date">({{ post.date | date: "%Y-%m-%d" }})</span>
                       {% endif %}    
                       </li>
                   {% endfor %}
@@ -225,7 +228,7 @@ layout: default
                 [<a href="https://twitter.com/kianfaizi/status/1441069414837731343?s=20" target="_blank" rel="noreferrer noopener">thread</a>]
                 <p></p>
                 <p>
-                  i assisted in the development of a software package for plant phenotyping, with a focus on accurate skeleton graph extraction from noisy 3D point clouds.
+                  i assisted in the development of a computer vision package for plant phenotyping, with a focus on analyzing noisy 3D point clouds.
                 </p>
               </td>
             </tr>
@@ -236,7 +239,7 @@ layout: default
                 <img class="project-img" src="/assets/images/rootmarker.png" alt="ariadne" title="n paths diverged on an agar plate...">
               </td>
               <td class="project-info">
-                <span class="project-title">Network Design Principles in the <i>Arabidopsis</i> Root System</span>
+                <span class="project-title">Network design principles in the <i>Arabidopsis</i> root system</span>
                 <br>
                 <b>kian faizi</b>, <a href="https://scholar.google.com/citations?user=heUMphcAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">matthieu platre</a>, <a href="https://www.arjun-chandrasekhar-teaching.com" target="_blank" rel="noreferrer noopener">arjun chandrasekhar</a>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">saket navlakha</a>, <a href="https://www.salk.edu/scientist/wolfgang-busch/" target="_blank" rel="noreferrer noopener">wolfgang busch</a>
                 <br>
@@ -248,7 +251,7 @@ layout: default
                 [<a href="https://github.com/kfaizi/ariadne" title="ariadne on GitHub" target="_blank" rel="noreferrer noopener">code</a>]
                 <p></p>
                 <p>
-                  i developed `ariadne`, a time-series image segmentation tool for root phenotyping, and used it to measure pareto-optimal trade-offs in root growth.
+                  i developed ariadne, a time-series image segmentation tool for root phenotyping, and used it to measure pareto-optimal trade-offs in root growth.
                 </p>
               </td>
             </tr>
@@ -259,7 +262,7 @@ layout: default
                 <img class="project-img" src="/assets/images/coexpression.png" alt="coexpression" title="making cytoscape work in jupyter is weirdly hard">
               </td>
               <td class="project-info">
-                <span class="project-title">Predicting Functional Homologs from Single-Cell Co-expression Networks</span>
+                <span class="project-title">Predicting functional homologs from single-cell co-expression networks</span>
                 <br>
                 [<a href="https://github.com/kfaizi/coexpression-analysis" title="coexpression-analysis on GitHub" target="_blank" rel="noreferrer noopener">code</a>]
                 <p></p>
@@ -275,7 +278,7 @@ layout: default
                 <img class="project-img" src="/assets/images/wiring.png" alt="wiring" title="you may think this is oversimplified. you'd be right">
               </td>
               <td class="project-info">
-                <span class="project-title">A Boolean Network Model of the Bacterial <i>lac</i> Operon</span>
+                <span class="project-title">A Boolean network model of the bacterial <i>lac</i> operon</span>
                 <br>
                 [<a href="https://github.com/kfaizi/boolean-lac" title="boolean-lac on GitHub" target="_blank" rel="noreferrer noopener">code</a>]
                 <p></p>
@@ -291,7 +294,7 @@ layout: default
                 <img class="project-img" src="/assets/images/crisprminer.png" alt="crisprminer" title="pretty phylogenetic classification of the variants I found">
               </td>
               <td class="project-info">
-                <span class="project-title">Metagenomic Discovery of Novel Type VI-D CRISPR Effectors</span>
+                <span class="project-title">Metagenomic discovery of novel Type VI-D CRISPR effectors</span>
                 <br>
                 <b>kian faizi</b>, <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">silvana konermann</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">patrick hsu</a>
                 <br>

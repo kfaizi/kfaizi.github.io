@@ -18,7 +18,7 @@ body {
     font-size: 1.2em;
     color: var(--text-color);
     line-height: 1.5em;
-    font-weight: 400;
+    font-weight: normal;
     padding: 20px;
 }
 
@@ -151,7 +151,8 @@ table.index > tbody > tr:nth-child(odd), thead>tr:nth-child(odd){
 }
 
 .project-title {
-    font-weight: 700;
+    font-family: "Barlow";
+    font-weight: 500;
 }
 
 /*link hover animation*/
@@ -227,7 +228,7 @@ highlight {
 }
 
 h1, h2, h3 {
-    font-family: sans-serif;
+    font-family: "Barlow", sans-serif;
     margin-bottom: 0.3em;
     padding: 0;
     line-height: 1.3em;
@@ -257,6 +258,7 @@ hr {
 
 b {
     color: #333;
+    font-weight: 500;
 }
 
 #post-metadata {
@@ -291,11 +293,11 @@ nav ul li {
 }
 
 nav ul li a {
-    font-family: 'Libre Baskerville', sans-serif;
+    font-family: "Barlow", sans-serif;
     display: block;
     text-align: center;
     padding: .4em .7em;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: underline;
 }
 
