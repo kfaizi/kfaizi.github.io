@@ -4,9 +4,9 @@ layout: default
 <header>
     <nav>
         <ul>
-            <li><a href="/" class="active">Home</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/assets/kian-faizi-cv.pdf">CV</a></li>
+            <li><a href="/" class="active">home</a></li>
+            <li><a href="/blog.html">blog</a></li>
+            <li><a href="/assets/kian-faizi-cv.pdf">cv</a></li>
         </ul>
     </nav>
 </header>
@@ -25,7 +25,7 @@ layout: default
               <td style="width:63%;vertical-align:middle;">
                 <p style="text-align:center">
                   <h1 style="text-align: center;">
-                    <span class="tooltip">Kian Faizi<span class="tooltip-text">/kiɑn fɑɪzi/</span></span>
+                    <span class="tooltip">kian faizi<span class="tooltip-text">/kiɑn fɑɪzi/</span></span>
                   </h1>
                 </p>
               </td>
@@ -35,13 +35,13 @@ layout: default
             <tr style="padding:0px">
               <td style="width:63%;vertical-align:top">
                 <p>
-                  Hi, I'm Kian! I'm interested in how life works — and how we can engineer it to make the world a better place.
+                  hi, i'm kian! i'm interested in how life works — and how we can engineer it to make the world a better place.
                 </p>                  
                 <p>
-                  I'm a PhD student at Caltech in the systems biology program. I was briefly on sabbatical at Harvard as an inaugural <a href="https://www.newscience.org" target="_blank" rel="noreferrer noopener">New Science</a> summer fellow.
+                  i'm a phd student at caltech in the systems biology program. i was briefly on sabbatical at harvard as an inaugural <a href="https://www.newscience.org" target="_blank" rel="noreferrer noopener">new science</a> summer fellow.
                 </p>
                 <p>
-                  <highlight>If it sounds like our interests align, <a href="mailto:kian@caltech.edu">say hi</a>!</highlight> I'm always excited to talk science with new people. You can also find me on <a href="https://www.twitter.com/kianfaizi/" target="_blank" rel="noreferrer noopener">Twitter</a> and <a href="https://www.github.com/kfaizi/" target="_blank" rel="noreferrer noopener">GitHub</a>.
+                  <highlight>if it sounds like our interests align, <a href="mailto:kian@caltech.edu">say hi</a>!</highlight> i'm always excited to talk science with new people. you can also find me on <a href="https://www.twitter.com/kianfaizi/" target="_blank" rel="noreferrer noopener">twitter</a> and <a href="https://www.github.com/kfaizi/" target="_blank" rel="noreferrer noopener">github</a>.
                 </p>
               </td>
               <td style="max-width:30%;vertical-align:text-top;padding-left:3%">
@@ -72,14 +72,14 @@ layout: default
 
 
 
-        <!-- Blog -->
-        <h2>Blog</h2>
+        <!-- blog -->
+        <h2>blog</h2>
         <table class="index">
           <tbody>
             <tr>
               <td>
                 <p>
-                  <a href="/blog.html">Sometimes I write</a> about science, programming, and anything else I'm currently curious about. Check out my most recent posts below:
+                  <a href="/blog.html">somtimes i write</a> about science, programming, and anything else i'm currently curious about. check out my most recent posts below:
                 </p>
 
                 <ul class="posts">
@@ -108,16 +108,19 @@ layout: default
         </table>
 
         <!-- Research interests -->
-        <h2>Research</h2>
+        <h2>research</h2>
         <table class="index">
           <tbody>
             <tr>
               <td>
                 <p>
-                  I enjoy thinking about how mathematical models and physical laws can describe (and predict!) cellular behavior. I'm fascinated by developmental plasticity and self-organization in biological systems.
+                  i enjoy thinking about how mathematical models and physical laws can describe (and predict!) cellular behavior. i'm fascinated by developmental plasticity and self-organization in biological systems.
                 </p>
                 <p>
-                  I did my undergrad at UCSD studying molecular biology and math. While there, I was a tech in <a href="https://www.busch.salk.edu/" target="_blank" rel="noreferrer noopener">Dr. Wolfgang Busch's</a> plant genetics group at the Salk Institute, where I studied root-environment interactions in <i>Arabidopsis thaliana</i> using quantitative and computational methods. Before that, I worked in <a href="http://www.patrickhsulab.org/" target="_blank" rel="noreferrer noopener">Dr. Patrick Hsu's</a> lab, where I helped develop CRISPR-Cas13d for programmable RNA editing. See <a href="/assets/kian-faizi-cv.pdf">my CV</a> for more details, or read about some of my projects below:
+                  i did my undergrad at uc san diego, where i studied molecular biology and math. while there, i was a tech in <a href="https://www.busch.salk.edu/" target="_blank" rel="noreferrer noopener">dr. wolfgang busch's</a> plant genetics group at the salk institute, where i used computer vision to study how roots explore new environments. before that, i worked in <a href="http://www.patrickhsulab.org/" target="_blank" rel="noreferrer noopener">dr. patrick hsu's</a> lab, where i helped develop CRISPR-Cas13d for programmable RNA editing.
+                </p>
+                <p>
+                  for more details, you can <a href="/assets/kian-faizi-cv.pdf">see my cv</a> or read about some of my recent projects:
                 </p>
               </td>
             </tr>
@@ -184,7 +187,7 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Deep learning and CRISPR-Cas13d ortholog discovery for optimized RNA targeting</span>
                 <br>
-                <a href="https://twitter.com/JingyiWei4" target="_blank" rel="noreferrer noopener">Jingyi Wei</a>, <a href="https://www.linkedin.com/in/peter-lotfy-ba045684/" target="_blank" rel="noreferrer noopener">Peter Lotfy</a>, <highlight>Kian Faizi</highlight>, <a href="https://twitter.com/EleanorWang" target="_blank" rel="noreferrer noopener">Eleanor Wang</a>, <a href="https://www.linkedin.com/in/slabodkin/" target="_blank" rel="noreferrer noopener">Hannah Slabodkin</a>, Emily Kinnaman, <a href="https://www.linkedin.com/in/sita-c-990a40171/" target="_blank" rel="noreferrer noopener">Sita Chandrasekaran</a>, Hugo Kitano, <a href="https://scholar.google.com/citations?user=hUi_OqkAAAAJ" target="_blank" rel="noreferrer noopener">Matthew G. Durrant</a>, <a href="https://scholar.google.com/citations?user=0vx-lmkAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">Connor V. Duffy</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">Patrick D. Hsu</a>, <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">Silvana Konermann</a>
+                <a href="https://twitter.com/JingyiWei4" target="_blank" rel="noreferrer noopener">jingyi wei</a>, <a href="https://www.linkedin.com/in/peter-lotfy-ba045684/" target="_blank" rel="noreferrer noopener">peter lotfy</a>, <b>kian faizi</b>, <a href="https://twitter.com/EleanorWang" target="_blank" rel="noreferrer noopener">eleanor wang</a>, <a href="https://www.linkedin.com/in/slabodkin/" target="_blank" rel="noreferrer noopener">hannah slabodkin</a>, emily kinnaman, <a href="https://www.linkedin.com/in/sita-c-990a40171/" target="_blank" rel="noreferrer noopener">sita chandrasekaran</a>, hugo kitano, <a href="https://scholar.google.com/citations?user=hUi_OqkAAAAJ" target="_blank" rel="noreferrer noopener">matthew g. durrant</a>, <a href="https://scholar.google.com/citations?user=0vx-lmkAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">connor v. duffy</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">patrick d. hsu</a>, <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">silvana konermann</a>
                 <br>
                 <i>bioRxiv.</i> (2021)
                 <br>
@@ -196,7 +199,7 @@ layout: default
                 [<a href="https://doi.org/10.1101/2021.09.14.460134" target="_blank" rel="noreferrer noopener">preprint</a>]
                 <p></p>
                 <p>
-                  I helped conduct a 127,000-guide CRISPR-Cas13d screen to identify guide RNA design rules and optimize transcriptome editing efficiency.
+                  i helped conduct a 127,000-guide CRISPR-Cas13d screen to identify guide RNA design rules and optimize transcriptome editing efficiency.
                 </p>
               </td>
             </tr>
@@ -209,7 +212,7 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Branch-Pipe: Improving graph skeletonization around branch points in 3D point clouds</span>
                 <br>
-                <a href="https://www.linkedin.com/in/illiaziamtsov/" target="_blank" rel="noreferrer noopener">Illia Ziamtsov</a>, <highlight>Kian Faizi</highlight>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">Saket Navlakha</a>
+                <a href="https://www.linkedin.com/in/illiaziamtsov/" target="_blank" rel="noreferrer noopener">illia ziamtsov</a>, <b>kian faizi</b>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">saket navlakha</a>
                 <br>
                 <i>Remote Sensing (open access).</i> (2021)
                 <br>
@@ -222,7 +225,7 @@ layout: default
                 [<a href="https://twitter.com/kianfaizi/status/1441069414837731343?s=20" target="_blank" rel="noreferrer noopener">thread</a>]
                 <p></p>
                 <p>
-                  I assisted in the development of a software package for plant phenotyping, with a focus on accurate skeleton graph extraction from noisy 3D point clouds.
+                  i assisted in the development of a software package for plant phenotyping, with a focus on accurate skeleton graph extraction from noisy 3D point clouds.
                 </p>
               </td>
             </tr>
@@ -235,9 +238,7 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Network Design Principles in the <i>Arabidopsis</i> Root System</span>
                 <br>
-                <highlight>Kian Faizi</highlight>, <a href="https://scholar.google.com/citations?user=heUMphcAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">Matthieu Platre</a>, <a href="https://www.arjun-chandrasekhar-teaching.com" target="_blank" rel="noreferrer noopener">Arjun Chandrasekhar</a>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">Saket Navlakha</a>, <a href="https://www.salk.edu/scientist/wolfgang-busch/" target="_blank" rel="noreferrer noopener">Wolfgang Busch</a>
-                <br>
-                <i>manuscript in preparation</i>
+                <b>kian faizi</b>, <a href="https://scholar.google.com/citations?user=heUMphcAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">matthieu platre</a>, <a href="https://www.arjun-chandrasekhar-teaching.com" target="_blank" rel="noreferrer noopener">arjun chandrasekhar</a>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">saket navlakha</a>, <a href="https://www.salk.edu/scientist/wolfgang-busch/" target="_blank" rel="noreferrer noopener">wolfgang busch</a>
                 <br>
                 <!-- <input type="checkbox" id="trigger3">
                 <label for="trigger3"><a id="fakelink">abstract</a></label>
@@ -247,7 +248,7 @@ layout: default
                 [<a href="https://github.com/kfaizi/ariadne" title="ariadne on GitHub" target="_blank" rel="noreferrer noopener">code</a>]
                 <p></p>
                 <p>
-                  I developed Ariadne, a time-series image segmentation tool for root phenotyping, and used it to measure Pareto-optimal trade-offs in root growth.
+                  i developed `ariadne`, a time-series image segmentation tool for root phenotyping, and used it to measure pareto-optimal trade-offs in root growth.
                 </p>
               </td>
             </tr>
@@ -263,7 +264,7 @@ layout: default
                 [<a href="https://github.com/kfaizi/coexpression-analysis" title="coexpression-analysis on GitHub" target="_blank" rel="noreferrer noopener">code</a>]
                 <p></p>
                 <p>
-                  I built a basic workflow for predicting functional homologs of genes driving plant root growth, via co-expression network analysis of single-cell RNA-seq data.
+                  i built a basic workflow for predicting functional homologs of genes driving plant root growth, via co-expression network analysis of single-cell RNA-seq data.
                 </p>
               </td>
             </tr>
@@ -279,7 +280,7 @@ layout: default
                 [<a href="https://github.com/kfaizi/boolean-lac" title="boolean-lac on GitHub" target="_blank" rel="noreferrer noopener">code</a>]
                 <p></p>
                 <p>
-                  I programmed a toy model of the <i>lac</i> operon as an asynchronous Boolean network, and simulated gene knockout and overexpression experiments. Class project for <a href="https://ccom.ucsd.edu/~acloninger/111A_F20/teachingMath111A.html" target="_blank" rel="noreferrer noopener">MATH 111A</a>.
+                  i programmed a toy model of the <i>lac</i> operon as an asynchronous boolean network, and simulated gene knockout and overexpression experiments. class project for <a href="https://ccom.ucsd.edu/~acloninger/111A_F20/teachingMath111A.html" target="_blank" rel="noreferrer noopener">math 111A</a>.
                 </p>
               </td>
             </tr>
@@ -292,13 +293,13 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Metagenomic Discovery of Novel Type VI-D CRISPR Effectors</span>
                 <br>
-                <highlight>Kian Faizi</highlight>, <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">Silvana Konermann</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">Patrick Hsu</a>
+                <b>kian faizi</b>, <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">silvana konermann</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">patrick hsu</a>
                 <br>
                 [<a href="/assets/kian-faizi-srs-2019.pdf" title="srs-2019" target="_blank" rel="noreferrer noopener">poster</a>] /
                 [<a href="https://github.com/kfaizi/CRISPR-search" title="CRISPR-search on GitHub" target="_blank" rel="noreferrer noopener">code</a>]
                 <p></p>
                 <p>
-                  I wrote a Python pipeline to mine new orthologs of CRISPR-Cas13d from publicly available metagenomic sequence data at terabyte scale.
+                  i wrote a python pipeline to mine new orthologs of CRISPR-Cas13d from publicly available metagenomic sequence data at terabyte scale.
                 </p>
               </td>
             </tr>
@@ -306,7 +307,7 @@ layout: default
         </table>
 
         <!-- classes -->
-        <h2>Teaching</h2>
+        <h2>teaching</h2>
         <table class="index">
           <tbody>
             <tr>
@@ -315,39 +316,31 @@ layout: default
               </td>
               <td class="project-info">
                 <p>
-                  Helping people learn is one of my favorite things in the world. In the future, I'd like to compile a list of tools and resources that have helped me get better at doing it. For now, here's a list of classes I've helped teach, as well as any formal feedback I've received:
+                  helping people learn is one of my favorite things in the world. in the future, i'd like to compile a list of tools and resources that have helped me get better at doing it. for now, here's a list of classes i've helped teach, as well as any formal feedback I've received:
                 </p>
 
                 <p></p>
 
-                <span class="project-title">Bi 1: The Great Ideas of Biology</span>, Caltech, spring 2023
+                <span class="project-title">bi 1: the great ideas of biology</span>, caltech, spring 2023
                 <br>
-                [<a href="/assets/images/bi1-2023.png">student evaluations</a>] / [<a href="https://bi1.caltech.edu/2023/" target="_blank" rel="noreferrer noopener">course website I made</a>]
+                head graduate teaching assistant. [<a href="/assets/images/bi1-2023.png">student evaluations</a>] / [<a href="https://bi1.caltech.edu/2023/" target="_blank" rel="noreferrer noopener">course website i made</a>]
                 
                 <p></p>
 
-                <span class="project-title">Bi 1: Principles of Biology</span>, Caltech, spring 2022
+                <span class="project-title">bi 1: principles of biology</span>, caltech, spring 2022
                 <br>
-                [<a href="/assets/images/bi1-2022.png">student evaluations</a>]
+                graduate teaching assistant. [<a href="/assets/images/bi1-2022.png">student evaluations</a>]
                 
                 <p></p>
 
-                <span class="project-title"><a href="https://www.ucsd.edu/catalog/courses/BIOL.html#bicd102" target="_blank" rel="noreferrer noopener">BICD 102: Genetic Inquiry</a></span>, UCSD, fall 2020
+                <span class="project-title"><a href="https://www.ucsd.edu/catalog/courses/BIOL.html#bicd102" target="_blank" rel="noreferrer noopener">bicd 102: genetic inquiry</a></span>, ucsd, fall 2020
                 <br>
-                [<a href="/assets/Faizi_Kian_Student_IA_Evaluation_BICD_102_FA20.pdf" target="_blank" rel="noreferrer noopener">student evaluations</a>] / [<a href="/assets/Faizi_Kian_Instructor_IA_Evaluation_BICD_102_FA20.pdf" target="_blank" rel="noreferrer noopener">professor's evaluation</a>]
+                undergraduate instructional assistant. [<a href="/assets/Faizi_Kian_Student_IA_Evaluation_BICD_102_FA20.pdf" target="_blank" rel="noreferrer noopener">student evaluations</a>] / [<a href="/assets/Faizi_Kian_Instructor_IA_Evaluation_BICD_102_FA20.pdf" target="_blank" rel="noreferrer noopener">professor's evaluation</a>]
               </td>
             </tr>
 
           </tbody>
         </table>
-
-
-        <!-- Acknowledgements -->
-        <h2>Acknowledgements</h2>
-        <p>
-          My homepage layout is inspired by <a href="https://jonbarron.info" target="_blank" rel="noreferrer noopener">this guy</a>.
-        </p>
-
 
       </td>
     </tr>

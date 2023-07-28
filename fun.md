@@ -13,9 +13,9 @@ title: Fun
 </header>
 
 # side projects
-(keeping me sane since 1999)
+(keeping me sane since 199*)
 
-obligatory hobbies + interests blurb: i like backpacking, writing poetry, teaching, tech/data ethics, open source, homesteading, permaculture, freestyle rap, and photic sneezing
+obligatory hobbies + interests blurb: i like backpacking, writing poetry, teaching, tech/data ethics, open source, homesteading, permaculture, hyperpop, and photic sneezing
 
 ## writing
 <hr>
