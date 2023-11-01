@@ -138,6 +138,32 @@ layout: default
           <tbody>
 
             <!-- pub -->
+            <tr>
+              <td class="project-media">
+                <img class="project-img" src="/assets/images/rootwalker.png" alt="root walker" title="so many roots, so little time">
+              </td>
+              <td class="project-info">
+                <span class="project-title">Root Walker: An automated pipeline for large scale quantification of early root growth responses at high spatial and temporal resolution</span>
+                <br>
+                <a href="https://scholar.google.com/citations?user=heUMphcAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">matthieu pierre platre</a>, preyanka mehta, zachary halvorson, ling zhang, lukas brent, <a href="https://scholar.google.com/citations?user=biK7_Q0AAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">matias gleason</a>, <b>kian faizi</b>, callum goulding, <a href="https://www.salk.edu/scientist/wolfgang-busch/" target="_blank" rel="noreferrer noopener">wolfgang busch</a>
+                <br>
+                <i>The Plant Journal</i> (2023)
+                <br>
+                <input type="checkbox" id="trigger3">
+                [<label for="trigger3"><a id="fakelink">abstract</a></label>]
+                <span id="box">
+                  Plants are sessile organisms that constantly adapt to their changing environment. The root is exposed to numerous environmental signals ranging from nutrients and water to microbial molecular patterns. These signals can trigger distinct responses including the rapid increase or decrease of root growth. Consequently, using root growth as a readout for signal perception can help decipher which external cues are perceived by roots, and how these signals are integrated. To date, studies measuring root growth responses using large numbers of roots have been limited by a lack of high-throughput image acquisition, poor scalability of analytical methods, or low spatiotemporal resolution. Here, we developed the Root Walker pipeline, which uses automated microscopes to acquire time-series images of many roots exposed to controlled treatments with high spatiotemporal-resolution, in conjunction with fast and automated image analysis software. We demonstrate the power of Root Walker by quantifying root growth rate responses at different time and throughput scales upon treatment with natural auxin and two mitogen-associated protein kinase cascade inhibitors. We find a concentration-dependent root growth response to auxin and reveal the specificity of one MAPK inhibitor. We further demonstrate the ability of Root Walker for conducting genetic screens by performing a genome wide association study on 260 accessions under 2 weeks, revealing known and unknown root growth regulators. Root Walker promises to be a useful toolkit for the plant science community, allowing large-scale screening of root growth dynamics for a variety of purposes, including genetic screens for root sensing and root growth response mechanisms.
+                </span> /
+                [<a href="https://doi.org/10.1101/2022.11.16.516796" target="_blank" rel="noreferrer noopener">preprint</a>] /
+                [<a href="https://doi.org/10.1111/tpj.16493" target="_blank" rel="noreferrer noopener">paper</a>]
+                <p></p>
+                <p>
+                  i helped deploy and test our lab's automated pipeline for imaging rapid changes in root growth dynamics, enabling a <i>really</i> fast GWAS.
+                </p>
+              </td>
+            </tr>
+
+            <!-- pub -->
             <!-- <tr>
               <td class="project-media">
                 <img class="project-img" src="/assets/images/screen.jpg" alt="alt" title="title">
@@ -185,14 +211,14 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/screen.jpg" alt="screen" title="there was a lot of TC work">
+                <img class="project-img" src="/assets/images/screen.jpg" alt="screen" title="little undergraduate me did a lot of TC work">
               </td>
               <td class="project-info">
                 <span class="project-title">Deep learning and CRISPR-Cas13d ortholog discovery for optimized RNA targeting</span>
                 <br>
-                <a href="https://twitter.com/JingyiWei4" target="_blank" rel="noreferrer noopener">jingyi wei</a>, <a href="https://www.linkedin.com/in/peter-lotfy-ba045684/" target="_blank" rel="noreferrer noopener">peter lotfy</a>, <b>kian faizi</b>, <a href="https://twitter.com/EleanorWang" target="_blank" rel="noreferrer noopener">eleanor wang</a>, <a href="https://www.linkedin.com/in/slabodkin/" target="_blank" rel="noreferrer noopener">hannah slabodkin</a>, emily kinnaman, <a href="https://www.linkedin.com/in/sita-c-990a40171/" target="_blank" rel="noreferrer noopener">sita chandrasekaran</a>, hugo kitano, <a href="https://scholar.google.com/citations?user=hUi_OqkAAAAJ" target="_blank" rel="noreferrer noopener">matthew g. durrant</a>, <a href="https://scholar.google.com/citations?user=0vx-lmkAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">connor v. duffy</a>, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">patrick d. hsu</a>, <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">silvana konermann</a>
+                <a href="https://twitter.com/JingyiWei4" target="_blank" rel="noreferrer noopener">jingyi wei</a>, <a href="https://www.linkedin.com/in/peter-lotfy-ba045684/" target="_blank" rel="noreferrer noopener">peter lotfy</a>, <b>kian faizi</b>, <a href="https://twitter.com/EleanorWang" target="_blank" rel="noreferrer noopener">eleanor wang</a>, hannah slabodkin, emily kinnaman, sita chandrasekaran, hugo kitano, matthew g. durrant, connor v. duffy, <a href="https://bioeng.berkeley.edu/faculty/patrick-hsu" target="_blank" rel="noreferrer noopener">patrick d. hsu</a>, <a href="https://biochemistry.stanford.edu/silvana-konermann" target="_blank" rel="noreferrer noopener">silvana konermann</a>
                 <br>
-                <i>bioRxiv.</i> (2021)
+                <i>bioRxiv</i> (2021)
                 <br>
                 <input type="checkbox" id="trigger2">
                 [<label for="trigger2"><a id="fakelink">abstract</a></label>]
@@ -217,7 +243,7 @@ layout: default
                 <br>
                 <a href="https://www.linkedin.com/in/illiaziamtsov/" target="_blank" rel="noreferrer noopener">illia ziamtsov</a>, <b>kian faizi</b>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">saket navlakha</a>
                 <br>
-                <i>Remote Sensing (open access).</i> (2021)
+                <i>Remote Sensing</i> (2021)
                 <br>
                 <input type="checkbox" id="trigger1">
                 [<label for="trigger1"><a id="fakelink">abstract</a></label>]
@@ -241,7 +267,7 @@ layout: default
               <td class="project-info">
                 <span class="project-title">Network design principles in the <i>Arabidopsis</i> root system</span>
                 <br>
-                <b>kian faizi</b>, <a href="https://scholar.google.com/citations?user=heUMphcAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">matthieu platre</a>, <a href="https://www.arjun-chandrasekhar-teaching.com" target="_blank" rel="noreferrer noopener">arjun chandrasekhar</a>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">saket navlakha</a>, <a href="https://www.salk.edu/scientist/wolfgang-busch/" target="_blank" rel="noreferrer noopener">wolfgang busch</a>
+                <b>kian faizi</b>, <a href="https://scholar.google.com/citations?user=heUMphcAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">matthieu pierre platre</a>, <a href="https://www.arjun-chandrasekhar-teaching.com" target="_blank" rel="noreferrer noopener">arjun chandrasekhar</a>, <a href="https://www.cshl.edu/research/faculty-staff/saket-navlakha/" target="_blank" rel="noreferrer noopener">saket navlakha</a>, <a href="https://www.salk.edu/scientist/wolfgang-busch/" target="_blank" rel="noreferrer noopener">wolfgang busch</a>
                 <br>
                 <!-- <input type="checkbox" id="trigger3">
                 <label for="trigger3"><a id="fakelink">abstract</a></label>
@@ -259,7 +285,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/coexpression.png" alt="coexpression" title="making cytoscape work in jupyter is weirdly hard">
+                <img class="project-img" src="/assets/images/coexpression.png" alt="coexpression" title="most of the effort was making cytoscape play nice with jupyter">
               </td>
               <td class="project-info">
                 <span class="project-title">Predicting functional homologs from single-cell co-expression networks</span>
@@ -275,7 +301,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/wiring.png" alt="wiring" title="you may think this is oversimplified. you'd be right">
+                <img class="project-img" src="/assets/images/wiring.png" alt="wiring" title="case closed, clearly">
               </td>
               <td class="project-info">
                 <span class="project-title">A Boolean network model of the bacterial <i>lac</i> operon</span>
@@ -291,7 +317,7 @@ layout: default
             <!-- pub -->
             <tr>
               <td class="project-media">
-                <img class="project-img" src="/assets/images/crisprminer.png" alt="crisprminer" title="pretty phylogenetic classification of the variants I found">
+                <img class="project-img" src="/assets/images/crisprminer.png" alt="crisprminer" title="phylogenetic trees are beautiful or useful, but rarely both">
               </td>
               <td class="project-info">
                 <span class="project-title">Metagenomic discovery of novel Type VI-D CRISPR effectors</span>
