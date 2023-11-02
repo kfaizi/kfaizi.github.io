@@ -3,17 +3,17 @@ layout: default
 ---
 
 <p>
-    hi, i'm kian!
+    hi, i'm kian.
 </p>
 <p>
     i want to know how life works — and how we can engineer it to make the world a better place.
 </p>
 <p>
-    i'm a grad student at caltech in the lab of <a href="http://www.rpgroup.caltech.edu/">dr. rob phillips</a>. my research explores how bacteria adapt to changing environments, especially when those changes are the result of human activity.
+    i'm a grad student at <span style="color: #FF6C0C">caltech</span> in the lab of <a href="http://www.rpgroup.caltech.edu/">dr. rob phillips</a>, where i try to predict how bacteria will adapt to changing environments.
 </p>
 <hr>
 <p style="text-align: center;">
-    <a href="mailto:kian@caltech.edu">say hi</a> / 
+    <a href="mailto:kian@caltech.edu">say hi!</a> / 
     <a href="/blog.html">writing</a> /
     <a href="/assets/kian-faizi-cv.pdf">cv</a> /
     <a href="https://twitter.com/kianfaizi">twitter</a> /

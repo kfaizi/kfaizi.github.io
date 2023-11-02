@@ -2,6 +2,8 @@
     --text-color: #333;
     --accent-color: #12a8ce;
     --background-color: #ffffff;
+    --link-color: #0000EE;
+    --visited-link-color: #551A8B;
 }
 
 html, body {
@@ -28,7 +30,8 @@ body {
     border-radius: 5px;
     border:rgb(219, 219, 219) 2px dotted;
     display: inline-block;
-    max-width: 70%;
+    /* max-width: 70%; */
+    width: 60%;
 }
 
 p {
@@ -41,15 +44,27 @@ nav {
     text-align: right;
 }
 
-a:hover {
-    text-decoration-style: wavy;
+a {
+    color: var(--link-color);
+    text-decoration-thickness: 1px;
 }
 
-h1, h2 {
-    margin: 0;
-    padding: 5px 0;
-    font-weight: 400;
+a:visited {
+    color: var(--visited-link-color);
+}
 
+a:hover {
+    text-decoration-style: dotted;
+}
+
+.navlink:visited {
+    color: var(--link-color);
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
 }
 
 h1 {
@@ -75,5 +90,4 @@ hr {
 }
 
 /* TODO inline code, block verse */
-/* fix header padding/margins */
 /* scavenge table formatting if needed */
