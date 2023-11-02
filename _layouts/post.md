@@ -1,15 +1,7 @@
 ---
 layout: default
 ---
-<header>
-    <nav>
-        <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="/blog.html" class="active">blog</a></li>
-            <li><a href="/assets/kian-faizi-cv.pdf">cv</a></li>
-        </ul>
-    </nav>
-</header>
+{% include header.html %}
 
 <h1>{{ page.title }}</h1>
 
