@@ -24,6 +24,7 @@ body {
     align-items: center;
     min-height: 100vh;
     display: flex;
+    padding: 25px 0;
 }
 
 .centered-box {
@@ -84,9 +85,12 @@ hr {
     border: 1px solid lightgray;
 }
 
-
 #post-metadata, #post-date, #cv-metadata {
     color: #999999;
+}
+
+li {
+    margin: 10px 0;
 }
 
 .verse {
