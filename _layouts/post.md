@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: wrap
 ---
-{% include header.html %}
 
 <h1>{{ page.title }}</h1>
 

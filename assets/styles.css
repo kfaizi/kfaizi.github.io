@@ -24,7 +24,8 @@ body {
     align-items: center;
     min-height: 100vh;
     display: flex;
-    padding: 25px 0;
+    margin: 40px 0;
+    /* padding: 40px 0; */
 }
 
 .centered-box {
@@ -43,6 +44,11 @@ p {
 nav {
     padding-bottom: 5px;
     text-align: right;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 a {
@@ -64,7 +70,7 @@ a:hover {
 
 h1, h2, h3 {
     margin: 0;
-    padding: 5px 0 10px 0;
+    padding: 5px 0 15px 0;
     font-weight: 400;
 }
 
@@ -79,6 +85,11 @@ h2 {
 h3 {
     font-size: 1.1em;
 }
+
+/* .section {
+    text-decoration: underline;
+    font-weight: bold;
+} */
 
 hr {
     margin: 20px 0;
@@ -104,6 +115,14 @@ li {
     margin: 0;
     padding: 5px 0;
 }
+
+/* superscripts that don't interfere with line height spacing */
+sup {
+    line-height: 0;
+    font-size: 0.83em;
+    vertical-align: super;
+}
+
 
 /* TODO inline code, block verse */
 /* scavenge table formatting if needed */

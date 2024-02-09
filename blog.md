@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: wrap
 title: blog
 ---
-{% include header.html %}
 
 <h1>posts</h1>
 
-<ul class="posts">
+<ul>
     {% for post in site.posts %}
         <li>
         {% if post.external_url %}
