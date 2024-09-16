@@ -1,9 +1,9 @@
 ---
 layout: wrap
-title: blog
+title: writing
 ---
 
-<h1>posts</h1>
+<h1>writing</h1>
 
 <ul>
     {% for post in site.posts %}
