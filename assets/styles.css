@@ -26,6 +26,7 @@ body {
     display: flex;
     margin: 40px 0;
     /* padding: 40px 0; */
+    /* text-align: justify; */
 }
 
 .centered-box {
@@ -38,7 +39,7 @@ body {
 
 p {
     margin: 0;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 nav {
@@ -72,7 +73,7 @@ a:hover {
 h1, h2, h3 {
     font-family: "Space Mono", monospace;
     margin: 0;
-    padding: 5px 0 15px 0;
+    padding: 0.5em 0 0.5em 0;
     font-weight: 400;
 }
 
@@ -98,7 +99,7 @@ hr {
     border: 1px solid lightgray;
 }
 
-#post-metadata, #post-date, #cv-metadata {
+.post-metadata, .post-date, .cv-metadata {
     color: #999999;
 }
 
@@ -125,6 +126,52 @@ sup {
     vertical-align: super;
 }
 
+.post-content {
+    margin: 1em 0;
+    text-align: justify;
+}
 
+.post-content p {
+    margin: 0.5em 0;
+}
+
+.epigraph {
+    margin: 0.75em auto;
+    max-width: 90%;
+    padding: 0.75em;
+    border: 2px dotted black;
+    border-radius: 20px;
+}
+
+.epigraph cite {
+    display: block;
+    margin-top: 8px;
+    color: #999999;
+    text-align: right;
+}
+
+figure {
+    text-align: center;
+    margin: 1.5em auto;
+}
+
+figure img {
+    max-width: 80%;
+    height: auto;
+}
+
+figure figcaption {
+    font-size: 0.8rem;
+    text-align: left;
+    margin: auto;
+    max-width: 80%;
+    line-height: 1.3em;
+}
+
+end {
+    font-size: 0.8rem;
+    line-height: 1.3em;
+    color: #999999;
+}
 /* TODO inline code, block verse */
 /* scavenge table formatting if needed */
