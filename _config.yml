@@ -7,7 +7,7 @@ plugins:
   - jemoji
 collections:
   posts:
-    permalink: /blog/:slug:output_ext
+    permalink: /writing/:slug:output_ext
 # github defaults
 lsi: false
 safe: true
