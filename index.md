@@ -6,7 +6,7 @@ hi, i'm kian!
 
 i'm a PhD student at <span style="color: #FF6C0C">caltech</span> in the lab of <a href="http://www.rpgroup.caltech.edu/">dr. rob phillips</a>, where i study how life adapts to changing environments --- especially when humans are driving those changes.
 
-i also spend time in the <span style="color: #005838">angeles national forest</span> as a volunteer fire lookout and trail maintainer.
+i also spend time in the <span style="color: #005838">angeles national forest</span> as a volunteer <a href="http://nhlr.org/lookouts/us/ca/vetter-mountain-lookout#tabs-photos">fire lookout</a> and trail maintainer.
 
 major prior iterations of me have been an inaugural <a href="https://www.newscience.org">new science</a> fellow at harvard, a lab tech at the salk institute, an undergrad at ucsd, and a high school student in malaysia.
 
