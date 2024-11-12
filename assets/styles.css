@@ -2,7 +2,7 @@
     --text-color: #333;
     --accent-color: #12a8ce;
     --background-color: #ffffff;
-    --link-color: #0000EE;
+    --link-color: #2575c1;
     --visited-link-color: #551A8B;
     font-feature-settings: "liga" 0;
 }
@@ -15,8 +15,8 @@ html, body {
 }
 
 body {
-    font-family: "Schibsted Grotesk", sans-serif;
-    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
     color: var(--text-color);
     line-height: 1.5em;
     font-weight: normal;
@@ -58,8 +58,12 @@ a {
     text-decoration-thickness: 1px;
 }
 
-a:visited {
+/* a:visited {
     color: var(--visited-link-color);
+} */
+
+a:visited {
+    color: var(--link-color);
 }
 
 a:hover {
@@ -104,7 +108,7 @@ hr {
 }
 
 li {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .verse {
@@ -126,14 +130,10 @@ sup {
     vertical-align: super;
 }
 
-.post-content {
+/* .post-content {
     margin: 1em 0;
     text-align: justify;
-}
-
-.post-content p {
-    margin: 0.5em 0;
-}
+} */
 
 .epigraph {
     margin: 0.75em auto;
