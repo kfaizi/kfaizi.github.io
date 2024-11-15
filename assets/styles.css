@@ -50,7 +50,7 @@ nav {
 
 footer {
     text-align: center;
-    padding-bottom: 5px;
+    padding: 10px;
 }
 
 a {
@@ -105,6 +105,10 @@ hr {
 
 .post-metadata, .post-date, .cv-metadata {
     color: #999999;
+}
+
+ul {
+    margin: 0;
 }
 
 li {
