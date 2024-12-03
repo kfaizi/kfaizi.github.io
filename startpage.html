@@ -1,0 +1,230 @@
+<!--
+  a minimal, terminal-themed startpage for firefox.
+  inspired by Rokiiz (firefox-newtab) and molecule47 (idyllic-firefox)
+-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>init</title> 
+    <!-- set new tab icon here -->
+    <link rel="icon" href="swordIcon.png">
+
+    <!-- import fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --color-bg: #1E2021;
+            --color-fg: #f7eac6;
+            --color-link: #c9c9c9;
+            --color-link-visited: #c9c9c9;
+            --color-link-hover: #88FAAA;
+        }
+
+        html, body {
+            background: var(--color-bg);
+            color: var(--color-fg);
+            font-family: "IBM Plex Mono", monospace;
+            font-size: 18px;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 800px 460px 1fr;
+            grid-template-areas:
+                ". left right .";
+            column-gap: 60px;
+            justify-items: left;
+            align-items: center;
+            min-height: 100%;
+        }
+
+        .left {
+            grid-area: left;
+            background-color: #1A1C1D;
+            padding-bottom: 30px;
+            padding-right: 15px;
+            width: 100%;
+        }
+
+        .right {
+            grid-area: right;
+            padding-left: 15px;
+            aspect-ratio: 1/1;
+        }
+
+        .image img {
+            margin-top: 45px;
+            max-width: 80%;
+            max-height: 90%;
+            border: 3px solid white;
+        }
+
+        .head {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            padding-left: 24px;
+            padding-top: 60px;
+        }
+
+        .head2 {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            padding-left: 24px;
+            padding-top: 15px;
+        }
+
+        .category {
+            display: flex;
+            flex-direction: column;
+            width: 180px;
+        }
+
+        .bookmarks {
+            display: flex;
+            justify-content: center;
+        }
+
+        .search-form {
+            width: 20rem;
+            outline: none;
+            border: none;
+            background-color: #1a1c1d;
+            color: #c9c9c9;
+            padding-top: 10px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        .title {
+            padding-bottom: 7.5px;
+            color: #EF759E;
+        }
+
+        li {
+            list-style-type: none;
+            padding: 5px;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: var(--color-link);
+        }
+
+        a:visited {
+            color: var(--color-link-visited);
+        }
+
+        a:hover {
+            color: var(--color-link-hover);
+        }
+
+
+        @keyframes opacity {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="head">
+                <!-- edit this to e.g. your hostname -->
+                <p>kian@haldane ~$ ls</p>
+            </div>
+
+            <div class="bookmarks">
+                <div class="category">
+                    <div class="links">
+                        <!-- for each bookmark group, edit details as desired -->
+                        <li class="title">dev</li>
+                        <li><a href="https://github.com/kfaizi">github</a></li>
+                        <li><a href="https://benchling.com/signin/welcome">benchling</a></li>
+                        <li><a href="https://chatgpt.com/">gpt</a></li>
+                        <li><a href="https://wiki.archlinux.org/">arch_wiki</a></li>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="links">
+                        <li class="title">media</li>
+                        <li><a href="https://scholar.google.com/">scholar</a></li>
+                        <li><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/comments/g37lwb/megapiracywiki/">FMHY</a></li>
+                        <li><a href="https://annas-archive.org/">annas_archive</a></li>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="links">
+                        <li class="title">out</li>
+                        <li><a href="https://www.alltrails.com/">alltrails</a></li>
+                        <li><a href="https://kron-prod-app1.caltech.edu/wfc/logon">kronos</a></li>
+                        <li><a href="https://www.anffla.org/members/">ANFFLA</a></li>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="links">
+                        <li class="title">to_read</li>
+                        <li><a href="https://news.ycombinator.com/">hacker_news</a></li>
+                        <li><a href="https://caseyhandmer.wordpress.com/">casey_handmer</a></li>
+                        <li><a href="https://www.lesswrong.com/">lesswrong</a></li>
+                        <li><a href="https://web.calstatela.edu/faculty/hmendel/Ancient%20Mathematics/VignettesAncientMath.html">ancient_math</a></li>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- uncomment (& edit) the next block to enable a cute search bar -->
+
+            <!--
+            <div class="head2">
+                <p>kian@haldane ~$ search</p>
+                <span id="AboutDevTypeText" class="typing"></span>
+        	<input class="search-form" class="search-box" autofocus="">
+	    </div>
+            -->
+
+        </div>
+
+        <div class="right">
+            <div class="image">
+                <!-- link an image to display here -->
+                <img src="assets/images/cosy.png" />
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
