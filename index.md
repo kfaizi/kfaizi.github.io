@@ -12,7 +12,7 @@ major prior iterations of me have been an inaugural <a href="https://www.newscie
 
 <hr>
 
-<p style="text-align: center; font-family: 'Space Mono', monospace;">
+<p id="linkbar">
     <a href="mailto:kian@caltech.edu">say hi!</a> / 
     <a href="/listlist.html">list-of-lists</a> /
     <a href="/writing.html">writing</a> /

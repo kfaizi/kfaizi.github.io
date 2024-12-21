@@ -5,7 +5,14 @@
     --link-color: #2575c1;
     --visited-link-color: #551A8B;
     font-feature-settings: "liga" 0;
+    --fonts: "IBM Plex Mono", monospace;
+    --display-fonts: "Silkscreen", sans-serif;
 }
+
+::selection {
+    background-color: black;
+    color: white;
+  }
 
 html, body {
     margin: 0;
@@ -15,7 +22,7 @@ html, body {
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: var(--fonts);
     font-size: 16px;
     color: var(--text-color);
     line-height: 1.5em;
@@ -34,7 +41,8 @@ body {
     border-radius: 5px;
     border:rgb(219, 219, 219) 2px dotted;
     display: inline-block;
-    width: 60%;
+    max-width: 768px;
+    width: 80%;
 }
 
 p {
@@ -43,9 +51,14 @@ p {
 }
 
 nav {
-    font-family: "Space Mono", monospace;
+    font-family: var(--fonts);
     padding-bottom: 5px;
     text-align: right;
+}
+
+#linkbar {
+    font-family: var(--fonts);
+    text-align: center;
 }
 
 footer {
@@ -75,7 +88,7 @@ a:hover {
 }
 
 h1, h2, h3 {
-    font-family: "Space Mono", monospace;
+    font-family: var(--display-fonts);
     margin: 0;
     padding: 0.5em 0 0.5em 0;
     font-weight: 400;
@@ -116,7 +129,7 @@ li {
 }
 
 .verse {
-    font-family: "EB Garamond", serif;
+    font-family: serif;
     overflow-x: auto;
     white-space: break-spaces;
     white-space: -moz-break-spaces;
