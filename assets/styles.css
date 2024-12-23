@@ -36,6 +36,11 @@ body {
     /* text-align: justify; */
 }
 
+pre, code {
+    font-family: var(--fonts);
+    font-weight: 600;
+}
+
 .centered-box {
     padding: 25px 30px;
     border-radius: 5px;
