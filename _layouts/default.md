@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
+        <!-- if you're reading this i love you -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{% if page.title %}{{ page.title | append: " - kian faizi"}}{% else %}{{ site.title }}{% endif %}</title>
@@ -37,6 +38,8 @@
         <meta name="theme-color" content="#ffffff">
         <!-- privacy-conscious analytics -->
         <script data-goatcounter="https://kian.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+        <!-- mathjax for LaTeX support -->
+        <!-- <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
     </head>
     <body>
         <div class="centered-box">

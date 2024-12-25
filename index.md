@@ -13,7 +13,7 @@ major prior iterations of me have been an inaugural <a href="https://www.newscie
 <hr>
 
 <p id="linkbar">
-    <a href="mailto:kian@caltech.edu">say hi!</a> / 
+    <a href="/contact.html">say hi!</a> / 
     <a href="/listlist.html">list-of-lists</a> /
     <a href="/writing.html">writing</a> /
     <a href="/assets/kian-faizi-cv.pdf">cv.pdf</a> /

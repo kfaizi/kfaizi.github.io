@@ -44,7 +44,7 @@ pre, code {
 .centered-box {
     padding: 25px 30px;
     border-radius: 5px;
-    border:rgb(219, 219, 219) 2px dotted;
+    border: lightgray 2px dotted;
     display: inline-block;
     max-width: 768px;
     width: 80%;

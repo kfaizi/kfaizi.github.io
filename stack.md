@@ -2,7 +2,7 @@
 layout: wrap
 ---
 
-<h1>my personal tech stack</h1>
+# my personal tech stack
 
 My daily driver is a [Framework 13](https://frame.work/); it's one of the most rewarding hardware purchases I've ever made.
 - Framework makes modular laptops that are spectacularly well-designed _and_ user-serviceable with a single screwdriver. Want stiffer hinges for your screen? Blank keycaps to [flex](https://www.youtube.com/watch?v=uHt01D6rOLI) on your coworkers? A new mainboard with a faster CPU? There are [detailed guides](https://guides.frame.work/c/Framework_Laptop) for every conceivable operation you might attempt, and you can do it all at home, cheaply. No more genius bars; no more seasonal e-waste; no more indenture to pretty blackboxes that are [made to break](https://en.wikipedia.org/wiki/Right_to_repair#In_the_United_States).
