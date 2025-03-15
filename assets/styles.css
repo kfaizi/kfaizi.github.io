@@ -5,7 +5,7 @@
     --link-color: #2575c1;
     --visited-link-color: #551A8B;
     font-feature-settings: "liga" 0;
-    --fonts: "IBM Plex Mono", monospace;
+    --fonts: "Arial", sans-serif;
     --display-fonts: "Silkscreen", sans-serif;
 }
 
@@ -43,8 +43,7 @@ pre, code {
 
 .centered-box {
     padding: 25px 30px;
-    border-radius: 5px;
-    border: lightgray 2px dotted;
+    border: black 1.5px solid;
     display: inline-block;
     max-width: 768px;
     width: 80%;
@@ -161,8 +160,7 @@ sup {
     margin: 0.75em auto;
     max-width: 90%;
     padding: 0.75em;
-    border: 2px dotted black;
-    border-radius: 20px;
+    border: 1.5px solid black;
 }
 
 .epigraph cite {
@@ -188,6 +186,10 @@ figure figcaption {
     margin: auto;
     max-width: 80%;
     line-height: 1.3em;
+}
+
+.newsbox ul li {
+    font-size: 0.75rem;
 }
 
 end {

@@ -1,12 +1,13 @@
 ---
 layout: default
+title: Say hi
 ---
 
 {% include header.html %}
 
-# say hi!
+# Say hi!
 
-i'm always interested in meeting kind, ambitious people.
+I'm always interested in meeting kind, ambitious people.
 
-you can email me at [kian@caltech.edu](mailto:kian@caltech.edu); here's [my PGP key](/public.txt) if you'd like.
+You can email me at [kian@caltech.edu](mailto:kian@caltech.edu); here's [my PGP key](/public.txt) if you'd like.
 

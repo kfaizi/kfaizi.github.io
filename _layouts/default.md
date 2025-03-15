@@ -4,7 +4,7 @@
         <!-- if you're reading this i love you -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{% if page.title %}{{ page.title | append: " - kian faizi"}}{% else %}{{ site.title }}{% endif %}</title>
+        <title>{% if page.title %}{{ page.title | append: " - Kian Faizi"}}{% else %}{{ site.title }}{% endif %}</title>
         <meta name="author" content="Kian Faizi">
         <!-- custom css -->
         <link rel="stylesheet" type="text/css" href="/assets/styles.css">

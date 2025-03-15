@@ -4,7 +4,7 @@ layout: wrap
 
 <h1>list-of-lists</h1>
 
-<!-- i like lists; i make them constantly. some of them live here, with the intention of keeping them approximately up-to-date: -->
+I like lists, and I make them constantly. Some of them live here, in various stages of dereliction, with the intention of keeping them approximately up-to-date:
 
 <!-- 
 - an index of open <a href="/questions.html">questions</a> i'm currently curious about
@@ -13,10 +13,14 @@ layout: wrap
 - hopes, failures, and assorted milestones from the <a href="#">PhD</a>
 - some of the <a href="/outreach.html">outreach</a> i'm involved with
 - my <a href="/dreams.html">dreams</a> for the future
+- some vaguely biographical <a href="/biofacts.html">facts</a> about me
+- my favorite <a href="/metascience.html">metascience writing</a> of all time
+- my favorite <a href="/papers.html">scientific papers</a> of all time
 -->
 
-- useful blogs, resources, and writing on <a href="/carbon.html">carbon removal</a>
-- the [soft/hard]ware in my <a href="/stack.html">stack</a>
+- Useful blogs, resources, and writing on <a href="/carbon.html">carbon removal</a>
+- The [soft/hard]ware in my <a href="/stack.html">stack</a>
+- The complete log of my homepage's <a href="/news.html">news</a> updates
 
 <!--
 - my favorite <a href="/music.html">music</a>, <a href="/books.html">books</a>, <a href="/movies.html">movies</a>, <a href="/games.html">games</a>
