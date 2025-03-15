@@ -9,9 +9,7 @@ layout: default
 <img src="/assets/images/headshot-square.jpg" height="250em" style="border:1.5px solid black; float:right; margin-left: 5%;">
 </a>
 
-<p>
-    Hi, I'm Kian!
-</p>
+<h1 style="text-align:center">Kian Faizi</h1>
 
 <p>
 I'm a PhD student at <span style="color: #FF6C0C">Caltech</span> with <a href="http://www.rpgroup.caltech.edu/">Rob Phillips</a>, where I think about how matter, energy, and information move through biological systems.
@@ -25,12 +23,7 @@ I like being outside. You can find me in the <span style="color: #005838">Angele
 Major prior iterations of me have been an inaugural <a href="https://www.newscience.org">New Science</a> fellow at Harvard, a lab tech at the Salk Institute, an undergrad at UCSD, a high school student in Malaysia, and a gastrulating embryo in San Diego.
 </p>
 
-
-
 </div>
-
-
-
 
 <b>// updates</b> (<a href="/news.html">see all</a>)
 
@@ -45,12 +38,15 @@ Major prior iterations of me have been an inaugural <a href="https://www.newscie
 <hr>
 
 <p id="linkbar">
+[internal:
     <a href="/contact.html">say hi!</a> / 
-    <a href="/assets/images/headshot.jpg">headshot.jpg</a> /
     <a href="/listlist.html">list-of-lists</a> /
-    <a href="/writing.html">writing</a> /
-    <a href="/assets/kian-faizi-cv.pdf">cv.pdf</a> /
+    <a href="/writing.html">writing</a>]
+[external:
     <a href="https://twitter.com/kianfaizi">twitter</a> /
     <a href="https://scholar.google.com/citations?user=frNmiZkAAAAJ&hl=en">scholar</a> /
-    <a href="https://github.com/kfaizi">github</a>
+    <a href="https://github.com/kfaizi">github</a>]
+[files:
+    <a href="/assets/images/headshot.jpg">headshot.jpg</a> /
+    <a href="/assets/kian-faizi-cv.pdf">cv.pdf</a>]
 </p>

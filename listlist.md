@@ -32,4 +32,6 @@ I like lists, and I make them constantly. Some of them live here, in various sta
 - free startup <a href="/ideas.html">ideas</a> you ought to poach
 - <a href="/tools.html">tools</a> i've made/written that you may find useful
 - and of course, a list of other <a href="/lists.html">lists</a> i like!
+- my course evals from teaching at the university level
+- some fun facts/stats/graphs about me
 -->

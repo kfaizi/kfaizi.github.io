@@ -6,7 +6,7 @@
     --visited-link-color: #551A8B;
     font-feature-settings: "liga" 0;
     --fonts: "Arial", sans-serif;
-    --display-fonts: "Silkscreen", sans-serif;
+    --display-fonts: "Arial", sans-serif;
 }
 
 ::selection {
@@ -95,7 +95,7 @@ h1, h2, h3 {
     font-family: var(--display-fonts);
     margin: 0;
     padding: 0.5em 0 0.5em 0;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 h1 {
