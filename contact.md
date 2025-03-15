@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Say hi
+title: contact
 ---
 
 {% include header.html %}
 
-# Say hi!
+# // contact
 
 I'm always interested in meeting kind, ambitious people.
 

@@ -12,7 +12,7 @@ layout: default
 <h1 style="text-align:center">Kian Faizi</h1>
 
 <p>
-I'm a PhD student at <span style="color: #FF6C0C">Caltech</span> with <a href="http://www.rpgroup.caltech.edu/">Rob Phillips</a>, where I think about how matter, energy, and information move through biological systems.
+I'm a PhD student at <span style="color: #FF6C0C">Caltech</span> with <a href="http://www.rpgroup.caltech.edu/">Rob Phillips</a>, where I think about how matter and energy move through biological systems, from the molecular to the planetary scale.
 </p>
 
 <p>
@@ -25,7 +25,7 @@ Major prior iterations of me have been an inaugural <a href="https://www.newscie
 
 </div>
 
-<b>// updates</b> (<a href="/news.html">see all</a>)
+<b>// updates</b> (<a href="/updates.html">see all</a>)
 
 <div class="newsbox">
 <ul>

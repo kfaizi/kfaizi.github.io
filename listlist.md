@@ -1,8 +1,9 @@
 ---
 layout: wrap
+title: list-of-lists
 ---
 
-<h1>list-of-lists</h1>
+# // list-of-lists
 
 I like lists, and I make them constantly. Some of them live here, in various stages of dereliction, with the intention of keeping them approximately up-to-date:
 

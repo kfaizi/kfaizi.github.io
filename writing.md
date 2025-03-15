@@ -3,7 +3,7 @@ layout: wrap
 title: writing
 ---
 
-<h1>writing</h1>
+# // writing
 
 <ul>
     {% for post in site.posts %}

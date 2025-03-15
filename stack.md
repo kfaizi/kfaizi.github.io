@@ -1,8 +1,9 @@
 ---
 layout: wrap
+title: my personal tech stack
 ---
 
-# my personal tech stack
+# // my personal tech stack
 
 My daily driver is a [Framework 13](https://frame.work/); it's one of the most rewarding hardware purchases I've ever made.
 - Framework makes modular laptops that are spectacularly well-designed _and_ user-serviceable with a single screwdriver. Want stiffer hinges for your screen? Blank keycaps to [flex](https://www.youtube.com/watch?v=uHt01D6rOLI) on your coworkers? A new mainboard with a faster CPU? There are [detailed guides](https://guides.frame.work/c/Framework_Laptop) for every conceivable operation you might attempt, and you can do it all at home, cheaply. No more genius bars; no more seasonal e-waste; no more indenture to pretty blackboxes that are [made to break](https://en.wikipedia.org/wiki/Right_to_repair#In_the_United_States).
@@ -20,14 +21,12 @@ My login shell is zsh, made lovelier by [Oh My Zsh](https://ohmyz.sh/).
 My text editor of choice is vim, and my preferred terminal multiplexer is tmux.
 - I wasn't really tmux-pilled until I watched [this video](https://www.youtube.com/watch?v=DzNmUNvnB04); now it's hard to work remotely without it.
 
-Almost everything is themed with color palettes like those from [Catppuccin](https://github.com/catppuccin/catppuccin).
-
 I use [Obsidian](https://obsidian.md/) for linked notes. I like that it's free and yet all my files are stored locally in Markdown.
 
-For managing scientific papers and citations, it can only be [Zotero](https://www.zotero.org/), which is possibly the greatest piece of free and open source software ever.
+For managing scientific papers and citations, it can only be [Zotero](https://www.zotero.org/), which is some of the greatest free and open source software ever made.
 - If you're a student, your institution may already have an unlimited cloud storage subscription as well; try registering with your `.edu` address.
 
 I listen to music for the greater portion of my waking hours. Typically this is via the usual streaming services, but I also like to carry my [lovingly-hacked iPod classic](https://hackaday.com/2022/02/16/classic-ipods-are-super-upgradeable-in-2022/) for more intentional listening.
 
-At home, I have a rather beefy desktop — also Arch, btw — which I built in the early days of the COVID-19 pandemic and primarily use for file storage and gaming.
+At home, I have a rather beefy desktop — also Arch, btw — which I built in the early days of the pandemic and primarily use for file storage and gaming.
 - Contrary to popular belief, gaming on Linux is a remarkably pleasant experience these days, thanks largely to Proton (Valve's compatibility layer for Steam games) and excellent community efforts like [ProtonDB](https://www.protondb.com/). _Caveat lector:_ this is still guaranteed to be comparatively more fraught than gaming on Windows, at least so long as only [~1%](https://store.steampowered.com/hwsurvey/) of Steam users are running Linux (i.e. until the heat death of the universe). Your mileage will vary a lot depending on your willingness to tinker, and your specific taste in games.

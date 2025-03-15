@@ -1,8 +1,9 @@
 ---
 layout: wrap
+title: how to think about carbon removal
 ---
 
-# how to think about carbon removal
+# // how to think about carbon removal
 
 A running list of all the great writing I've found on the subject of mitigating climate change via carbon dioxide removal (CDR).
 You'll see that much of it relies on order-of-magnitude calculations to help bootstrap intuition, which perhaps reveals my aesthetic preferences as a biophysicist.
