@@ -4,10 +4,12 @@
     --background-color: #ffffff;
     --link-color: #2575c1;
     --visited-link-color: #551A8B;
-    font-feature-settings: "liga" 0;
-    --fonts: "Arial", sans-serif;
-    --display-fonts: "Arial", sans-serif;
+    font-feature-settings: "liga" 0, 'calt' 1;
+    font-family: Inter, Arial, sans-serif;
 }
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+  }
 
 ::selection {
     background-color: black;
@@ -22,7 +24,6 @@ html, body {
 }
 
 body {
-    font-family: var(--fonts);
     font-size: 16px;
     color: var(--text-color);
     line-height: 1.5em;
@@ -37,7 +38,6 @@ body {
 }
 
 pre, code {
-    font-family: var(--fonts);
     font-weight: 600;
 }
 
@@ -49,19 +49,31 @@ pre, code {
     width: 80%;
 }
 
+#headshot {
+    border: 1.5px solid black;
+    float: right;
+    margin-left: 5%;
+}
+
+@media (max-width: 600px) {
+    #headshot {
+      float: none;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
 p {
     margin: 0;
     padding: 10px 0;
 }
 
 nav {
-    font-family: var(--fonts);
     padding-bottom: 5px;
     text-align: right;
 }
 
 #linkbar {
-    font-family: var(--fonts);
     text-align: center;
 }
 
@@ -92,7 +104,6 @@ a:hover {
 }
 
 h1, h2, h3 {
-    font-family: var(--display-fonts);
     margin: 0;
     padding: 0.5em 0 0.5em 0;
     /* font-weight: 400; */
@@ -199,3 +210,4 @@ end {
 }
 /* TODO inline code, block verse */
 /* scavenge table formatting if needed */
+
