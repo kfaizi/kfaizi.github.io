@@ -48,5 +48,5 @@ Major prior iterations of me have been an inaugural <a href="https://www.newscie
     <a href="https://github.com/kfaizi">github</a>]
 [files:
     <a href="/assets/images/headshot.jpg">headshot.jpg</a> /
-    <a href="/assets/kian-faizi-cv.pdf">cv.pdf</a>]
+    <a href="/assets/kian_faizi_resume.pdf">resume.pdf</a>]
 </p>
