@@ -21,6 +21,7 @@ I like lists, and I make them constantly. Some of them live here, in various sta
 
 - Useful blogs, resources, and writing on <a href="/carbon.html">carbon removal</a>
 - The [soft/hard]ware in my <a href="/stack.html">stack</a>
+- A few <a href="/recipes.html">recipes</a>
 
 <!--
 - my favorite <a href="/music.html">music</a>, <a href="/books.html">books</a>, <a href="/movies.html">movies</a>, <a href="/games.html">games</a>
