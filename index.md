@@ -25,14 +25,15 @@ Major prior iterations of me have been an inaugural <a href="https://www.newscie
 
 </div>
 
-<b>// updates</b> (<a href="/updates.html">see all</a>)
-
+<b>// updates</b> 
 <div class="newsbox">
 <ul>
-{% for item in site.data.news limit:5 %}
+{% for item in site.data.news limit:4 %}
   <li>{{ item.date }}: {{ item.text }}</li>
 {% endfor %}
+  <li>[<a href="/updates.html">+ {{ site.data.news.size | minus:4 }} more</a>]</li>
 </ul>
+
 </div>
 
 <hr>
