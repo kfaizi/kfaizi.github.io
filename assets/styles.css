@@ -5,7 +5,7 @@
     --link-color: #2575c1;
     --visited-link-color: #551A8B;
     font-feature-settings: "liga" 0, 'calt' 1;
-    font-family: Inter, Arial, sans-serif;
+    font-family: Inter, Helvetica, Arial, sans-serif;
 }
 @supports (font-variation-settings: normal) {
     :root { font-family: InterVariable, sans-serif; }
@@ -27,7 +27,7 @@ body {
     font-size: 16px;
     color: var(--text-color);
     line-height: 1.5em;
-    font-weight: normal;
+    font-weight: 400;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -104,21 +104,23 @@ a:hover {
 }
 
 h1, h2, h3 {
-    margin: 0;
-    padding: 0.5em 0 0.5em 0;
-    /* font-weight: 400; */
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    font-family: "Geist Mono", monospace;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 h1 {
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 
 h2 {
-    font-size: 1.35em;
+    font-size: 1.3em;
 }
 
 h3 {
-    font-size: 1.1em;
+    font-size: 1.15em;
 }
 
 /* .section {
@@ -211,3 +213,11 @@ end {
 /* TODO inline code, block verse */
 /* scavenge table formatting if needed */
 
+table, th, td {
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    padding: 8px 10px;
+    line-height: 1em;
+    /* text-align: justify; */
+    /* font-size : clamp(0.3rem, 3vw, 1.5rem); */
+}

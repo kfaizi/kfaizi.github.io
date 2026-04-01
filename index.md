@@ -5,7 +5,7 @@ layout: default
 
 <div style="width: 100%; margin: auto; overflow: hidden;">
 
-<h1 style="text-align: center">Kian Faizi</h1>
+<h1 style="text-align: center;">Kian Faizi</h1>
 
 <a  href="/assets/images/headshot.jpg">
 <img src="/assets/images/headshot-square.jpg" height="250em" id="headshot">
@@ -25,7 +25,7 @@ Major prior iterations of me have been an inaugural <a href="https://www.newscie
 
 </div>
 
-<b>// updates</b> 
+<h3>// updates</h3> 
 <div class="newsbox">
 <ul>
 {% for item in site.data.news limit:4 %}

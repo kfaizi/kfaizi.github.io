@@ -11,6 +11,9 @@
         <!-- load inter font -->
         <link rel="preconnect" href="https://rsms.me/">
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+        <!-- and others -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
         <!-- open graph -->
         <meta name="title" property="og:title" content="{{ page.title }}">
         <meta property="og:type" content="website">
@@ -38,7 +41,9 @@
         <!-- privacy-conscious analytics -->
         <script data-goatcounter="https://kian.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
         <!-- mathjax for LaTeX support -->
-        <!-- <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
+        {% if page.math %}
+        {% include mathjax.html %}
+        {% endif %}
     </head>
     <body>
         <div class="centered-box">
