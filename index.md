@@ -12,11 +12,13 @@ layout: default
 </a>
 
 <p>
-I'm a PhD student at <span style="color: #FF6C0C">Caltech</span> with <a href="http://www.rpgroup.caltech.edu/">Rob Phillips</a>, where I think about how matter and energy move through biological systems, from the molecular to the planetary scale.
+I'm a PhD student and Caldwell graduate fellow at <span style="color: #FF6C0C">Caltech</span>, where I'm advised by <a href="http://www.rpgroup.caltech.edu/">Rob Phillips</a>.
+I think about how biology shapes planetary geochemistry, with a focus on how organisms assimilate and transform matter.
 </p>
 
 <p>
-I like being outside. You can find me in the <span style="color: #005838">Angeles National Forest</span>, where I sometimes volunteer as a <a href="http://nhlr.org/lookouts/us/ca/vetter-mountain-lookout">fire lookout</a> and trail maintainer.
+I like being outside.
+You can find me in the <span style="color: #005838">Angeles National Forest</span>, where I sometimes volunteer as a <a href="http://nhlr.org/lookouts/us/ca/vetter-mountain-lookout">fire lookout</a> and trail maintainer.
 </p>
 
 <p>
