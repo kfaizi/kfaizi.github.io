@@ -1,14 +1,12 @@
 ---
 layout: wrap
-title: how to think about carbon removal
+title: How to think about carbon removal
 ---
 
 # // how to think about carbon removal
 
 A running list of all the great writing I've found on the subject of mitigating climate change via carbon dioxide removal (CDR).
-You'll see that much of it relies on order-of-magnitude calculations to help bootstrap intuition, which perhaps reveals my aesthetic preferences as a biophysicist.
-(You'll also see that I've generally chosen to structure things people-first, rather than resource-first, which perhaps reveals my aesthetic preferences as a human being.)
-- While I don't necessarily believe that CDR is the best thing to focus on long-term, I do think it'll be a key part of the portfolio of technological, economical, and cultural approaches we take to establishing a more harmonious human-Earth system.
+- While I don't necessarily believe that CDR is the best thing to focus on long-term, I do agree that it'll inevitably be part of the portfolio of technological, economical, and cultural approaches we take to establishing a more harmonious human-Earth system.
 
 If you have any suggested additions to this list, [I'd love to hear them](mailto:kian@caltech.edu).
 
@@ -19,7 +17,7 @@ The abridged [synthesis report](https://www.ipcc.ch/report/ar6/syr/) is a good p
 
 **Adam Marblestone** of [Convergent Research](https://www.convergentresearch.org/) has a characteristically excellent [Climate Technology Primer](https://www.climatetechnologyprimer.com/).
 
-In late 2021, **Neil Hacker** began publishing an excellent blog titled [Scaling Carbon Removal](https://www.scalingcarbonremoval.com/) —  so excellent, in fact, that it apparently ended up landing him a job managing a carbon credit portfolio at [Isometric](https://isometric.com/).
+In late 2021, **Neil Hacker** began publishing a blog titled [Scaling Carbon Removal](https://www.scalingcarbonremoval.com/); apparently, it was good enough to land him a job managing a carbon credit portfolio at [Isometric](https://isometric.com/)!
 
 **Casey Handmer** (ex-Caltech, ex-JPL) is the founder of [Terraform Industries](https://terraformindustries.com/), an LA startup that's betting that cheap solar will soon make atmospheric hydrocarbon synthesis economical.
 He writes one of my favorite [blogs](https://caseyhandmer.wordpress.com/) (and tweets some of my favorite [tweets](https://twitter.com/CJHandmer)).
@@ -34,11 +32,13 @@ She occasionally [writes](https://nanransohoff.substack.com/) about the economic
 - [Quick carbon removal demand math](https://nanransohoff.substack.com/p/quick-carbon-removal-demand-math)
 - [Red teaming the next ~5 years of carbon removal](https://nanransohoff.substack.com/p/red-teaming-the-next-5-years-of-carbon)
 
-It's been over a decade since the late great **Sir David MacKay** self-published his seminal free textbook, [Sustainable Energy —  without the hot air](https://www.withouthotair.com/); while not exclusively focused on CDR, it remains a tour-de-force for anyone interested in human impacts.
+It's been over a decade since the late great **Sir David MacKay** self-published his free textbook, [Sustainable Energy —  without the hot air](https://www.withouthotair.com/).
+It's a classic for a reason.
+While not exclusively focused on CDR, it remains a tour-de-force for anyone interested in human impacts.
 
-More recently, **Tom Murphy** published the similarly free-and-excellent [Energy and Human Ambitions on a Finite Planet](https://escholarship.org/uc/energy_ambitions), although for some reason it seems to be far less well-known. Murphy is a physics professor at UCSD; much of the material for his book first appeared on his epic blog, [Do the Math](https://dothemath.ucsd.edu/).
-- As a sophomore, I had the pleasure of failing my way through his graduate course on [quantitative physics](https://tmurphy.physics.ucsd.edu/phys239/phys239.html). It was deeply formative for me as a young scientist — and years later, I'm taking Sterl Phinney's Ph 101, the legendary Caltech course it was inspired by!
-- It's also been interesting to (loosely) observe the shift in his interests and philosophy over time. In 2012, he was writing about [cutting home utility use](https://dothemath.ucsd.edu/2012/03/the-phantoms-ive-killed/), whereas in 2024, he published an 18-part video series called [Metastatic Modernity](https://dothemath.ucsd.edu/2024/07/metastatic-modernity-launch/).
+More recently, **Tom Murphy** published the similarly free-and-excellent [Energy and Human Ambitions on a Finite Planet](https://escholarship.org/uc/energy_ambitions), although for some reason it seems to be far less well-known. Murphy is a physics professor at UCSD; much of the material for his book first appeared on his epic blog, [Do the Math](https://dothemath.ucsd.edu/), which has been around since 2011.
+- As a sophomore, I had the pleasure of failing my way through his graduate course on [quantitative physics](https://tmurphy.physics.ucsd.edu/phys239/phys239.html). It was deeply formative for me as a young scientist. Years later, I took Sterl Phinney's Ph 101 — the legendary Caltech course it's inspired by — and handled myself slightly better.
+- It's also been interesting to observe a perceptible shift in his interests/philosophy/intensity over the years. For an explanation in his own words, see [here](https://dothemath.ucsd.edu/about-this-blog/) and [here](https://dothemath.ucsd.edu/2023/12/confessions-of-a-disillusioned-scientist/). 
 
 The indescribably polymathic **Bret Victor**, who writes at [worrydream](https://worrydream.com/), has a beautiful interactive article entitled [What can a technologist do about climate change? A personal view](https://worrydream.com/ClimateChange/).
 
