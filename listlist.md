@@ -1,9 +1,9 @@
 ---
 layout: wrap
-title: list-of-lists
+title: List-of-lists
 ---
 
-# // list-of-lists
+# List-of-lists
 
 I like lists, and I make them constantly. Some of them live here, in various stages of dereliction, with the intention of keeping them approximately up-to-date:
 
@@ -12,15 +12,15 @@ I like lists, and I make them constantly. Some of them live here, in various sta
 - useful ways to think about <a href="/biology.html">biology</a>
     - and my personal Purcellian <a href="/cheatsheet.html">cheatsheet</a> for the life sciences
 - hopes, failures, and assorted milestones from the <a href="#">PhD</a>
-- some of the <a href="/outreach.html">outreach</a> i'm involved with
 - my <a href="/dreams.html">dreams</a> for the future
-- some vaguely biographical <a href="/biofacts.html">facts</a> about me
+- some vaguely biographical facts about <a href="/bio.html">me</a>
 - my favorite <a href="/metascience.html">metascience writing</a> of all time
-- my favorite <a href="/papers.html">scientific papers</a> of all time
--->
-
+- my favorite scientific <a href="/papers.html">papers</a> of all time
+- My order of magnitude <a href="/cheatsheet.html">cheatsheet</a> of useful bio/physics numbers
+- An index of open <a href="/help.html">requests for help</a>  -->
+<!-- - An overview of my current <a href="/research.html">research</a> -->
 - Useful blogs, resources, and writing on <a href="/carbon.html">carbon removal</a>
-- The [soft/hard]ware in my <a href="/stack.html">stack</a>
+- The [soft/hard]ware I use <a href="/stack.html">daily</a>
 - A few <a href="/recipes.html">recipes</a>
 
 <!--

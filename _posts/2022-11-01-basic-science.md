@@ -1,5 +1,5 @@
 ---
-title: In Defense of Basic Science
+title: In defense of basic science
 layout: post
 ---
 
@@ -14,7 +14,7 @@ layout: post
 </div>
 
 <div class="epigraph">
-    > “I saw the best minds of my generation destroyed by madness…”
+    > “I saw the best minds of my generation destroyed by madness...”
     <cite>— Allen Ginsberg, “Howl”</cite>
 </div>
 
@@ -60,12 +60,11 @@ After all, basic science is the original science. Since our earliest sentient an
 
 <end>
     <p>
-        <i>Note: earlier versions of this post appeared as a Viewpoint in <a href="https://caltechletters.org/viewpoints/in-defense-of-basic-science">Caltech Letters</a> and a feature in <a href="https://www.theseedsofscience.pub/p/in-defense-of-basic-science">The Seeds of Science</a>.</i>
+        <i>Earlier versions of this post appeared as a Viewpoint in <a href="https://caltechletters.org/viewpoints/in-defense-of-basic-science">Caltech Letters</a> and a feature in <a href="https://www.theseedsofscience.pub/p/in-defense-of-basic-science">The Seeds of Science</a>.</i>
     </p>
     <p>
         Thanks to <a href="https://twitter.com/skylerdware">Skyler Ware</a> for many rounds of thoughtful edits (and remarkable patience while I shirked my deadlines); <a href="https://www.ceciliaandthebedofbones.com">Cecilia Sanders</a> for the beautiful header illustration; <a href="https://twitter.com/NikoMcCarty">Niko McCarty</a>, <a href="https://twitter.com/alexeyguzey">Alexey Guzey</a>,  and <a href="https://www.linkedin.com/in/divesh04">Divesh Soni</a> for feedback on drafts; and the entire Caltech Letters team for helping bring this little piece to life.
     </p>
-
 </end>
 
 

@@ -2,14 +2,12 @@
     --text-color: #333;
     --accent-color: #12a8ce;
     --background-color: #ffffff;
+    --warm-color: #f9f8f2;
     --link-color: #2575c1;
     --visited-link-color: #551A8B;
     font-feature-settings: "liga" 0, 'calt' 1;
-    font-family: Inter, Helvetica, Arial, sans-serif;
+    font-family: "STIX Two Text", serif;
 }
-@supports (font-variation-settings: normal) {
-    :root { font-family: InterVariable, sans-serif; }
-  }
 
 ::selection {
     background-color: black;
@@ -19,12 +17,12 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
+    background-color: var(--warm-color);
     scroll-behavior: smooth;
 }
 
 body {
-    font-size: 16px;
+    font-size: 20px;
     color: var(--text-color);
     line-height: 1.5;
     font-weight: 400;
@@ -33,12 +31,11 @@ body {
     min-height: 100vh;
     display: flex;
     margin: 40px 0;
-    /* padding: 40px 0; */
     text-align: justify;
 }
 
 pre, code {
-    font-weight: 600;
+    font-family: "IBM Plex Mono", monospace;
 }
 
 .centered-box {
@@ -47,6 +44,7 @@ pre, code {
     display: inline-block;
     max-width: 768px;
     width: 80%;
+    background-color: var(--background-color);
 }
 
 #headshot {
@@ -73,8 +71,17 @@ nav {
     text-align: right;
 }
 
+path {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-size: 1em;
+}
+
 #linkbar {
     text-align: center;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-size: 0.8em;
 }
 
 footer {
@@ -99,16 +106,19 @@ a:hover {
     text-decoration-style: dotted;
 }
 
+.navlink {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
 .navlink:visited {
     color: var(--link-color);
 }
 
 h1, h2, h3 {
-    margin-top: 0.4rem;
+    margin-top: 0.6rem;
     margin-bottom: 0.4rem;
-    font-family: "Geist Mono", monospace;
-    text-transform: uppercase;
-    font-weight: 400;
 }
 
 h1 {
@@ -135,6 +145,10 @@ hr {
 
 .post-metadata, .post-date, .cv-metadata {
     color: #999999;
+}
+
+.post-metadata {
+    font-style: italic;
 }
 
 ul {
@@ -201,8 +215,9 @@ figure figcaption {
     line-height: 1.3em;
 }
 
+
 .newsbox ul li {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
 }
 
 end {

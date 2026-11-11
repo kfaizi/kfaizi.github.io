@@ -2,33 +2,32 @@
 layout: default
 ---
 
-
 <div style="width: 100%; margin: auto; overflow: hidden;">
 
-<h1 style="text-align: center;">Kian Faizi</h1>
+<h1 style="text-align:center;">Kian Faizi</h1>
 
 <a  href="/assets/images/headshot.jpg">
 <img src="/assets/images/headshot-square.jpg" height="250em" id="headshot">
 </a>
 
 <p>
-I'm a PhD student and Caldwell graduate fellow at <span style="color: #FF6C0C">Caltech</span>, where I'm advised by <a href="http://www.rpgroup.caltech.edu/">Rob Phillips</a>.
-I think about how biology shapes planetary geochemistry, with a focus on how organisms assimilate and transform matter.
+    I'm a PhD student and Caldwell graduate fellow at <span style="color: #FF6C0C">Caltech</span>, where I'm advised by <a href="http://www.rpgroup.caltech.edu/">Rob Phillips</a>.
+    I study how biology shapes planetary geochemistry, with a focus on how organisms assimilate and transform matter.
 </p>
 
 <p>
-I like being outside.
-You can find me in the <span style="color: #005838">Angeles National Forest</span>, where I sometimes volunteer as a <a href="http://nhlr.org/lookouts/us/ca/vetter-mountain-lookout">fire lookout</a> and trail maintainer.
+    I like being outside — especially in the mountains, and ideally with no more than I can carry on my back.
+    In seasons past I've occasionally volunteered as a fire lookout and trail maintainer in the <span style="color: #005838">Angeles National Forest</span>.
 </p>
 
 <p>
-Major prior iterations of me have been an inaugural <a href="https://www.newscience.org">New Science</a> fellow at Harvard, a lab tech at the Salk Institute, an undergrad at UCSD, a high school student in Malaysia, and a gastrulating embryo in San Diego.
+    Major prior iterations of me have been an inaugural <a href="https://www.newscience.org">New Science</a> fellow at Harvard, a lab tech at the Salk Institute, an undergrad at UCSD, a high school student in Malaysia, and a gastrulating embryo in San Diego.
 </p>
 
 </div>
 
-<h3>// updates</h3> 
 <div class="newsbox">
+<h3 style="margin-top: 0.5em; margin-bottom: 0.15em;">Updates</h3>
 <ul>
 {% for item in site.data.news limit:4 %}
   <li>{{ item.date }}: {{ item.text }}</li>

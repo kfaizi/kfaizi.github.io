@@ -1,9 +1,9 @@
 ---
 layout: wrap
-title: recipes
+title: Recipes
 ---
 
-# // recipes
+# {{page.title}}
 
 - [George Washington's (Apocryphal) Eggnog](/recipes-eggnog.html)
 

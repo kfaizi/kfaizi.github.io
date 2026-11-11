@@ -1,11 +1,9 @@
 ---
-layout: default
-title: contact
+layout: wrap
+title: Contact
 ---
 
-{% include header.html %}
-
-# // contact
+# Say hi!
 
 I'm always interested in meeting kind, ambitious people.
 

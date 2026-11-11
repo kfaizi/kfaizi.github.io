@@ -3,7 +3,7 @@ layout: wrap
 title: George Washington's (Apocryphal) Eggnog
 ---
 
-# // george washington's (apocryphal) eggnog
+# {{page.title}}
 
 ## Ingredients
 

@@ -3,7 +3,7 @@ layout: wrap
 title: updates
 ---
 
-# // updates
+# Updates
 
 <ul>
 {% for item in site.data.news %}

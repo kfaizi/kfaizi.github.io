@@ -1,9 +1,9 @@
 ---
 layout: wrap
-title: writing
+title: Writing
 ---
 
-# // writing
+# Writing
 
 <ul>
     {% for post in site.posts %}

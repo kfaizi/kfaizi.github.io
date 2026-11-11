@@ -3,7 +3,7 @@ layout: wrap
 title: How to think about carbon removal
 ---
 
-# // how to think about carbon removal
+# {{page.title}}
 
 A running list of all the great writing I've found on the subject of mitigating climate change via carbon dioxide removal (CDR).
 - While I don't necessarily believe that CDR is the best thing to focus on long-term, I do agree that it'll inevitably be part of the portfolio of technological, economical, and cultural approaches we take to establishing a more harmonious human-Earth system.
